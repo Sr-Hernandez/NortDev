@@ -122,7 +122,7 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="section portfolio-section">
         <div class="container">
-            <h6 class="section-title text-center">Nuestro Trabajo</h6>
+            <h6 class="section-title text-center">Esto es lo que hacemos</h6>
             <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
             <div class="filters">
                 <a href="#" data-filter=".new" class="active">
@@ -347,16 +347,69 @@
     <!-- Testmonial Section -->
     <section class="section" id="testmonial">
         <div class="container">
-            <h6 class="section-title text-center mb-0">Testmonials</h6>
-            <h6 class="section-subtitle mb-5 text-center">What Our Clients Says</h6>
+            <h6 class="section-title text-center mb-0">Tecnologías</h6>
+            <h6 class="section-subtitle mb-5 text-center">Trabajamos con</h6>
             <div class="row">
                 <div class="col-md-4 my-3 my-md-0">
                     <div class="card">
                         <div class="card-body">
                             <div class="media align-items-center mb-3">
-                                <img class="mr-3" src="assets/imgs/avatar.jpg" alt="">
+                                <img class="mr-3" src="assets/imgs/aws.jpg" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">John Doe</h6>
+                                    <h6 class="mt-1 mb-0">AWS</h6>
+                                    <small class="text-muted mb-0">Business Analyst</small>     
+                                </div>
+                            </div>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="assets/imgs/logo_html.png" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">HTML</h6>
+                                    <small class="text-muted mb-0">Insurance Agent</small>      
+                                </div>
+                            </div>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="assets/imgs/logo_css.png" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">CSS</h6>
+                                    <small class="text-muted mb-0">Residential Appraiser</small>        
+                                </div>
+                            </div>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+               
+                
+            </div>
+            
+        </div>
+    </section>
+    <section class="section" id="testmonial">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-4 my-3 my-md-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media align-items-center mb-3">
+                                <img class="mr-3" src="assets/imgs/aws.jpg" alt="">
+                                <div class="media-body">
+                                    <h6 class="mt-1 mb-0">AWS</h6>
                                     <small class="text-muted mb-0">Business Analyst</small>     
                                 </div>
                             </div>
@@ -392,7 +445,11 @@
                         </div>
                     </div>
                 </div>
+                <br>
+               
+                
             </div>
+            
         </div>
     </section>
     <!-- End of Testmonial Section -->
