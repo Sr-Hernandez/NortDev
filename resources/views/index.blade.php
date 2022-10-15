@@ -357,10 +357,10 @@
                                 <img class="mr-3" src="assets/imgs/aws.jpg" alt="">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">AWS</h6>
-                                    <small class="text-muted mb-0">Business Analyst</small>     
+                                    <small class="text-muted mb-0">Host</small>     
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">Lorem ipassum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
                         </div>
                     </div>
                 </div>
@@ -370,11 +370,11 @@
                             <div class="media align-items-center mb-3">
                                 <img class="mr-3" src="assets/imgs/logo_html.png" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">HTML</h6>
-                                    <small class="text-muted mb-0">Insurance Agent</small>      
+                                    <h6 class="mt-1 mb-0">HTMLs</h6>
+                                    <small class="text-muted mb-0">Lenguajde</small>      
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">Lorem aipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
                         </div>
                     </div>
                 </div>
