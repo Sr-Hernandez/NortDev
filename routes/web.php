@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,4 @@ Route::get('home', function () {
 });
 
 Route::get('/contacto', [IndexController::Class,'contacto'])->name('contacto');
+Route::get('/contacto_mensjae', [ContactController::Class,'contacto_mensaje'])->name('contacto_mensaje');

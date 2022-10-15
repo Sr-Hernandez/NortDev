@@ -360,7 +360,7 @@
                                     <small class="text-muted mb-0">Host</small>     
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipassum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">El mejor alojamiento con nosotros</p>
                         </div>
                     </div>
                 </div>
