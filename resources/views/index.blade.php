@@ -455,49 +455,7 @@
     <!-- End of Testmonial Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="section has-img-bg pb-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-5 my-3">
-                  
-
-                    <h6 class="mb-0">Ubicacion</h6>
-                    <p class="mb-4">Chihuahua, México</p>
-
-                    <h6 class="mb-0">Email</h6>
-                    <p class="mb-0">contacto@angelhernandez.work</p>
-                    <p></p>
-                </div>
-                <div class="col-md-7">
-                    <form>
-                        <h4 class="mb-4">Contactanos</h4>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Nombre">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje"></textarea>
-
-                            </div>
-                            <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
-                            </div>                          
-                        </div>                          
-                    </form>
-                </div>
-            </div>
-            <!-- Page Footer -->
-            <footer class="mt-5 py-4 border-top border-secondary">
-            </footer>
-            <!-- End of Page Footer -->  
-        </div>
-    </section>
+  
 	
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>

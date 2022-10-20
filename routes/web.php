@@ -24,3 +24,5 @@ Route::get('home', function () {
 
 Route::get('/contacto', [IndexController::Class,'contacto'])->name('contacto');
 Route::get('/contacto_mensjae', [ContactController::Class,'contacto_mensaje'])->name('contacto_mensaje');
+Route::get('/portafolio', [IndexController::Class,'portafolio'])->name('portafolio');
+Route::get('/portafolio-barber', [IndexController::Class,'portafoliobarber'])->name('portafoliobarber');

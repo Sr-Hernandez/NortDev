@@ -5599,9 +5599,8 @@ a.badge-warning:focus, a.badge-warning.focus {
 }
 
 a.badge-danger:hover, a.badge-danger:focus {
- 
+  color: #fff;
   background-color: #e6201d;
-   color: #fff;
 }
 
 a.badge-danger:focus, a.badge-danger.focus {
@@ -11657,7 +11656,7 @@ textarea.form-control {
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(../imgs/fondo2.webp) no-repeat center top fixed;
   background-size: cover;
   color: #fff;
 }
