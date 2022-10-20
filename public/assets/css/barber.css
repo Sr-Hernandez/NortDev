@@ -1984,7 +1984,7 @@ input, select, textarea {
 				left: -35px;
 				width: 35px;
 				height: 38px;
-				background: url(../imgs/fondo2.webp);
+				background: url(../imgs/overlay2.png);
 			}
 
 			.wrapper .title:after {
@@ -1998,7 +1998,7 @@ input, select, textarea {
 				right: -35px;
 				width: 35px;
 				height: 38px;
-				background: url("images/shadow.png");
+				background: url(../imgs/overlay2.png);
 			}
 
 		.wrapper.style1 {
@@ -2026,11 +2026,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style3 {
-			background: #f3f3f3 url("images/overlay.png");
+			background: url(../imgs/overlay2.png);
 		}
 
 			.wrapper.style3 .title {
-				background: #f3f3f3 url("images/overlay.png");
+				background: url(../imgs/overlay2.png);
 				color: #484d55;
 			}
 
@@ -2357,7 +2357,8 @@ input, select, textarea {
 			}
 
 		#footer .title {
-			background: #282b34 url("images/overlay.png");
+			/* background: url(../imgs/overlay2.png); */
+			
 			color: #eee;
 		}
 
@@ -2466,6 +2467,7 @@ input, select, textarea {
 
 				#logo h1 {
 					font-size: 1.75em;
+					text-shadow: 0.1em 0.1em 0.05em #333
 				}
 
 		/* Intro */
