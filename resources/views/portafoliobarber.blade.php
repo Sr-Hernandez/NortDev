@@ -22,7 +22,7 @@
 					<!-- Logo -->
 						<div id="logo">
 							<h1><a >Tu Nombre Aqui</a></h1>
-							<p>BARBERSHOP - SALÓN DE BARBERÍA Y PELUQUERÍA</p>
+							<p>BARBERSHOP - SALÓN DE BARBERÍA Y PELUQUERÍA </p>
 							
 						</div>
 
