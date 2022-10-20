@@ -21,24 +21,26 @@
 					
 					<!-- Logo -->
 						<div id="logo">
-							<h1><a >Barber Shop</a></h1>
-							<p>Tu Slogan Aquí</p>
+							<h1><a >Tu Nombre Aqui</a></h1>
+							<p>BARBERSHOP - SALÓN DE BARBERÍA Y PELUQUERÍA</p>
+							
 						</div>
 
 					<!-- Nav -->
 					
 						<nav id="nav">
-							{{-- <div class="div-logo" >
-								<img class="logo-imagen" src= "https://angelhernandez.work/assets/imgs/barber-logo.png" alt="">
-							</div> --}}
 							
+							<div class="div-logo" >
+								<img class="logo-imagen" src= "https://angelhernandez.work/assets/imgs/BARBER-LOGO-1.png" alt="">
+							</div>
+
 							<ul>
 								
-								<li class="current"><a href="">Home</a></li>
-								<li>
+								<li class="current"><a href="">TIENDA</a></li>
+								<li >
 									
-									<a href="#">Dropdown</a>
-									<ul>
+									<a href="#">SERVICIOS</a>
+									{{-- <ul>
 										<li><a href="#">Lorem ipsum</a></li>
 										<li><a href="#">Magna veroeros</a></li>
 										<li><a href="#">Etiam nisl</a></li>
@@ -53,11 +55,11 @@
 											</ul>
 										</li>
 										<li><a href="#">Nisl tempus</a></li>
-									</ul>
+									</ul> --}}
 								</li>
-								<li><a href="left-sidebar.html">Left Sidebar</a></li>
-								<li><a href="right-sidebar.html">Right Sidebar</a></li>
-								<li><a href="no-sidebar.html">No Sidebar</a></li>
+								<li><a href="left-sidebar.html">AGENDA UN CITA</a></li>
+								<li><a href="right-sidebar.html">CONTACTO</a></li>
+								<li><a href="no-sidebar.html">GALERIA</a></li>
 							</ul>
 						</nav>
 
@@ -65,7 +67,7 @@
 
 			<!-- Intro -->
 				<section id="intro" class="wrapper style1">
-					<div class="title">Servicios</div>
+					<div style="border-top-left-radius: 8px; border-top-right-radius: 8px;" class="title" >Servicios</div>
 					<div class="container">
 						<p class="style1">So in case you were wondering what this is all about ...</p>
 						<p class="style2">
