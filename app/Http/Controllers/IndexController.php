@@ -33,6 +33,13 @@ public function portafoliobarber(){
 }
 
 
+public function cv(){
+
+    return View('cv');
+
+}
+
+
 
 
 

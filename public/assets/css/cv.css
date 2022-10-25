@@ -1,0 +1,26 @@
+
+
+.header-cv{
+    white-space: nowrap;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
+    margin-top: 0;
+  /* colores curriculum */
+    background-color: rgb(12,152,170);
+    color:rgb(64,64,64);
+    text-align: center;
+    height: 200px;
+    align-content: center;
+    margin-top: 0;
+    box-sizing: border-box;
+  
+}
+.foto{
+    width: 10%;
+    height: 50%;
+    border-radius: 100%;;
+    background-color: red;
+}
