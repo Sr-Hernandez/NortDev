@@ -6,6 +6,9 @@
     
     <title>CV-Ángel Hernández</title>
 
+   
+</head>
+<header>
     <div class="header-cv">
         <h1>
             CV
@@ -14,7 +17,7 @@
             123
         </div>
     </div>
-</head>
+</header>
 <body>
     
 </body>
