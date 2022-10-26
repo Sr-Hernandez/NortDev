@@ -5,17 +5,21 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 30%;
+  height: 40%;
   /* background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   /* colores curriculum */
     background-color: rgb(12,152,170);
-    color:#404040;
+  
     text-align: center;
+    text-orientation: sideways;
    
   
+}
+.header-cv td{
+    width: 30%;
 }
 .foto{
     width:  250px;
@@ -24,5 +28,20 @@
     background-color: #404040;
     border: solid 10px white;
     margin:0px auto;
+    
     background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+}
+h1 {
+    font-family: 'Play', sans-serif;
+    font-size: 34pt;
+    color:#fff;
+    /* writing-mode: vertical-lr;
+    transform: rotate(180deg); */
+
+}
+h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 18pt;
+    color:#404040;
+
 }
