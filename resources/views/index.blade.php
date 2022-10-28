@@ -65,7 +65,8 @@
                             <small class="text-primary font-weight-bold">02</small>
                             <h5 class="card-title mt-3">Desarrollo<h5>
                             {{-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p> --}}
-                            <img src="assets/imgs/web_design.webp" style="border-radius: 10px;" class="w-100 mt-3 shadow-sm">
+                            <img src="assets/imgs/we0
+                            b_design.webp" style="border-radius: 10px;" class="w-100 mt-3 shadow-sm">
                         </div>
                     </div>
                 </div>

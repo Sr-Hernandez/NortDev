@@ -13,27 +13,29 @@
 <header>
     <div class="header-cv">
 
-        <table>
+        <table class="tabla-header">
             <tbody>
                 <tr>
                     <td >
                         <h1>
                             {{-- Ángel Hernández Urquijo --}}
-                            <span>ÁNGEL</span>
+                            {{-- <span>ÁNGEL</span>
                             <span>HERNÁNDEZ</span><br>
-                            <span>URQUIJO</span>
+                            <span>URQUIJO</span> --}}
+                            NortDev
                         </h1>
                         <h2>
-                            Ingeniero en Sistemas Computacionales
+                            {{-- Ingeniero en Sistemas Computacionales --}}
+                            Web Design
                         </h2>
                     </td>
-                    <td>
+                    <td class="hovfot">
                         <div class="foto">
-                            123
+                            {{-- 123 --}}
                         </div>
                     </td>
                     <td>
-                        <p>Abaout</p>
+                        <p>Abaoutt</p>
                     </td>
                 </tr>
             </tbody>
@@ -42,7 +44,18 @@
        
     </div>
 </header>
+123
+
 <body>
-    
+    <div class="separator1"></div>
+    <p>123</p>
+    <table>
+        <tr>
+            <td>
+                <p>Tecnologiass</p>
+                <h4>123</h4>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

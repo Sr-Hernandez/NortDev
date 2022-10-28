@@ -1,6 +1,7 @@
 
 
 .header-cv{
+    /* position:sticky; */
     position: fixed;
   left: 0;
   top: 0;
@@ -11,27 +12,39 @@
   background-size: cover;
   background-repeat: no-repeat;
   /* colores curriculum */
-    background-color: rgb(12,152,170);
+    /* background-color: rgb(12,152,170); */
+    background-color: #323232;
   
     text-align: center;
     text-orientation: sideways;
+    
    
   
 }
-.header-cv td{
-    width: 30%;
+.separator1{
+    position: relative;
+    
+    padding-bottom: 18%;
 }
+
 .foto{
     width:  250px;
     height: 250px;
     border-radius: 50%;;
     background-color: #404040;
-    border: solid 10px white;
+    border: solid 10px #FFDB0B;
     margin:0px auto;
     
     background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
 }
-h1 {
+.hovfot:hover .foto{
+ 
+        width: 280px;
+        height: 280px;
+        border: solid 3px #FFDB0B;
+        transition: 330ms;
+}
+h1{
     font-family: 'Play', sans-serif;
     font-size: 34pt;
     color:#fff;
@@ -39,9 +52,20 @@ h1 {
     transform: rotate(180deg); */
 
 }
-h2 {
+h2,p {
     font-family: 'Play', sans-serif;
     font-size: 18pt;
-    color:#404040;
+    color:#FFDB0B;
 
+}
+.tabla-header{
+    width: 100%;
+    /* background-color: red; */
+}
+.tabla-header td{
+    width: 30%;
+}
+body{
+    background-color: #171717;
+    position: inherit;
 }
