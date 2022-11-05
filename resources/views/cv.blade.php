@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/cv.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.min.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
@@ -23,23 +24,25 @@
                         <h1>
                             {{-- Ángel Hernández Urquijo --}}
                             {{-- <span>ÁNGEL</span>
-                            <span>HERNÁNDEZ</span><br>
-                            <span>URQUIJO</span> --}}
-                            NortDev
+                            <span>HERNÁNDEZ</span><br>--}}
+                            {{-- <span>URQUIJO</span>  --}}
+                           Ángel
                         </h1>
+                        <h1 style="color: #DAA520"> Hernández</h1>
                         <h2>
-                            {{-- Ingeniero en Sistemas Computacionales --}}
-                            Web Design
+                            Ingeniero en Sistemas Computacionales
+                            {{-- Web Design --}}
                         </h2>
                     </td>
                     <td class="hovfot">
                         <div class="foto">
-                            {{-- 123 --}}
+                            <img src="https://angelhernandez.work/assets/imgs/cv.png" alt="">
                         </div>
                     </td>
                     <td>
-                        <h1>Abaoutt</h1>
-                        <p>text 213...</p>
+                        <h1 >Perfil</h1>
+                        <p style="line-height: 1.5; font-size:13pt">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
+                            de México <strong>(Campus Cuauhtémoc)</strong> con 2 años de experiencia trabajando como desarrollador.</p>
                     </td>
                 </tr>
             </tbody>
@@ -50,13 +53,23 @@
 </header>
 
 <body>
-    <div class="loader"></div>
+    {{-- <div class="loader"></div>
     <script type="text/javascript">
         $(window).load(function() {
             $(".loader").fadeOut("slow");
         });
-        </script>
+        </script> --}}
     <div class="separator1"></div>
+    <div class="div-tabla-exp">
+        <table>
+            <tr>
+                <td><p><i class="icofont-square-right"></i>&nbsp;</i>Experiencia</p></td>
+                
+
+                <td><p><i class="icofont-square-right"></i>&nbsp;Educacion</p></td>
+
+        </table>
+    </div>
     <div class="main-container">
         <div class="heading">
           <h1 class="heading__title">Tecnologias usadas aqui</h1>
@@ -102,13 +115,12 @@
      
         </div>
       </div>
-   <section class="section-1">
+   <section class="section-1 sticky-table-column">
     <div class="div-exp">
-        <table class="sticky-table-column">
-            <thead>
-                <tr>
-                    <th class="sticky-table-column__sticky">...</th>
-                        <p><i class="icofont icofont-verification-check"></i>text...</p>
+        <table >
+                <tr class="">
+                    <th >...</th>
+                        <h2><i class="icofont icofont-verification-check"></i>Experiencia</h2>
                         <p><i class="icofont-verification-check"></i>text...</p>
                         <p><i class="icofont-verification-check"></i>text...</p>
                     <!-- Other header column ... -->

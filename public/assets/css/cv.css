@@ -16,10 +16,11 @@ html {
    
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: .5;
     color: #464646;
     text-align: left;
     background-color: #1B1B1B;
+
     /* color de fondo */
   }  
 .header-cv{
@@ -54,15 +55,30 @@ html {
 }
 
 .foto{
-    width:  15rem;
+    /* width:  15rem;
     height: 15rem;
-    border-radius: 50%;;
+    border-radius: 50%;
     background-color: #0c98aa;;
     border: solid 8px #DAA520;
     margin:0px auto;
-    
-    background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+    text-align: center;
+    /* background-image: url("https://angelhernandez.work/assets/imgs/cv.png"); */
+    /* background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+     */
+
+*/
+
 }
+.foto > img {
+  width:  15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #0c98aa;;
+    border: solid 8px #DAA520;
+    margin:0px auto;
+    text-align: center;
+}
+
 /* .hovfot:hover .foto{
  
         width: 280px;
@@ -80,17 +96,23 @@ html {
 h1{
     font-family: 'Play', sans-serif;
     font-size: 34pt;
-    color:#555555;;
+    color:#b6b6b6;;
     /* writing-mode: vertical-lr;
     transform: rotate(180deg); */
 
 }
-body h2,p {
+body h2{
     font-family: 'Play', sans-serif;
     font-size: 18pt;
     color:#DAA520;
+    line-height: .9;
 
 }
+body p{
+  font-family: 'Play', sans-serif;
+  font-size: 16pt;
+  color: #fff;;
+} 
 .tabla-header{
     width: 100%;
     /* background-color: red; */
@@ -257,11 +279,11 @@ background-color: red;
   /* CARD BACKGROUNDS */
   
   .card-1 {
-    background: radial-gradient(#E44D26, #F16529);
+    background: radial-gradient(#fd7553, #E44D26);
   }
   
   .card-2 {
-    background: radial-gradient(#007DC6, #008FD5);
+    background: radial-gradient(#37a1df, #007DC6);
   }
   
   .card-3 {
@@ -278,6 +300,18 @@ background-color: red;
   .img-cards{
     max-width: 80%;
   }
+  .sticky-table-column{
+    padding-left: 1.5rem;
+  }
+  .div-tabla-exp{
+    padding: 1rem;
+    
+   
+  }
+  .div-tabla-exp table{
+    width: 100%;
+  }
+  
   /* RESPONSIVE */
   
   @media (max-width: 1600px) {
