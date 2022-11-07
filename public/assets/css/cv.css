@@ -312,7 +312,7 @@ background-color: red;
     color: #fdc303;
   }
   
-  /* RESPONSIVE */
+  /* RESPONSIVE */ 
   
   @media (max-width: 1600px) {
     .cards {
