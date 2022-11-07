@@ -28,11 +28,14 @@
                             {{-- <span>URQUIJO</span>  --}}
                            Ángel
                         </h1>
-                        <h1 style="color: #DAA520"> Hernández</h1>
-                        <h2>
+                        <h1 style="color: #c7c7c7"> Hernández</h1>
+                        
+                        <h2 class="color-amarillo">
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
+                        <p><i class="icofont-whatsapp"></i>&nbsp;<i class="icofont-ui-email">&nbsp<i class="icofont-linkedin"></i>🛸👽</i></p>
+                        
                     </td>
                     <td class="hovfot">
                         <div class="foto">
@@ -63,11 +66,73 @@
     <div class="div-tabla-exp">
         <table>
             <tr>
-                <td><p><i class="icofont-square-right"></i>&nbsp;</i>Experiencia</p></td>
+                <td><p><i class="icofont-circled-right"></i>&nbsp;</i>Experiencia</p>
+                    {{-- poner link a materiales --}}
+                    <p class="p-fechas">Ago. 2020 - Actualidad</p>
+                <p><b>Materiales</b> del Norte / Desarrollador</p>
+                <p class="p-1">Proyectos en equipo:</p>
+                <p class="p-2">- eCommerce <a class="color-amarillo">muchomaterial.com</a> (Backend & Frontend)</p>
+                <p class="p-2">- eCommerce <a class="color-amarillo">materialesdelnorte.mx</a> (Backend & Frontend)</p>
+
+                <hr style="width: 50%; margin: 0%">
+                    <p class="p-fechas">Actualidad</p>
+                    <p>Proyecto personal</p>
+                    <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u>  (Full Stack)</p>
+           
+               
+            </td>
+            
+       
+
+                <td><p><i class="icofont-circled-right"></i>&nbsp;Educación</p>
+                    <p class="p-fechas">2013 - 2016</p>
+                    <p >CBTa 124 / <b class="color-amarillo">Técnico en informatica</b></p>
+                       <hr>
+                        <p class="p-fechas">2016 - 2020</p>
+                        <p >TecNM / <b class="color-amarillo">Ingeniero en Sistemas</b> </p>   
+                       
+                   
+                    
+                   </td>
                 
+            </tr>
+            <tr>
+                <td><p><i class="icofont-circled-right"></i>&nbsp;</i>Experiencia</p>
+                    {{-- poner link a materiales --}}
+                    <p class="p-fechas">Ago. 2020 - Actualidad</p>
+                <p><b>Materiales</b> del Norte / Desarrollador</p>
+                <p class="p-1">Proyectos en equipo:</p>
+                <p class="p-2">- eCommerce <a class="color-amarillo">muchomaterial.com</a> (Backend & Frontend)</p>
+                <p class="p-2">- eCommerce <a class="color-amarillo">materialesdelnorte.mx</a> (Backend & Frontend)</p>
 
-                <td><p><i class="icofont-square-right"></i>&nbsp;Educacion</p></td>
+                <hr style="width: 50%; margin: 0%">
+                    <p class="p-fechas">Actualidad</p>
+                    <p>Proyecto personal</p>
+                    <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u>  (Full Stack)</p>
+           
+               
+            </td>
+            
+       
 
+                <td><p><i class="icofont-circled-right"></i>&nbsp;Intereces y hobbies</p>
+                   
+                    
+                   <p><i class="icofont-game"></i>&nbsp<i class="icofont-music"></i></p>
+                    
+                   </td>
+                
+            </tr>
+
+            <tr>
+                <td>
+                    {{-- poner link a materiales --}}
+                     </td>
+            
+        
+
+                {{-- <td><p><i class="icofont-circled-right"></i>&nbsp;Educacion</p></td> --}}
+            </tr>
         </table>
     </div>
     <div class="main-container">

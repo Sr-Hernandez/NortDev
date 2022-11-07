@@ -50,31 +50,13 @@ html {
 }
 
 
-.separator1{
- 
-}
 
-.foto{
-    /* width:  15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background-color: #0c98aa;;
-    border: solid 8px #DAA520;
-    margin:0px auto;
-    text-align: center;
-    /* background-image: url("https://angelhernandez.work/assets/imgs/cv.png"); */
-    /* background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
-     */
-
-*/
-
-}
 .foto > img {
   width:  15rem;
     height: 15rem;
     border-radius: 50%;
-    background-color: #0c98aa;;
-    border: solid 8px #DAA520;
+    background-color: #000000;;
+    border: solid 8px #fdc303;
     margin:0px auto;
     text-align: center;
 }
@@ -96,7 +78,7 @@ html {
 h1{
     font-family: 'Play', sans-serif;
     font-size: 34pt;
-    color:#b6b6b6;;
+    color:#fdc303;
     /* writing-mode: vertical-lr;
     transform: rotate(180deg); */
 
@@ -104,14 +86,14 @@ h1{
 body h2{
     font-family: 'Play', sans-serif;
     font-size: 18pt;
-    color:#DAA520;
+    color:#d6d6d6;
     line-height: .9;
 
 }
 body p{
   font-family: 'Play', sans-serif;
   font-size: 16pt;
-  color: #fff;;
+  color: #d6d6d6;;
 } 
 .tabla-header{
     width: 100%;
@@ -153,12 +135,12 @@ max-height: 8rem;
 .section1{
 background-color: red;
 }
-.div-exp{
-    /* background-color: blue; */
-}
+/* .div-exp{
+    background-color: blue; 
+} */
 .sticky-table-headers__sticky {
     /* Background color */
-    background-color: #e5ff00;
+    background-color: #fdc303;
 
     /* Stick to the left */
     left: 0;
@@ -310,6 +292,24 @@ background-color: red;
   }
   .div-tabla-exp table{
     width: 100%;
+  }
+  .p-fechas{
+    color: #c0c0c0;
+    font-size: 10pt;
+    line-height: .4pt;
+    
+  }
+  .p-1{
+    font-size: 10pt;
+    line-height: .4pt;
+  }
+  .p-2{
+    font-size: 13pt;
+    line-height: .4pt;
+    padding-left: 1rem;
+  }
+  .color-amarillo{
+    color: #fdc303;
   }
   
   /* RESPONSIVE */
