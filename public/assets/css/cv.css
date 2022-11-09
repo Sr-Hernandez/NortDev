@@ -76,7 +76,8 @@ html {
     transition: 330ms;
 }
 h1{
-    font-family: 'Play', sans-serif;
+    /* font-family: 'Play', sans-serif; */
+    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 34pt;
     color:#fdc303;
     /* writing-mode: vertical-lr;
@@ -84,14 +85,14 @@ h1{
 
 }
 body h2{
-    font-family: 'Play', sans-serif;
+  font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18pt;
     color:#d6d6d6;
     line-height: .9;
 
 }
 body p{
-  font-family: 'Play', sans-serif;
+  font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 16pt;
   color: #d6d6d6;;
 } 
@@ -294,7 +295,7 @@ background-color: red;
     width: 100%;
   }
   .p-fechas{
-    color: #c0c0c0;
+    color: #fcb93d8c;
     font-size: 10pt;
     line-height: .4pt;
     
@@ -311,7 +312,18 @@ background-color: red;
   .color-amarillo{
     color: #fdc303;
   }
-  
+  .btn-contacto{
+    width: 150px;
+    height: 30px;
+    margin: 1rem;
+    color: #000;
+    font-size: 12pt;
+    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #fdc303;
+    border-radius: 15px;
+    
+   
+  }
   /* RESPONSIVE */ 
   
   @media (max-width: 1600px) {

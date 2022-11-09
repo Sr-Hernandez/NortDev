@@ -34,13 +34,19 @@
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
-                        <p><i class="icofont-whatsapp"></i>&nbsp;<i class="icofont-ui-email">&nbsp<i class="icofont-linkedin"></i>🛸👽</i></p>
+                        <p><i class="icofont-whatsapp"></i>&nbsp;<i class="icofont-ui-email">&nbsp
+                            <i class="icofont-linkedin"></i></i></p>
                         
                     </td>
                     <td class="hovfot">
                         <div class="foto">
                             <img src="https://angelhernandez.work/assets/imgs/cv.png" alt="">
                         </div>
+                        <div>
+                         <button href="" class="btn-contacto">Contacto</button>
+                         <button href="" class="btn-contacto">Descarga mi CV</button>
+                        </div>
+                        
                     </td>
                     <td>
                         <h1 >Perfil</h1>
@@ -66,7 +72,7 @@
     <div class="div-tabla-exp">
         <table>
             <tr>
-                <td><p><i class="icofont-circled-right"></i>&nbsp;</i>Experiencia</p>
+                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;</i>EXPERIENCIA</p>
                     {{-- poner link a materiales --}}
                     <p class="p-fechas">Ago. 2020 - Actualidad</p>
                 <p><b>Materiales</b> del Norte / Desarrollador</p>
@@ -84,7 +90,7 @@
             
        
 
-                <td><p><i class="icofont-circled-right"></i>&nbsp;Educación</p>
+                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EDUCACIÓN</p>
                     <p class="p-fechas">2013 - 2016</p>
                     <p >CBTa 124 / <b class="color-amarillo">Técnico en informatica</b></p>
                        <hr>
@@ -97,25 +103,26 @@
                 
             </tr>
             <tr>
-                <td><p><i class="icofont-circled-right"></i>&nbsp;</i>Experiencia</p>
+                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES TECNICAS</p>
                     {{-- poner link a materiales --}}
-                    <p class="p-fechas">Ago. 2020 - Actualidad</p>
-                <p><b>Materiales</b> del Norte / Desarrollador</p>
-                <p class="p-1">Proyectos en equipo:</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo">muchomaterial.com</a> (Backend & Frontend)</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo">materialesdelnorte.mx</a> (Backend & Frontend)</p>
+                    {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
+                {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
+                <p class="p-1">Proyectos en equipo:</p> --}}
+                <p class="p-2">C#, .NET, HTML, CSS, Java Script, Laravel, </p>
+                <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
+                <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
 
-                <hr style="width: 50%; margin: 0%">
-                    <p class="p-fechas">Actualidad</p>
-                    <p>Proyecto personal</p>
-                    <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u>  (Full Stack)</p>
-           
+                
                
             </td>
+            {{-- C#, .NET, HTML, CSS, Java Script, Laravel,
+Uso de IDE, PHP, SQL, MySQL, GIT,
+AWS(EC2), SRCUM, Desktop Apps,
+Photoshop. --}}
             
        
 
-                <td><p><i class="icofont-circled-right"></i>&nbsp;Intereces y hobbies</p>
+                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;INTERESES Y HOBBIES</p>
                    
                     
                    <p><i class="icofont-game"></i>&nbsp<i class="icofont-music"></i></p>
