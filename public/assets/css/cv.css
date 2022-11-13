@@ -22,7 +22,8 @@ html {
     color: #464646;
     text-align: left;
     background: radial-gradient(#ffffff, #a3a3a3);
-    background: url(../imgs/cool-background.png) no-repeat center center fixed;
+    /* background: url(../imgs/cool-background.png) no-repeat center center fixed; */
+    background: url(../svg/triangles.svg) no-repeat center center fixed;
     background-size: cover;
     opacity: 15px;
     /* color de fondo */
@@ -40,7 +41,7 @@ html {
     margin: 0px;
     box-shadow: 0px 5px 15px 0px #00000070;
     background: rgb(255, 255, 255);
-background: linear-gradient(90deg, rgba(0,0,0,0.6643032212885154) 0%, rgba(255,255,255,0) 47%, rgba(0,0,0,0.577468487394958) 100%);
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.548) 0%, rgba(255,255,255,0) 47%, rgba(0,0,0,0.577468487394958) 100%);
     
     
     /* text-orientation: sideways; */
@@ -318,6 +319,7 @@ background-color: red;
     font-size: 13pt;
     line-height: .4pt;
     padding-left: 1rem;
+    
   }
   .color-amarillo{
     color: #fdc303;
@@ -331,10 +333,14 @@ background-color: red;
   
     text-align: center;
     background-color: #fdc303dc;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     border:solid #fff 0px;
     
    
+  }
+  .btn-contacto:hover{
+    
+    background-color:#fdc30373;
   }
   .footer-basic ul {
     padding:0;
@@ -410,6 +416,9 @@ background-color: red;
     margin: 10px;
     padding: 1rem;
     
+  }
+  .card-prin p{
+    line-height: .5;
   }
   .card-prin:hover{
     transform: scale(102%);

@@ -42,7 +42,7 @@
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
-                        <p><i class="icofont-whatsapp"></i>&nbsp;<i class="icofont-ui-email">&nbsp
+                        <p><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado"><i class="icofont-whatsapp"></i></a>&nbsp;<i class="icofont-ui-email">&nbsp
                             <i class="icofont-linkedin"></i></i></p>
                         
                     </td>
@@ -164,9 +164,10 @@ Photoshop. --}}
                     {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
                 {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
                 <p class="p-1">Proyectos en equipo:</p> --}}
-                <p class="p-2">C#, .NET, HTML, CSS, Java Script, Laravel, </p>
-                <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
-                <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
+                <p class="p-2" >Materiales del Norte es un home center dedicado a la venta de </p>
+                <p class="p-2" >materiales para la construcción que actualmente cuenta con 5 </p>
+              
+                <p class="p-2" >sucursales en el estado de Chihuahua</p>
 
                 </p></div>
                
@@ -234,90 +235,7 @@ Photoshop. --}}
         padding: 1px;
     }
 </style>
-   {{-- <section class="section-1 sticky-table-column">
-    <div class="div-exp">
-        <table >
-                <tr class="">
-                    <th >...</th>
-                        <h2><i class="icofont icofont-verification-check"></i>Experiencia</h2>
-                        <p><i class="icofont-verification-check"></i>text...</p>
-                        <p><i class="icofont-verification-check"></i>text...</p>
-                    <!-- Other header column ... -->
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="sticky-table-column__sticky">...</td>
-                    <p>qwe</p>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-   </section>
-    <table class="tabla-body-1">
-        <tr>
-            <td>
-                <div class="card">
-                    <!-- Cover -->
-                    <div class="card__cover">
-                        <img class="img-card" src="https://angelhernandez.work/assets/imgs/logo_html.png" alt="">
-                    </div>
-                
-                    <!-- Content -->
-                    <div class="card__content">.123..</div>
-                    ...
-                </div>
-            </td>
-            <td>
-                <div class="card">
-                    <!-- Cover -->
-                    <div class="card__cover">
-                        <img class="img-card" src="https://angelhernandez.work/assets/imgs/logo_html.png" alt="">
-                    </div>
-                
-                    <!-- Content -->
-                    <div class="card__content">.123..</div>
-                    ...
-                </div>
-            </td>
-            <td>
-                <div class="card">
-                    <!-- Cover -->
-                    <div class="card__cover">
-                        <img class="img-card" src="https://angelhernandez.work/assets/imgs/logo_html.png" alt="">
-                    </div>
-                
-                    <!-- Content -->
-                    <div class="card__content">.123..</div>
-                    ...
-                </div>
-            </td>
-            <td>
-                <div class="card">
-                    <!-- Cover -->
-                    <div class="card__cover">
-                        <img class="img-card" src="https://angelhernandez.work/assets/imgs/logo_html.png" alt="">
-                    </div>
-                
-                    <!-- Content -->
-                    <div class="card__content">.123..</div>
-                    ...
-                </div>
-            </td>
-            <td>
-                <div class="card">
-                    <!-- Cover -->
-                    <div class="card__cover">
-                        <img class="img-card" src="https://angelhernandez.work/assets/imgs/logo_html.png" alt="">
-                    </div>
-                
-                    <!-- Content -->
-                    <div class="card__content">.123..</div>
-                    ...
-                </div>
-            </td>
-        </tr>
-    </table> --}}
+ 
 </body>
 
 <div class="footer-basic">
