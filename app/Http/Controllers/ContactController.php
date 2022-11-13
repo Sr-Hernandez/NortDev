@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\contact;
+use App\Models\users;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -16,6 +17,12 @@ class ContactController extends Controller
         $contacto->mensaje =  $request->input('mensaje');
         $contacto->ip =  $request->ip();
         $contacto->save();
+
+
+        $user = new users;
+        $user->name = $request->input('name');
+        $user->user_email= $request->input('email');
+        $user->save();
         return view('index');
     }
 

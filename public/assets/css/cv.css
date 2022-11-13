@@ -3,12 +3,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  
 }
 html {
   
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgb(20, 238, 0);
+    font-family: 'Play', sans-serif;
   }
 
   body {
@@ -19,36 +21,41 @@ html {
     line-height: .5;
     color: #464646;
     text-align: left;
-    background-color: #1B1B1B;
-
+    background: radial-gradient(#ffffff, #a3a3a3);
+    background: url(../imgs/cool-background.png) no-repeat center center fixed;
+    background-size: cover;
+    opacity: 15px;
     /* color de fondo */
   }  
 .header-cv{
-    /* position:sticky; */
-  
-  /* left: 0;
- 
-  */
-  top: 10;
   width: 100%;
-  height: 25%; 
+  height: 30%; 
   /* background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg"); */
   display: block;
   background-position: center;
   background-size: auto;
-  /* background-repeat: no-repeat; */
-  /* colores curriculum */
-    /* background-color: rgb(12,152,170); */
-    /* background-color: #323232; */
-    background-color: #121212;
+    background: radial-gradient(#f7f7f7, #ffffff);
+    /* background-color: #000; */
     text-align: center;
     margin: 0px;
+    box-shadow: 0px 5px 15px 0px #00000070;
+    background: rgb(255, 255, 255);
+background: linear-gradient(90deg, rgba(0,0,0,0.6643032212885154) 0%, rgba(255,255,255,0) 47%, rgba(0,0,0,0.577468487394958) 100%);
+    
+    
     /* text-orientation: sideways; */
     
    
   
 }
-
+#particles-js{
+  width: 100%;
+  
+  height: 33%;
+  
+  
+  position: absolute
+}
 
 
 .foto > img {
@@ -59,6 +66,7 @@ html {
     border: solid 8px #fdc303;
     margin:0px auto;
     text-align: center;
+    position: relative;
 }
 
 /* .hovfot:hover .foto{
@@ -77,27 +85,29 @@ html {
 }
 h1{
     /* font-family: 'Play', sans-serif; */
-    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
     font-size: 34pt;
-    color:#fdc303;
+    color:#fdc303da;
+    
     /* writing-mode: vertical-lr;
     transform: rotate(180deg); */
 
 }
 body h2{
-  font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
     font-size: 18pt;
-    color:#d6d6d6;
+    color:#d1d1d1;
     line-height: .9;
 
 }
 body p{
-  font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
   font-size: 16pt;
-  color: #d6d6d6;;
+  color: #e4e4e4;;
 } 
 .tabla-header{
     width: 100%;
+    position: relative;
     /* background-color: red; */
 }
 .tabla-header td{
@@ -177,7 +187,7 @@ background-color: red;
   
   .heading__credits {
     margin: 10px 0px;
-    color: #888888;
+    color: #000000;
     font-size: 25px;
     transition: all 0.5s;
   }
@@ -318,9 +328,11 @@ background-color: red;
     margin: 1rem;
     color: #000;
     font-size: 12pt;
-    font-family:monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #fdc303;
-    border-radius: 15px;
+  
+    text-align: center;
+    background-color: #fdc303dc;
+    border-radius: 8px;
+    border:solid #fff 0px;
     
    
   }
@@ -389,6 +401,22 @@ background-color: red;
   .list-inline-item:not(:last-child) {
     margin-right: 0.5rem;
   }
+  .card-prin{
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 60%;
+    height: 410%;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px 0px #00000070;
+    margin: 10px;
+    padding: 1rem;
+    
+  }
+  .card-prin:hover{
+    transform: scale(102%);
+    transition: all 1s;
+  }
+  
+ 
   /* RESPONSIVE */ 
   
   @media (max-width: 1600px) {

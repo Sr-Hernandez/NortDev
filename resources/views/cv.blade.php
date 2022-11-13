@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.min.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+   
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
@@ -18,8 +19,12 @@
 <header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     
-    <div class="header-cv">
+    <div class="header-cv" >
 
+        <div id="particles-js"></div>
+        <script src="assets/js/particles.js"></script>
+        <script src="assets/js/particulas.js"></script>
+        
         <table class="tabla-header">
             <tbody>
                 <tr>
@@ -31,7 +36,7 @@
                             {{-- <span>URQUIJO</span>  --}}
                            Ángel
                         </h1>
-                        <h1 style="color: #c7c7c7"> Hernández</h1>
+                        <h1 style="color: #ffffff"> Hernández</h1>
                         
                         <h2 class="color-amarillo">
                             Ingeniero en Sistemas Computacionales
@@ -46,21 +51,26 @@
                             <img src="https://angelhernandez.work/assets/imgs/cv.png" alt="">
                         </div>
                         <div>
-                         <button href="" class="btn-contacto">Contacto</button>
-                         <button href="" class="btn-contacto">Descarga mi CV</button>
+                         
+                         <select class="btn-contacto" name="cars" id="cars">
+                            <option value="volvo">Contacto</option>
+                            <option value="saab"><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado">WhatsApp</a></option>
+                            <option value="opel">Teléfono</option>
+                            <option value="audi">Email</option>
+                          </select>
+                          <button href="" class="btn-contacto">Descarga mi CV</button>
                         </div>
                         
                     </td>
                     <td>
                         <h1 >Perfil</h1>
-                        <p style="line-height: 1.5; font-size:13pt">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
+                        <p style="line-height: 1.5; font-size:13pt;color: #ffffff">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
                             de México <strong>(Campus Cuauhtémoc)</strong> con 2 años de experiencia trabajando como desarrollador.</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-       
-       
+       <img src="svg/wave.svg" alt="">
     </div>
 </header>
 
@@ -75,7 +85,9 @@
     <div class="div-tabla-exp">
         <table>
             <tr>
-                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;</i>EXPERIENCIA</p>
+                <td>
+                    <div class="card-prin">
+                    <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;</i>EXPERIENCIA</p>
                     {{-- poner link a materiales --}}
                     <p class="p-fechas">Ago. 2020 - Actualidad</p>
                 <p><b>Materiales</b> del Norte / Desarrollador</p>
@@ -88,25 +100,29 @@
                     <p>Proyecto personal</p>
                     <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u>  (Full Stack)</p>
            
-               
+               </div>
             </td>
             
        
 
-                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EDUCACIÓN</p>
+                <td>
+                    <div class="card-prin">
+                    <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EDUCACIÓN</p>
                     <p class="p-fechas">2013 - 2016</p>
                     <p >CBTa 124 / <b class="color-amarillo">Técnico en informatica</b></p>
                        <hr>
                         <p class="p-fechas">2016 - 2020</p>
                         <p >TecNM / <b class="color-amarillo">Ingeniero en Sistemas</b> </p>   
                        
-                   
+                    </div>
                     
                    </td>
                 
             </tr>
             <tr>
-                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES TECNICAS</p>
+                <td>
+                    <div class="card-prin">
+                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES TECNICAS</p>
                     {{-- poner link a materiales --}}
                     {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
                 {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
@@ -115,7 +131,7 @@
                 <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
                 <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
 
-                
+                </p></div>
                
             </td>
             {{-- C#, .NET, HTML, CSS, Java Script, Laravel,
@@ -125,13 +141,53 @@ Photoshop. --}}
             
        
 
-                <td><p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;INTERESES Y HOBBIES</p>
+                <td>
+                    <div class="card-prin">
+                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES SOCIALES</p>
                    
                     
-                   <p><i class="icofont-game"></i>&nbsp<i class="icofont-music"></i></p>
-                    
+                    <p class="p-2">Trabajo en equipo, Comunicación,</p>
+                    <p class="p-2">  Paciencia, Aprendizaje rápido, Creativo</p>
+                    <p class="p-2">     Resolución de problemas, trabajo bajo</p>
+                    <p class="p-2">   presión, Ágil, Gusto por resolver</p>
+                    <p class="p-2">  problemas.</p>
+
+                    </div>
                    </td>
                 
+            </tr>
+            <tr>
+                <td>
+                    <div class="card-prin">
+                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
+                    {{-- poner link a materiales --}}
+                    {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
+                {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
+                <p class="p-1">Proyectos en equipo:</p> --}}
+                <p class="p-2">C#, .NET, HTML, CSS, Java Script, Laravel, </p>
+                <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
+                <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
+
+                </p></div>
+               
+            </td>
+            {{-- C#, .NET, HTML, CSS, Java Script, Laravel,
+Uso de IDE, PHP, SQL, MySQL, GIT,
+AWS(EC2), SRCUM, Desktop Apps,
+Photoshop. --}}
+            
+       
+
+                <td>
+                    <div class="card-prin">
+                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;INTERESES Y HOBBIES</p>
+                   
+                    
+                   <p><i class="icofont-game"></i>&nbsp<i class="icofont-music"></i> &nbsp<i class="icofont-brand-redbull"></i></p>
+                  
+                    </div>
+                   </td>
+            
             </tr>
 
             <tr>
@@ -145,51 +201,39 @@ Photoshop. --}}
             </tr>
         </table>
     </div>
-    <div class="main-container">
-        <div class="heading">
-          <h1 class="heading__title">Tecnologias usadas aqui</h1>
-        </div>
-        <div class="cards">
-          <div class="card card-1">
-            {{-- <div class="card__icon"><i class="fas fa-bolt"></i></div>
-            <p class="card__exit"><i class="fas fa-times"></i></p> --}}
-            <img class="img-cards" src="assets/imgs/logo_html_sin_fondo.png" alt="">
-            {{-- <h2 class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2> --}}
-            
-            <p class="card__apply">
-              {{-- <a class="card__link" href="#">Apply Now <i class="fas fa-arrow-right"></i></a> --}}
-            </p>
-          </div>
-          <div class="card card-2">
-            {{-- <div class="card__icon"><i class="fas fa-bolt"></i></div>
-            <p class="card__exit"><i class="fas fa-times"></i></p> --}}
-            <img class="img-cards" src="assets/imgs/logo_css_sin_fondo.png" alt="">
-            {{-- <h2 class="card__title">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2> --}}
-            <p class="card__apply">
-              {{-- <a class="card__link" href="#">Apply Now <i class="fas fa-arrow-right"></i></a> --}}
-            </p>
-          </div>
-          <div class="card card-3">
-            {{-- <div class="card__icon"><i class="fas fa-bolt"></i></div>
-            <p class="card__exit"><i class="fas fa-times"></i></p> --}}
-            <img class="img-cards" src="assets/imgs/logo_laravel_sin_fondo.png" alt="">
-            {{-- <h2 class="card__title">Ut enim ad minim veniam.</h2> --}}
-            <p class="card__apply">
-              {{-- <a class="card__link" href="#">Apply Now <i class="fas fa-arrow-right"></i></a> --}}
-            </p>
-          </div>
-          <div class="card card-4">
-            {{-- <div class="card__icon"><i class="fas fa-bolt"></i></div>
-            <p class="card__exit"><i class="fas fa-times"></i></p> --}}
-            <img class="img-cards" src="assets/imgs/logo_aws_sin_fondo.png" alt="">
-            {{-- <h2 class="card__title">Quis nostrud exercitation ullamco laboris nisi.</h2> --}}
-            <p class="card__apply">
-              {{-- <a class="card__link" href="#">Apply Now <i class="fas fa-arrow-right"></i></a> --}}
-            </p>
-          </div>
-     
-        </div>
-      </div>
+    <table style="width: 100%;padding-left: 10%">
+        <tr>
+            <td>
+                <div class="card-foot">
+                    <p>nivel de ingles</p>
+                    <h1>A2</h1>
+                </div>
+            </td>
+            <td>
+                <div class="card-foot">
+                    <p>nivel de ingles</p>
+                    <h1>A2</h1>
+                </div>
+            </td>
+            <td>
+                <div class="card-foot">
+                    <p>nivel de ingles</p>
+                    <h1>A2</h1>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+<style>
+    .card-foot{
+        width: 50%;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.158);
+        border-radius: 15px;
+        padding: 1px;
+    }
+</style>
    {{-- <section class="section-1 sticky-table-column">
     <div class="div-exp">
         <table >
@@ -286,7 +330,7 @@ Photoshop. --}}
             <li class="list-inline-item"><a href="#">Terms</a></li>
             <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
         </ul>
-        <p class="copyright">Company Name © 2018</p>
+        <p class="copyright">Ángel Hernández © 2022</p>
     </footer>
 </div>
 </html>
