@@ -42,11 +42,12 @@
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
-                        <p><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado"><i class="icofont-whatsapp"></i></a>&nbsp;<i class="icofont-ui-email">&nbsp
-                            <i class="icofont-linkedin"></i></i></p>
-                            
-                        <img src="assets/imgs/logo-face-white.png" class="div-logo-white">
                         
+                        <a href="mailto:angelurquijo10@gmail.com"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>   
+                        
+                        <img src="assets/imgs/logo-whats-white.png" class="div-logo-white">
+                        <img src="assets/imgs/logo-in-white.png" class="div-logo-white">
+                        <img src="assets/imgs/logo-in-skype.png" class="div-logo-white">
                     </td>
                     <td class="hovfot">
                         <div class="foto">

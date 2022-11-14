@@ -425,10 +425,14 @@ background-color: red;
     transition: all 1s;
   }
   .div-logo-white{
-    max-width: 8%;
+    max-width: 3rem;
     
-   
   }
+  .div-logo-white:hover{
+    max-width: 3.3rem;
+    transition: all .5s;
+  }
+
   
  
   /* RESPONSIVE */ 
