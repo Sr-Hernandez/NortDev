@@ -44,6 +44,8 @@
                         </h2>
                         <p><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado"><i class="icofont-whatsapp"></i></a>&nbsp;<i class="icofont-ui-email">&nbsp
                             <i class="icofont-linkedin"></i></i></p>
+                            
+                        <img src="assets/imgs/logo-face-white.png" class="div-logo-white">
                         
                     </td>
                     <td class="hovfot">
@@ -201,7 +203,10 @@ Photoshop. --}}
                 {{-- <td><p><i class="icofont-circled-right"></i>&nbsp;Educacion</p></td> --}}
             </tr>
         </table>
+
     </div>
+
+    
     <table style="width: 100%;padding-left: 10%">
         <tr>
             <td>
