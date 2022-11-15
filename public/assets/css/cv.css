@@ -69,7 +69,16 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.548) 0%, rgba(255,255,255,0) 
     text-align: center;
     position: relative;
 }
-
+.foto > img :hover {
+  width:  15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #000000;;
+    border: solid 8px #fdc303;
+    margin:0px auto;
+    text-align: center;
+    position: relative;
+}
 /* .hovfot:hover .foto{
  
         width: 280px;
@@ -77,18 +86,20 @@ background: linear-gradient(90deg, rgba(0, 0, 0, 0.548) 0%, rgba(255,255,255,0) 
         border: solid 3px #0c98aa;;
         transition: 330ms;
 } */
-.hovfot:hover .foto::after{
+.hovfot:hover .foto{
  
     /* width: 280px;
     height: 280px;
     border: solid 3px #0c98aa;; */
     transition: 330ms;
+    transform: scale(105%);
+    
 }
 h1{
     /* font-family: 'Play', sans-serif; */
     
     font-size: 34pt;
-    color:#fdc303da;
+    color:#fdc303f1;
     
     /* writing-mode: vertical-lr;
     transform: rotate(180deg); */
@@ -333,7 +344,7 @@ background-color: red;
   
     text-align: center;
     background-color: #fdc303dc;
-    /* border-radius: 8px; */
+    border-radius: 8px;
     border:solid #fff 0px;
     
    
@@ -429,10 +440,49 @@ background-color: red;
     
   }
   .div-logo-white:hover{
-    max-width: 3.3rem;
+    transform: scale(108%);
     transition: all .5s;
   }
-
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    /* display: none; */
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    background-color: #fdc303dc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* padding: 12px 16px; */
+    z-index: 1;
+    border-radius: 15px;
+    line-height: .5;
+    color:#000;
+    text-align: left;
+  }
+  .dropdown-content a{
+    text-decoration: none;
+    color:#000;
+  }
+  .dropdown-content p{
+    
+    color:#000;
+  }
+  .dropdown-content a:hover p{
+    transform: scale(105%);
+    color:rgb(255, 255, 255);
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    overflow: visible;
+    height: 180px;
+    padding: 12px 16px;
+    transition: all .5s;
+  }
   
  
   /* RESPONSIVE */ 

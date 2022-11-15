@@ -42,11 +42,11 @@
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
-                        
+                        {{--<option value="saab"><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado">WhatsApp</a></option>--}}
                         <a href="mailto:angelurquijo10@gmail.com"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>   
                         
-                        <img src="assets/imgs/logo-whats-white.png" class="div-logo-white">
-                        <img src="assets/imgs/logo-in-white.png" class="div-logo-white">
+                       <a href="https://wa.me/+526251058358/?text=Hola" target="blank"> <img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a>
+                        <a href="https://www.linkedin.com/in/angel-hernadez-294831213/" target="blank"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a>
                         <img src="assets/imgs/logo-in-skype.png" class="div-logo-white">
                     </td>
                     <td class="hovfot">
@@ -54,13 +54,18 @@
                             <img src="https://angelhernandez.work/assets/imgs/cv.png" alt="">
                         </div>
                         <div>
-                         
-                         <select class="btn-contacto" name="cars" id="cars">
-                            <option value="volvo">Contacto</option>
-                            <option value="saab"><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado">WhatsApp</a></option>
-                            <option value="opel">Teléfono</option>
-                            <option value="audi">Email</option>
-                          </select>
+                            <style>
+                                
+                                </style>
+                            <div class="dropdown">
+                                <button class="btn-contacto">Contacto</button>
+                                <div class="dropdown-content">
+                                <a href=""><p>Correo </p></a>
+                                <hr style="color:#000">
+                                <a href="https://wa.me/+526251058358/?text=¡Hola te tengo una propuesta de trabajo!" target="blank"><p>WhatsApp</p></a>
+                                <a href=""><p>Telefono <i class="icofont-ui-copy"></i></p></a>
+                                </div>
+                              </div>
                           <button href="" class="btn-contacto">Descarga mi CV</button>
                         </div>
                         
