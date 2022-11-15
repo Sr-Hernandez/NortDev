@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.min.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="assets/imgs/logo.png" />
    
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
