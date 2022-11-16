@@ -74,7 +74,8 @@ background: linear-gradient(90deg, rgba(34, 34, 34, 0.473) 0%, rgba(255,255,255,
     margin:0px auto;
     text-align: center;
     position: relative;
-}
+} 
+
 .foto > img :hover {
   width:  15rem;
     height: 15rem;
