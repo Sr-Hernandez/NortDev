@@ -32,15 +32,12 @@
                 <tr>
                     <td >
                         <h1 class="animate__animated animate__bounce">
-                            {{-- Ángel Hernández Urquijo --}}
-                            {{-- <span>ÁNGEL</span>
-                            <span>HERNÁNDEZ</span><br>--}}
-                            {{-- <span>URQUIJO</span>  --}}
+                            
                            Ángel
                         </h1>
-                        <h1 style="color: #ffffff"> Hernández</h1>
+                        <h1 style="color: #ffffff" class="animate__animated animate__bounce"> Hernández</h1>
                         
-                        <h2 class="color-amarillo">
+                        <h2 class="color-amarillo animate__animated animate__bounce">
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
