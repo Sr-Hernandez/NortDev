@@ -31,13 +31,13 @@
             <tbody>
                 <tr>
                     <td >
-                        <h1 class="animate__animated animate__bounce">
+                        <h1 class="animate__animated animate__slideInLeft animate__delay-.5s">
                             
                            Ángel
                         </h1>
-                        <h1 style="color: #ffffff" class="animate__animated animate__bounce"> Hernández</h1>
+                        <h1 style="color: #ffffff" class="animate__animated animate__slideInLeft animate__delay-1s"> Hernández</h1>
                         
-                        <h2 class="color-amarillo animate__animated animate__bounce">
+                        <h2 class="color-amarillo animate__animated animate__slideInLeft animate__delay-2s">
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
