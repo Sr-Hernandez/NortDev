@@ -21,7 +21,7 @@
 <header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     
-    <div class="header-cv" >
+    <div class="header-cv " >
 
         <div id="particles-js"></div>
         <script src="assets/js/particles.js"></script>
@@ -103,11 +103,21 @@
         </td>
     </tr>
 </table>
+
+<div class="menu-2-separator">
+
+</div>
     </div>
+  
     
     <div class="">
        
-        <div class="inf-izquierda">123</div>
+        <div class="inf-izquierda">
+           <h1> Angel Hernandez Urquijo</h1>
+           <br>
+           <span>Full Stack</span>
+        
+        </div>
         <div class="separator-2"></div>
                     <div class="card-prin">
                     <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EXPERIENCIA</p>
