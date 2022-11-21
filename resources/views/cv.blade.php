@@ -21,7 +21,7 @@
 <header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     
-    <div class="header-cv" >
+    <div class="header-cv " >
 
         <div id="particles-js"></div>
         <script src="assets/js/particles.js"></script>
@@ -35,7 +35,7 @@
                             
                            Ángel
                         </h1>
-                        <h1 style="color: #ffffff" class="animate__animated animate__slideInLeft animate__delay-1s"> Hernández</h1>
+                        <h1 style="color: #0D0C18" class="animate__animated animate__slideInLeft animate__delay-1s"> Hernández</h1>
                         
                         <h2 class="color-amarillo animate__animated animate__slideInLeft animate__delay-2s">
                             Ingeniero en Sistemas Computacionales
@@ -71,7 +71,7 @@
                     </td>
                     <td>
                         <h1 >Perfil</h1>
-                        <p style="line-height: 1.5; font-size:13pt;color: #ffffff">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
+                        <p style="line-height: 1.5; font-size:13pt;color: #0D0C18">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
                             de México <strong>(Campus Cuauhtémoc)</strong> con 2 años de experiencia trabajando como desarrollador.</p>
                     </td>
                 </tr>
@@ -89,12 +89,38 @@
         });
         </script> --}}
     <div class="separator1"></div>
-    <div class="div-tabla-exp">
-        <table>
-            <tr>
-                <td>
+    <div class="menu-2">
+<table class="tabla-menu-2">
+    <tr >
+        <td ">
+          <a class="a-menu-2"> <span> Inglés A2</span></a>
+        </td>
+        <td>
+          <a class="a-menu-2">  <span>    Edad 24 años</span></a>
+        </td>
+        <td > 
+            <a class="a-menu-2"><span>  Experiencia 2años</span></a>
+        </td>
+    </tr>
+</table>
+
+<div class="menu-2-separator">
+
+</div>
+    </div>
+  
+    
+    <div class="">
+       
+        <div class="inf-izquierda">
+           <h1> Angel Hernandez Urquijo</h1>
+           <br>
+           <span>Full Stack</span>
+        
+        </div>
+        <div class="separator-2"></div>
                     <div class="card-prin">
-                    <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;</i>EXPERIENCIA</p>
+                    <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EXPERIENCIA</p>
                     {{-- poner link a materiales --}}
                     <p class="p-fechas">Ago. 2020 - Actualidad</p>
                 <p><b>Materiales</b> del Norte / Desarrollador</p>
@@ -108,11 +134,7 @@
                     <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u>  (Full Stack)</p>
            
                </div>
-            </td>
-            
-       
-
-                <td>
+          
                     <div class="card-prin">
                     <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EDUCACIÓN</p>
                     <p class="p-fechas">2013 - 2016</p>
@@ -123,32 +145,19 @@
                        
                     </div>
                     
-                   </td>
-                
-            </tr>
-            <tr>
-                <td>
+                  
+               
                     <div class="card-prin">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES TECNICAS</p>
-                    {{-- poner link a materiales --}}
-                    {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
-                {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
-                <p class="p-1">Proyectos en equipo:</p> --}}
+                   
                 <p class="p-2">C#, .NET, HTML, CSS, Java Script, Laravel, </p>
                 <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
                 <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
 
-                </p></div>
-               
-            </td>
-            {{-- C#, .NET, HTML, CSS, Java Script, Laravel,
-Uso de IDE, PHP, SQL, MySQL, GIT,
-AWS(EC2), SRCUM, Desktop Apps,
-Photoshop. --}}
-            
-       
+                </div>
+           
 
-                <td>
+                
                     <div class="card-prin">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES SOCIALES</p>
                    
@@ -160,11 +169,7 @@ Photoshop. --}}
                     <p class="p-2">  problemas.</p>
 
                     </div>
-                   </td>
-                
-            </tr>
-            <tr>
-                <td>
+            
                     <div class="card-prin">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
                     {{-- poner link a materiales --}}
@@ -177,16 +182,8 @@ Photoshop. --}}
                 <p class="p-2" >sucursales en el estado de Chihuahua</p>
 
                 </p></div>
-               
-            </td>
-            {{-- C#, .NET, HTML, CSS, Java Script, Laravel,
-Uso de IDE, PHP, SQL, MySQL, GIT,
-AWS(EC2), SRCUM, Desktop Apps,
-Photoshop. --}}
-            
-       
+         
 
-                <td>
                     <div class="card-prin">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;INTERESES Y HOBBIES</p>
                    
@@ -194,21 +191,8 @@ Photoshop. --}}
                    <p><i class="icofont-game"></i>&nbsp<i class="icofont-music"></i> &nbsp<i class="icofont-brand-redbull"></i></p>
                   
                     </div>
-                   </td>
-            
-            </tr>
-
-            <tr>
-                <td>
-                    {{-- poner link a materiales --}}
-                     </td>
-            
-        
-
-                {{-- <td><p><i class="icofont-circled-right"></i>&nbsp;Educacion</p></td> --}}
-            </tr>
-        </table>
-
+                    
+              
     </div>
 
     
