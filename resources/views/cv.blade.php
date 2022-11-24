@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="shortcut icon" href="assets/imgs/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
    
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -111,38 +112,60 @@
   
     
     <div class="">
+        <table class="tabla-central">
+
        
-        <div class="inf-izquierda">
-           <h1> Angel Hernandez Urquijo</h1>
-           <br>
-           <span>Full Stack</span>
+       <tr>
+        <td class="tabla-central-izq">
+
         
+        <div class="inf-izquierda">
+           <h1> Angel Hernandez </h1>
+          
+           <span>Full Stack</span> <br><hr>
+
+           <p><i class="icofont-location-pin"></i> Cd. Cuauhtemoc Chih.</p>
+           <p> <a href="https://www.angelhernandez.work" target="blank" style="text-decoration: none; color:#464646"><i class="icofont-external-link"></i> angelhernandez.work </a> </p>
+        <p><i class="icofont-phone"></i> 625-105-8358</p>
         </div>
+    </td>
+    <td>
         <div class="separator-2"></div>
                     <div class="card-prin">
-                    <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EXPERIENCIA</p>
+                        <div class="separator-2"></div>
+                    
+                    
                     {{-- poner link a materiales --}}
-                    <p class="p-fechas">Ago. 2020 - Actualidad</p>
-                <p><b>Materiales</b> del Norte / Desarrollador</p>
+                  <div class="div-datos">
+                    <p class="titulos"><i class="icofont-circled-right" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
+                   <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+                  </div>
+                
                 <p class="p-1">Proyectos en equipo:</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo">muchomaterial.com</a> (Backend & Frontend)</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo">materialesdelnorte.mx</a> (Backend & Frontend)</p>
+                <p class="p-2">- eCommerce <a class="color-amarillo" href="muchomaterial.com">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
+                <p class="p-2">- eCommerce <a class="color-amarillo" href="materialesdelnorte.mx">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
 
-                <hr style="width: 50%; margin: 0%">
-                    <p class="p-fechas">Actualidad</p>
-                    <p>Proyecto personal</p>
-                    <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u>  (Full Stack)</p>
+                
+                <div class="div-datos">
+                    <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
+                </div>
+                    <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
            
+                    
                </div>
           
                     <div class="card-prin">
-                    <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;EDUCACIÓN</p>
-                    <p class="p-fechas">2013 - 2016</p>
-                    <p >CBTa 124 / <b class="color-amarillo">Técnico en informatica</b></p>
-                       <hr>
-                        <p class="p-fechas">2016 - 2020</p>
-                        <p >TecNM / <b class="color-amarillo">Ingeniero en Sistemas</b> </p>   
-                       
+                        <hr style="width: 50%; margin: 0%">
+                    <div class="div-datos">
+                        <p class="titulos"><i class="icofont-circled-right" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
+                    </div>
+                    <div class="div-datos">
+                    <span class="lugar"><b>CBTa 124</b></span><span class="puesto"> / Técnico en informatica</span><span class="p-fechas"> 2013 - 2016</span>
+                    </div>
+                    <div class="div-datos">
+                        
+                        <span class="lugar" >TecNM </span><span class="puesto"> / Ingeniero en Sistemas </p>   <span class="p-fechas">2016 - 2020</span>
+                    </div>
                     </div>
                     
                   
@@ -194,7 +217,10 @@
                     
               
     </div>
-
+</td>
+<td class="tabla-central-der">123</td>
+</tr>
+</table>
     
     <table style="width: 100%;padding-left: 10%">
         <tr>
