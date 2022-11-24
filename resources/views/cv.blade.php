@@ -116,7 +116,7 @@
 
        
        <tr>
-        <td class="tabla-central-izq">
+        <td rowspan="2" class="tabla-central-izq">
 
         
         <div class="inf-izquierda">
@@ -127,10 +127,10 @@
            <p><i class="icofont-location-pin"></i> Cd. Cuauhtemoc Chih.</p>
            <p> <a href="https://www.angelhernandez.work" target="blank" style="text-decoration: none; color:#464646"><i class="icofont-external-link"></i> angelhernandez.work </a> </p>
         <p><i class="icofont-phone"></i> 625-105-8358 <i class="icofont-ui-copy"></i></p>
-        <p><img src="assets/imgs/svg/email.svg" alt=""> angelurquijo10@gmail.com <i class="icofont-ui-copy"></i></p>
+        <p><i class="icofont-email"></i> angelurquijo10@gmail.com </p>
         </div>
     </td>
-    <td>
+    <td rowspan="2">
         <div class="separator-2"></div>
                     <div class="card-prin">
                         <div class="separator-2"></div>
@@ -138,7 +138,7 @@
                     
                     {{-- poner link a materiales --}}
                   <div class="div-datos">
-                    <p class="titulos"><i class="icofont-circled-right" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
+                    <p class="titulos"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
                    <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
                   </div>
                 
@@ -150,7 +150,7 @@
                 <div class="div-datos">
                     <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
                 </div>
-                    <p class="p-2">- Proyecto personal <u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
+                    <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
            
                     
                </div>
@@ -161,11 +161,11 @@
                         <p class="titulos"><i class="icofont-circled-right" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
                     </div>
                     <div class="div-datos">
-                    <span class="lugar"><b>CBTa 124</b></span><span class="puesto"> / Técnico en informatica</span><span class="p-fechas"> 2013 - 2016</span>
+                    <span class="lugar"><b>CBTa 124</b></span><span class="puesto"> Técnico en informatica /</span><span class="p-fechas"> 2013 - 2016</span>
                     </div>
                     <div class="div-datos">
                         
-                        <span class="lugar" >TecNM </span><span class="puesto"> / Ingeniero en Sistemas </p>   <span class="p-fechas">2016 - 2020</span>
+                        <span class="lugar" ><b>TecNM</b> </span><span class="puesto"> Ingeniero en Sistemas /</span>   <span class="p-fechas">2016 - 2020</span>
                     </div>
                     </div>
                     
@@ -217,12 +217,17 @@
                     </div>
                     
               
-    </div>
+    
 </td>
 <td class="tabla-central-der">123</td>
 </tr>
+<tr>
+    <td>
+        123
+    </td>
+</tr>
 </table>
-    
+    </div>
     <table style="width: 100%;padding-left: 10%">
         <tr>
             <td>
