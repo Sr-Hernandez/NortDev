@@ -78,7 +78,7 @@
                 </tr>
             </tbody>
         </table>
-       <img src="svg/wave.svg" alt="">
+       {{-- <img src="svg/wave.svg" alt=""> --}}
     </div>
 </header>
 
@@ -126,7 +126,8 @@
 
            <p><i class="icofont-location-pin"></i> Cd. Cuauhtemoc Chih.</p>
            <p> <a href="https://www.angelhernandez.work" target="blank" style="text-decoration: none; color:#464646"><i class="icofont-external-link"></i> angelhernandez.work </a> </p>
-        <p><i class="icofont-phone"></i> 625-105-8358</p>
+        <p><i class="icofont-phone"></i> 625-105-8358 <i class="icofont-ui-copy"></i></p>
+        <p><img src="assets/imgs/svg/email.svg" alt=""> angelurquijo10@gmail.com <i class="icofont-ui-copy"></i></p>
         </div>
     </td>
     <td>
