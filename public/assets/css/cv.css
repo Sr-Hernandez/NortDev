@@ -425,7 +425,7 @@ background-color: red;
     /* border-radius: 5px; */
     margin-left: 5%;
     padding-left: 3rem;
-   padding-top: 5px ;
+   padding-top: 10px ;
    padding-bottom: 5px;
     background-color: #fff;
     
@@ -506,7 +506,7 @@ background-color: red;
     position: -webkit-sticky;  
 	position: sticky;
 	top: 0; 
-
+  text-align: center;
   
   
   }
@@ -540,10 +540,10 @@ height: 10px;
   
   }
   .inf-izquierda{
-    top:155px;
+    top:30px;
     position: -webkit-sticky;  
 	position: sticky;
-	top: 0; 
+	/* top: 0;  */
   padding-left: 20%;
   padding-top: 1rem;
   width: 20%;
@@ -551,10 +551,10 @@ height: 10px;
   text-align: left;
   }
   .inf-derecha{
-    top:155px;
-    border-radius: 4px;
+    /* <top:200px; */
+    border-radius: 2px;
    
-	/* top: 0;  */
+	top: 50px; 
  background-color: #fff;
   padding-top: 1rem;
   width: 80%;
@@ -564,21 +564,25 @@ height: 10px;
   /* display: table-cell; */
   text-align: left;
   /* padding-right: 250%; */
+
   }
   .inf-derecha-2{
     
-    top:155px;
+    /* top:155px; */
     border-radius: 2px;
-    position: sticky;
-  padding-top: 5rem;
+    /* position: sticky; */
+  padding-top: 1rem;
   width: 80%;
   
+
+    position: sticky;
   text-align: left;
   margin-left: 5%;
   background-color: rgb(255, 255, 255);
   }
   .inf-central{
     width: 50%;
+    
     /* background-color: gold; */
    /* margin-right: 20%; */
   }
@@ -597,7 +601,8 @@ height: 10px;
   .menu-2-separator{
     height: 20px;
     background: #E0E7EC; 
-    z-index: 999;
+    position: sticky;
+    z-index: 2;
   }
   
   .tabla-central{
@@ -615,12 +620,40 @@ height: 10px;
   }
 
   .sticky{
-    top:200px;
+    top:50px;
+    /* height: 100%; */
     position: -webkit-sticky;  
     position: sticky;
-    top: 0;
-    padding-top: 1rem;
+    /* top: 0; */
+    /* z-index: 1; */
+    /* padding-top: 1rem; */
 
+  }
+  .div-datos-menu{
+    position: -webkit-sticky;  
+    position: sticky;
+    top:100px;
+    background-color: #fff;
+    border-bottom: solid 1px #01002b1f;
+    width: 47%;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 28%;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 1rem;
+   
+  }
+  .mar-1-r{
+    margin-top: 2rem;
+  }
+  .activo{
+    border-bottom: solid 3px #000;
+  }
+  .titulos-datos-menu{
+    vertical-align: middle;
+    padding: 1rem;
+    margin-top: 1rem ;
   }
   /* .inf-izquierda{
     top:155px;
@@ -648,7 +681,7 @@ height: 10px;
     /* width: 100%;
     height: 20%; */
     vertical-align: top;
-   /* margin-top: 15%; */
+   /* margin-top: 1rem; */
    /* margin-right: 20%; */
    /* padding-right: 20rem; */
    background-color: #E0E7EC;

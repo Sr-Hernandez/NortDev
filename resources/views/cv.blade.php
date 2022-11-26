@@ -100,16 +100,33 @@
           <a class="a-menu-2">  <span>    Edad 24 años</span></a>
         </td>
         <td > 
-            <a class="a-menu-2"><span>  Experiencia +2 años</span></a>
+            <a class="a-menu-2"><span>  Experiencia +2 año s</span></a>
         </td>
     </tr>
 </table>
 
 <div class="menu-2-separator">
 
+
+</div>
+
+<div class="div-datos-menu">
+  <a> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+
+  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Educacion</b></span></a>
+
+  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+
+  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+
+  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+
+
+
 </div>
     </div>
-  
+   
+
     
     <div class="">
         <table class="tabla-central">
@@ -134,11 +151,13 @@
         <div class="separator-2"></div>
                     <div class="card-prin">
                         <div class="separator-2"></div>
+                      
                     
                     
                     {{-- poner link a materiales --}}
                   <div class="div-datos">
-                    <p class="titulos"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
+                    
+                    <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
                    <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
                   </div>
                 
@@ -169,8 +188,9 @@
         </div>
 
 
-
                <div class="card-prin">
+                
+
                 <hr style="width: 50%; margin: 0%">
                 <p class="color-amarillo"><i class="icofont-users-social color-amarillo" style="font-size: 14pt"></i>&nbsp;HABILIDADES SOCIALES</p>
            
