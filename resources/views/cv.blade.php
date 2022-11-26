@@ -100,7 +100,7 @@
           <a class="a-menu-2">  <span>    Edad 24 años</span></a>
         </td>
         <td > 
-            <a class="a-menu-2"><span>  Experiencia 2años</span></a>
+            <a class="a-menu-2"><span>  Experiencia +2 años</span></a>
         </td>
     </tr>
 </table>
@@ -130,7 +130,7 @@
         <p><i class="icofont-email"></i> angelurquijo10@gmail.com </p>
         </div>
     </td>
-    <td rowspan="2">
+    <td rowspan="2" class="inf-central">
         <div class="separator-2"></div>
                     <div class="card-prin">
                         <div class="separator-2"></div>
@@ -154,11 +154,39 @@
            
                     
                </div>
+
+
+
+               
+               <div class="card-prin">
+                <hr style="width: 50%; margin: 0%">
+                <p class="titulos"><i class="icofont-architecture-alt color-amarillo" style="font-size: 14pt"></i> </i>&nbsp;HABILIDADES TECNICAS</p>
+           
+        <p class="p-2">C#, .NET, HTML, CSS, Java Script, Laravel, </p>
+        <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
+        <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
+
+        </div>
+
+
+
+               <div class="card-prin">
+                <hr style="width: 50%; margin: 0%">
+                <p class="color-amarillo"><i class="icofont-users-social color-amarillo" style="font-size: 14pt"></i>&nbsp;HABILIDADES SOCIALES</p>
+           
+            
+            <p class="p-2">Trabajo en equipo, Comunicación,</p>
+            <p class="p-2">  Paciencia, Aprendizaje rápido, Creativo</p>
+            <p class="p-2">     Resolución de problemas, trabajo bajo</p>
+            <p class="p-2">   presión, Ágil, Gusto por resolver</p>
+            <p class="p-2">  problemas.</p>
+
+            </div>
           
                     <div class="card-prin">
                         <hr style="width: 50%; margin: 0%">
                     <div class="div-datos">
-                        <p class="titulos"><i class="icofont-circled-right" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
+                        <p class="titulos"><i class="icofont-graduate-alt" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
                     </div>
                     <div class="div-datos">
                     <span class="lugar"><b>CBTa 124</b></span><span class="puesto"> Técnico en informatica /</span><span class="p-fechas"> 2013 - 2016</span>
@@ -171,30 +199,13 @@
                     
                   
                
-                    <div class="card-prin">
-                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES TECNICAS</p>
-                   
-                <p class="p-2">C#, .NET, HTML, CSS, Java Script, Laravel, </p>
-                <p class="p-2">Uso de IDE, PHP, SQL, MySQL, GIT, 
-                <p class="p-2">AWS(EC2), SRCUM, Desktop Apps,Photoshop.</p>
-
-                </div>
            
 
                 
-                    <div class="card-prin">
-                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;HABILIDADES SOCIALES</p>
                    
-                    
-                    <p class="p-2">Trabajo en equipo, Comunicación,</p>
-                    <p class="p-2">  Paciencia, Aprendizaje rápido, Creativo</p>
-                    <p class="p-2">     Resolución de problemas, trabajo bajo</p>
-                    <p class="p-2">   presión, Ágil, Gusto por resolver</p>
-                    <p class="p-2">  problemas.</p>
-
-                    </div>
             
                     <div class="card-prin">
+                        <hr style="width: 50%; margin: 0%">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
                     {{-- poner link a materiales --}}
                     {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
@@ -219,13 +230,20 @@
               
     
 </td>
-<td class="tabla-central-der">123</td>
+<td class="tabla-central-der">
+    <div class="sticky">
+
+    
+    <div class="inf-derecha">
+        <span>123</span>
+    </div>
+    <div class="inf-derecha">
+        <span>123</span>
+    </div>
+</div>
+</td>
 </tr>
-<tr>
-    <td>
-        123
-    </td>
-</tr>
+
 </table>
     </div>
     <table style="width: 100%;padding-left: 10%">

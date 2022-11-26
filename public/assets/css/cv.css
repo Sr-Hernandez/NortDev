@@ -420,7 +420,7 @@ background-color: red;
   }
   .card-prin{
     /* background-color: rgba(0, 0, 0, 0.637); */
-    width: 70%;
+    width: 100%;
     z-index: 999;
     /* border-radius: 5px; */
     margin-left: 5%;
@@ -550,6 +550,40 @@ height: 10px;
   display: table-cell;
   text-align: left;
   }
+  .inf-derecha{
+    top:155px;
+    border-radius: 4px;
+   
+	/* top: 0;  */
+ background-color: #fff;
+  padding-top: 1rem;
+  width: 80%;
+  height: 15rem;
+  margin-left: 5%;
+  margin-top: 5%;
+  /* display: table-cell; */
+  text-align: left;
+  /* padding-right: 250%; */
+  }
+  .inf-derecha-2{
+    
+    top:155px;
+    border-radius: 2px;
+    position: sticky;
+  padding-top: 5rem;
+  width: 80%;
+  
+  text-align: left;
+  margin-left: 5%;
+  background-color: rgb(255, 255, 255);
+  }
+  .inf-central{
+    width: 50%;
+    /* background-color: gold; */
+   /* margin-right: 20%; */
+  }
+
+
   /* .separator-2{
     background-color: red;
     width: 50%;
@@ -563,19 +597,42 @@ height: 10px;
   .menu-2-separator{
     height: 20px;
     background: #E0E7EC; 
-    z-index: 99;
+    z-index: 999;
   }
   
   .tabla-central{
     width: 100%;
+   
   }
   .tabla-central-izq{
     width: 25%;
+    height: 20%;
     vertical-align: top;
    margin-top: 5%;
    padding-left: 20px;
+   position: -webkit-sticky;  
+   position: sticky;
   }
 
+  .sticky{
+    top:200px;
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+
+  }
+  /* .inf-izquierda{
+    top:155px;
+    position: -webkit-sticky;  
+	position: sticky;
+	top: 0; 
+  padding-left: 20%;
+  padding-top: 1rem;
+  width: 20%;
+  display: table-cell;
+  text-align: left;
+  } */
   .tabla-central-izq h1{
     font-size: 16pt;
     line-height: 1;
@@ -588,11 +645,15 @@ height: 10px;
   }
 
   .tabla-central-der{
-    width: 15%;
+    /* width: 100%;
+    height: 20%; */
     vertical-align: top;
-   margin-top: 5%;
-   margin-right: 25%;
-   background-color: #FFF;
+   /* margin-top: 15%; */
+   /* margin-right: 20%; */
+   /* padding-right: 20rem; */
+   background-color: #E0E7EC;
+   text-align: left;
+   
   }
  .titulos{
   text-align: left;
@@ -615,7 +676,7 @@ height: 10px;
   color: #777777;
   font-size: 10pt;
  }
- .svg-central-izq{
+ .svg-dir{
   max-width: 15px;
  }
   /* RESPONSIVE */ 
