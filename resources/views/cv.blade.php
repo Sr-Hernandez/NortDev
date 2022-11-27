@@ -111,15 +111,13 @@
 </div>
 
 <div class="div-datos-menu">
-  <a> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+  <a> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
-  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Educacion</b></span></a>
+  <a> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
-  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+  <a> <span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
 
-  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
-
-  <a> <span class="titulos-datos-menu "><i class="icofont-star" style="font-size: 14pt"></i><b>Experiencia</b></span></a>
+  <a> <span class="titulos-datos-menu "><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
 
 
 
@@ -134,6 +132,7 @@
        
        <tr>
         <td rowspan="2" class="tabla-central-izq">
+
 
         
         <div class="inf-izquierda">
@@ -162,8 +161,8 @@
                   </div>
                 
                 <p class="p-1">Proyectos en equipo:</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo" href="muchomaterial.com">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
-                <p class="p-2">- eCommerce <a class="color-amarillo" href="materialesdelnorte.mx">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
+                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
+                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
 
                 
                 <div class="div-datos">

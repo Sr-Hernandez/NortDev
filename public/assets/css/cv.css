@@ -511,6 +511,7 @@ background-color: red;
   
   }
   .tabla-menu-2{
+    margin-left: 30%;
     text-align: center;
     width: 100%;
     /* margin-left: 30%; */
@@ -526,8 +527,9 @@ background-color: red;
   .tabla-menu-2 td{
     text-align: center;
     width: 33%;
-    background-color:#212D3B ;
+    background-color:#d1e6ff ;
 height: 10px;
+padding-left: 2rem;
     
   }
    
@@ -645,7 +647,7 @@ height: 10px;
    
   }
   .mar-1-r{
-    margin-top: 2rem;
+    margin-top: 40px;
   }
   .activo{
     border-bottom: solid 3px #000;
