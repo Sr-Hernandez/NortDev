@@ -111,13 +111,13 @@
 </div>
 
 <div class="div-datos-menu">
-  <a> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+  <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
-  <a> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
+  <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
-  <a> <span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
+  <a href="#" style="text-decoration: none; color:#777"><span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
 
-  <a> <span class="titulos-datos-menu "><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
+  <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
 
 
 
