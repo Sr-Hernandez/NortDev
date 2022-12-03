@@ -59,7 +59,7 @@ background: linear-gradient(to right, #ECE9E6, #FFFFFF);  */
     height: 15rem;
     border-radius: 50%;
     background-color: #000000;;
-    border: solid 8px #0D0C18;
+    border: solid 8px #2F2E3B;
     margin:0px auto;
     text-align: center;
     position: relative;
@@ -560,13 +560,21 @@ padding-left: 2rem;
  background-color: #fff;
   padding-top: 1rem;
   width: 80%;
-  height: 15rem;
+ 
   margin-left: 5%;
   margin-top: 5%;
   /* display: table-cell; */
   text-align: left;
   /* padding-right: 250%; */
 
+  }
+  .inf-derecha-cont{
+    padding-left: 10px;
+    
+  }
+  .inf-derecha-cont p{
+    font-size: 12pt;
+line-height: 1.5;
   }
   .inf-derecha-2{
     
@@ -589,7 +597,7 @@ padding-left: 2rem;
    /* margin-right: 20%; */
   }
 
-
+  
   /* .separator-2{
     background-color: red;
     width: 50%;
@@ -719,6 +727,72 @@ padding-left: 2rem;
   height: 30px;
   vertical-align: middle;
  }
+ .table-inicio{
+    width: 100%;
+    background-color: red;
+  }
+  .table-inicio tr{
+    width: 33%;
+  }
+  .table-inicio td{
+    width: 33%;
+  }
+  .tabla-softw{
+    width: 100%;
+     vertical-align: top;
+    padding: 5px;
+       
+
+    text-align: left;
+  }
+  .tabla-softw td{
+    height: 10%;
+    /* width: 30%; */
+  }
+  .tabla-softw tr{
+    text-align: left;
+    line-height: .8;
+    vertical-align: top;
+    /* width: 30%; */
+  }
+  .tabla-softw p{
+   /* background-color: red; */
+    font-size: 12pt;
+    height: 1px;
+    padding-bottom: 4px;
+   
+  }
+  .logo-software{
+    max-width: 50px;
+  }
+  .td-softw-logo{
+    width: 1rem;
+    
+  }
+  .progress {
+    height: 15px;
+    width: 50%;
+    /* border: 1px solid #428bca; */
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    transition: width 0.25s;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-size: 10pt;
+    color: #ffffff;
+}
+
   /* RESPONSIVE */ 
   
   @media (max-width: 1600px) {

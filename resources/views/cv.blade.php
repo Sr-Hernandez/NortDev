@@ -21,7 +21,15 @@
 </head>
 <header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <div class="div-header">123</div>
+    <div class="div-header">
+        <table clase="table-inicio">
+            <tr>
+                <td>123</td>
+                <td>123</td>
+                <td>123s</td>
+            </tr>
+        </table>
+    </div>
     <div class="header-cv " >
 
         <div id="particles-js"></div>
@@ -230,7 +238,7 @@
                     {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
                 {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
                 <p class="p-1">Proyectos en equipo:</p> --}}
-                <p class="p-2" >Materiales del Norte es un home center dedicado a la venta de </p>
+                <p class="p-2" ><b>Materiales del Norte</b> es un home center dedicado a la venta de </p>
                 <p class="p-2" >materiales para la construcción que actualmente cuenta con 5 </p>
               
                 <p class="p-2" >sucursales en el estado de Chihuahua</p>
@@ -254,10 +262,85 @@
 
     
     <div class="inf-derecha">
-        <span>123</span>
+        <div class="inf-derecha-cont">
+           <span>
+           <b>Objetivo Porofecional</b> 
+           <p>Mi objetivo profecional es aprender y desarrollar habilidades para poder 
+            contribuir a proyectos grandes</p>
+           </span>
+        </div>
     </div>
     <div class="inf-derecha">
-        <span>123x</span>
+        <div class="inf-derecha-cont">
+        <span><b>Experiencia con lenguajes</b></span>
+       
+        <div>
+            <table class="tabla-softw">
+                <tbody>
+                    <tr>
+                        <td class="td-softw-logo">
+                            <img src="assets/imgs/logo_html.png" class="logo-software" alt="">
+                        </td>
+                        <td >
+                         <spans tyle=" color: #F75421;"><b>HTML</b></spans>
+                         <div class="progress">
+                            <div class="progress-bar" style="width:85%; background: #F75421;">
+                                <span class="progress-bar-text">+2 Años</span>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    </tr>
+                  <hr>
+                  <tr>
+                    <td class="td-softw-logo">
+                        <img src="assets/imgs/logo_css.png" class="logo-software" alt="">
+                    </td>
+                    <td >
+                     <span style="color:#3896CF"><b>CSS</b></span>
+                     <div class="progress">
+                        <div class="progress-bar" style="width:85%;background:#3896CF">
+                            <span class="progress-bar-text ">+2 Años</span>
+                        </div>
+                    </div>
+
+                </td>
+
+                <tr>
+                    <td class="td-softw-logo">
+                        <img src="assets/imgs/logo_csharp.png" class="logo-software" alt="">
+                    </td>
+                    <td >
+                     <span style=" color: #9B4F97;"><b>C#</b></span>
+                     <div class="progress">
+                        <div class="progress-bar" style="width:115%; background: #9B4F97;">
+                            <span class="progress-bar-text">+4 Años</span>
+                        </div>
+                    </div>
+                </td>
+                
+                </tr>
+
+                <tr>
+                    <td class="td-softw-logo">
+                        <img src="assets/imgs/log_js.png" class="logo-software" alt="">
+                    </td>
+                    <td >
+                     <span style=" color: #FFDE00;"><b>JavaScript</b></span>
+                     <div class="progress">
+                        <div class="progress-bar" style="width:85%; background: #FFDE00">
+                            <span class="progress-bar-text">+2Años</span>
+                        </div>
+                    </div>
+                </td>
+                
+                </tr>
+                
+                </tr>
+                </tbody>
+            </table>  
+        </div>
+        </div>
     </div>
 </div>
 </td>
@@ -281,8 +364,8 @@
             </td>
             <td>
                 <div class="card-foot">
-                    <p>nivel de ingles</p>
-                    <h1>A2</h1>
+                    <p>Disponibilidad</p>
+                    <h1 style="font-size: 14pt">Inmediata</h1>
                 </div>
             </td>
         </tr>
