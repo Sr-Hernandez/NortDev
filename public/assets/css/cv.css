@@ -478,7 +478,7 @@ background-color: red;
   }
   .dropdown-content p{
     
-    color:#000;
+    color:#fff;
   }
   .dropdown-content a:hover p{
     transform: scale(105%);
@@ -713,6 +713,11 @@ padding-left: 2rem;
  }
  .svg-dir{
   max-width: 15px;
+ }
+ .div-header{
+  background-color: #fff;
+  height: 30px;
+  vertical-align: middle;
  }
   /* RESPONSIVE */ 
   

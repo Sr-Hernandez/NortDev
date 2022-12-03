@@ -21,7 +21,7 @@
 </head>
 <header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    
+    <div class="div-header">123</div>
     <div class="header-cv " >
 
         <div id="particles-js"></div>
@@ -257,7 +257,7 @@
         <span>123</span>
     </div>
     <div class="inf-derecha">
-        <span>123</span>
+        <span>123x</span>
     </div>
 </div>
 </td>
@@ -288,7 +288,8 @@
         </tr>
     </table>
 
-
+    <br>
+<br>
 <style>
     .card-foot{
         width: 50%;
