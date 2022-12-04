@@ -21,7 +21,7 @@
 </head>
 <header>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <div class="div-header">
+    {{-- <div class="div-header">
         <table clase="table-inicio">
             <tr>
                 <td>123</td>
@@ -29,7 +29,7 @@
                 <td>123s</td>
             </tr>
         </table>
-    </div>
+    </div> --}}
     <div class="header-cv " >
 
         <div id="particles-js"></div>
@@ -50,12 +50,16 @@
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
+                        <div animate__fadeIn animate__delay-4s>
+                            <img class="logo " src="assets/imgs/logo.png" alt=""><br>
+
+                        </div>
                         {{--<option value="saab"><a href="https://wa.me/+526251058358/?text=tu%20texto%20personalizado">WhatsApp</a></option>--}}
-                        <a href="mailto:angelurquijo10@gmail.com"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>   
+                        {{-- <a href="mailto:angelurquijo10@gmail.com"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>   
                         
                        <a href="https://wa.me/+526251058358/?text=Hola" target="blank"> <img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a>
                         <a href="https://www.linkedin.com/in/angel-hernadez-294831213/" target="blank"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a>
-                        <img src="assets/imgs/logo-in-skype.png" class="div-logo-white">
+                        <img src="assets/imgs/logo-in-skype.png" class="div-logo-white"> --}}
                     </td>
                     <td class="hovfot">
                         <div class="foto">
@@ -100,17 +104,23 @@
     <div class="separator1"></div>
     <div class="menu-2">
 <table class="tabla-menu-2">
-    <tr >
-        <td ">
-          <a class="a-menu-2"> <span> Inglés A2</span></a>
+ <div>
+       <tr >
+        <td >
+            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>
         </td>
-        <td>
-          <a class="a-menu-2">  <span>    Edad 24 años</span></a>
+        <td >
+            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a>
         </td>
-        <td > 
-            <a class="a-menu-2"><span>  Experiencia +2 año s</span></a>
+        <td >
+            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a>
         </td>
+        <td >
+            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>
+        </td>
+       
     </tr>
+ </div>
 </table>
 
 <div class="menu-2-separator">
@@ -119,6 +129,7 @@
 </div>
 
 <div class="div-datos-menu">
+    
   <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
   <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
@@ -272,7 +283,7 @@
     </div>
     <div class="inf-derecha">
         <div class="inf-derecha-cont">
-        <span><b>Experiencia con lenguajes</b></span>
+        <span><b>Experiencia en principales lenguajes</b></span>
        
         <div>
             <table class="tabla-softw">
@@ -284,8 +295,8 @@
                         <td >
                          <spans tyle=" color: #F75421;"><b>HTML</b></spans>
                          <div class="progress">
-                            <div class="progress-bar" style="width:85%; background: #F75421;">
-                                <span class="progress-bar-text">+2 Años</span>
+                            <div class="progress-bar" style="width:99%; background: #F75421;">
+                                <span class="progress-bar-text">+3 Años</span>
                             </div>
                         </div>
                     </td>
@@ -323,13 +334,13 @@
 
                 <tr>
                     <td class="td-softw-logo">
-                        <img src="assets/imgs/log_js.png" class="logo-software" alt="">
+                        <img src="assets/imgs/logo_laravel.png"  class="logo-software" alt="">
                     </td>
-                    <td >
-                     <span style=" color: #FFDE00;"><b>JavaScript</b></span>
+                    <td style="margin-left5px">
+                     <span style=" color: #FF2D20;"><b>Laravel</b></span>
                      <div class="progress">
-                        <div class="progress-bar" style="width:85%; background: #FFDE00">
-                            <span class="progress-bar-text">+2Años</span>
+                        <div class="progress-bar" style="width:85%; background: #FF2D20">
+                            <span class="progress-bar-text">+2 Años</span>
                         </div>
                     </div>
                 </td>
@@ -374,13 +385,7 @@
     <br>
 <br>
 <style>
-    .card-foot{
-        width: 50%;
-        text-align: center;
-        background-color: rgba(0, 0, 0, 0.158);
-        border-radius: 15px;
-        padding: 1px;
-    }
+   
 </style>
  
 </body>
