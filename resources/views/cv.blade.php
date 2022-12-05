@@ -103,20 +103,24 @@
         </script> --}}
     <div class="separator1"></div>
     <div class="menu-2">
+       
 <table class="tabla-menu-2">
  <div>
        <tr >
         <td >
-            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>
+            <span>Inicio</span>        </td>
+        <td >
+         <span>Mas informacion</span>
+            {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a> --}}
         </td>
         <td >
-            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a>
+
+            <span>Dejar un mensaje</span>
+            {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a> --}}
         </td>
         <td >
-            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a>
-        </td>
-        <td >
-            <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a>
+            <span>Dejar un mensaje</span>
+            {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a> --}}
         </td>
        
     </tr>
@@ -128,11 +132,13 @@
 
 </div>
 
+
+
 <div class="div-datos-menu">
     
   <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
-  <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
+  <a href="#skills" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
   <a href="#" style="text-decoration: none; color:#777"><span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
 
@@ -195,7 +201,7 @@
 
 
                
-               <div class="card-prin">
+               <div class="card-prin" id="skills">
                 <hr style="width: 50%; margin: 0%">
                 <p class="titulos"><i class="icofont-architecture-alt color-amarillo" style="font-size: 14pt"></i> </i>&nbsp;HABILIDADES TECNICAS</p>
            

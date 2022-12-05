@@ -511,18 +511,19 @@ background-color: red;
   
   }
   .tabla-menu-2{
-    margin-left: 30%;
-    text-align: center;
-    /* width: 100%; */
     /* margin-left: 30%; */
-    height: 100%;
+    text-align: center;
+    width: 100%;
+    /* margin-left: 30%; */
+    height: 35px;
     margin-top: 0px;
+    background-color: #FFF;
     
-    display: inline-block;
+    /* display: inline-block; */
     
   }
-  .tabla-menu-2 tr{
-   
+  .tabla-menu-2 td{
+   width: 25%;
   }
   .tabla-menu-2 td > a{
     text-align: center;
@@ -620,8 +621,9 @@ line-height: 1.5;
   .menu-2-separator{
     height: 20px;
     background: #E0E7EC; 
-    position: sticky;
+    /* position: sticky; */
     z-index: 2;
+    /* transform: translateY(-10px); */
   }
   
   .tabla-central{
