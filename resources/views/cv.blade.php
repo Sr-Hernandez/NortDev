@@ -9,8 +9,7 @@
     <link rel="shortcut icon" href="assets/imgs/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="sweetalert2.all.min.js"></script>
+   
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
@@ -113,7 +112,7 @@
         <td >
             <a href="#" ><span>Inicio</span> </a>       </td>
         <td >
-         <span>Mas informacion</span>
+         <span>Mas sobre mi</span>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a> --}}
         </td>
         <td >
@@ -170,34 +169,21 @@
 
            <p><i class="icofont-location-pin"></i> Cd. Cuauhtemoc Chih.</p>
            <p> <a href="https://www.angelhernandez.work" target="blank" style="text-decoration: none; color:#464646"><i class="icofont-external-link"></i> angelhernandez.work </a> </p>
-        <p onclick="toast_copiar()"><i class="icofont-phone"></i> 625-105-8358 <i class="icofont-ui-copy"></i></p>
+        <a href="#" onclick="toastcopiar();"><p ><i class="icofont-phone"></i> 625-105-8358 <i class="icofont-ui-copy"></i></p></a>
         <p><i class="icofont-email"></i> angelurquijo10@gmail.com </p>
         </div>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="sweetalert2.all.min.js"></script>
         <script>
-            functon toast_copiar(){
-                let timerInterval
-Swal.fire({
-  title: 'Auto close alert!',
-  html: 'I will close in <b></b> milliseconds.',
-  timer: 800,
-  timerProgressBar: true,
-  didOpen: () => {
-    Swal.showLoading()
-    const b = Swal.getHtmlContainer().querySelector('b')
-    timerInterval = setInterval(() => {
-      b.textContent = Swal.getTimerLeft()
-    }, 100)
-  },
-  willClose: () => {
-    clearInterval(timerInterval)
-  }
-}).then((result) => {
-  /* Read more about handling dismissals below */
-  if (result.dismiss === Swal.DismissReason.timer) {
-    console.log('I was closed by the timer')
-  }
+          function toastcopiar(){
+            Swal.fire({
+  position: 'center-start',
+  icon: 'success',
+  title: 'Numero copiado',
+  showConfirmButton: false,
+  timer: 800
 })
-            }
+          }
         </script>
     </td>
     <td rowspan="2" class="inf-central">
@@ -217,8 +203,9 @@ Swal.fire({
                 
                 <p class="p-1">Proyectos en equipo:</p>
                 <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
-                <p class="p-3">Tienda onnline con envios a todo México diseñada con el framework <b>Laravel</b> y un modelo vista controlador (MVC)</span></p>
-
+                <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
+                <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
+                <br>
                 <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
 
                 
@@ -313,9 +300,9 @@ Swal.fire({
     
     <div class="inf-derecha">
         <div class="inf-derecha-cont">
-           <span>
-           <b>Objetivo Porofecional</b> 
-           <p>Mi objetivo profecional es aprender y desarrollar habilidades para poder 
+          
+            <span class="lugar"><b>Objetivo Porofesional</b> </span>
+            <span><p>Mi objetivo profecional es aprender y desarrollar habilidades para poder 
             contribuir a proyectos grandes</p>
            </span>
         </div>
