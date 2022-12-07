@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="assets/imgs/logo.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-   
+    
     {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"> --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
@@ -37,6 +37,7 @@
         <div id="particles-js"></div>
         <script src="assets/js/particles.js"></script>
         <script src="assets/js/particulas.js"></script>
+        <script  src="assets/js/alertas.js" ></script>
         
         <table class="tabla-header">
             <tbody>
@@ -175,15 +176,7 @@
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="sweetalert2.all.min.js"></script>
         <script>
-          function toastcopiar(){
-            Swal.fire({
-  position: 'center-start',
-  icon: 'success',
-  title: 'Numero copiado',
-  showConfirmButton: false,
-  timer: 800
-})
-          }
+         
         </script>
     </td>
     <td rowspan="2" class="inf-central">
@@ -413,7 +406,7 @@
 <style>
    
 </style>
- 
+
 </body>
 
 <div class="footer-basic">
