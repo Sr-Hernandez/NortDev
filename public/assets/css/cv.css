@@ -332,6 +332,13 @@ background-color: red;
     padding-left: 1rem;
     
   }
+  .p-3{
+    width: 90%;
+    font-size: 12pt;
+    line-height: 15;
+    padding-left: 1rem;
+    
+  }
   .color-amarillo{
     color: #0D0C18;
   }
@@ -341,7 +348,7 @@ background-color: red;
     margin: 1rem;
     color: #000;
     font-size: 12pt;
-  
+  z-index: 99999;
     text-align: center;
     background-color: rgba(245, 245, 255, 0.164);
     border-radius: 8px;
@@ -455,6 +462,7 @@ background-color: red;
   .dropdown {
     position: relative;
     display: inline-block;
+    z-index: 9999;
   }
   
   .dropdown-content {
@@ -466,7 +474,7 @@ background-color: red;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     /* padding: 12px 16px; */
-    z-index: 1;
+    z-index: 9999;
     border-radius: 15px;
     line-height: .5;
     color:#000000;
@@ -502,7 +510,7 @@ background-color: red;
     box-shadow: 0px 2px 15px 0px #0000007e;
     height: 30px;
     top:155px;
-    /* padding-top: 10px; */
+   z-index: 9999;
     position: -webkit-sticky;  
 	position: sticky;
 	top: 0; 
@@ -536,17 +544,27 @@ height: 10px;
    
     
  
-  .tabla-menu-2 td > a:hover{
+  .tabla-menu-2 td > span:hover{
     /* background-color:#212D3B ; */
-    border-top: solid #212D3B;
+    /* border-top: solid #212D3B; */
     transform: scale(105%);
     transition: 100ms;
   }
   .tabla-menu-2 td:hover{
-    /* background-color:#212D3B ; */
-    border-top: solid #212D3B;
+    border-radius: 8px;
+    background-color:#212D3B ;
+    /* border-top: solid #212D3B; */
+    color:#FFF;
     transform: scale(105%);
-    transition: 100ms;
+    transition: 280ms;
+    
+  }
+  .tabla-menu-2 a{
+    text-decoration: none;
+    color:#212D3B;
+  }
+  .tabla-menu-2 td:hover a{
+    color:#FFF;
   }
   .a-menu-2{
   
@@ -813,6 +831,7 @@ line-height: 1.5;
 .logo{
   max-width: 180px;
 }
+
   /* RESPONSIVE */ 
   
   @media (max-width: 1600px) {
