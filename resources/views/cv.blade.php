@@ -116,9 +116,9 @@
          <span>Mas sobre mi</span>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a> --}}
         </td>
-        <td >
+        <td  onclick="mandarmensaje();">
 
-            <span>Dejar un mensaje</span>
+           <a> <span>Dejar un mensaje</span></a>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a> --}}
         </td>
         <td >
@@ -170,7 +170,7 @@
 
            <p><i class="icofont-location-pin"></i> Cd. Cuauhtemoc Chih.</p>
            <p> <a href="https://www.angelhernandez.work" target="blank" style="text-decoration: none; color:#464646"><i class="icofont-external-link"></i> angelhernandez.work </a> </p>
-        <a href="#" onclick="toastcopiar();"><p ><i class="icofont-phone"></i> 625-105-8358 <i class="icofont-ui-copy"></i></p></a>
+        <p ><a  onclick="toastcopiar();"><i class="icofont-phone"></i> <b id="numerotelefono"> 625-105-8358 </b> <i class="icofont-ui-copy"></i></a></p>
         <p><i class="icofont-email"></i> angelurquijo10@gmail.com </p>
         </div>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
