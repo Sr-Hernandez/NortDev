@@ -24,6 +24,7 @@ document.body.removeChild(aux);
       },
       showCancelButton: true,
       confirmButtonText: 'Enviar',
+      confirmButtonColor:'#212D3B',
       cancelButtonText: 'Cancelar',
       showLoaderOnConfirm: true,
       preConfirm: (login) => {
