@@ -26,28 +26,34 @@ document.body.removeChild(aux);
       confirmButtonText: 'Enviar',
       confirmButtonColor:'#212D3B',
       cancelButtonText: 'Cancelar',
-      showLoaderOnConfirm: true,
-      preConfirm: (login) => {
-        return fetch(`//api.github.com/users/${login}`)
-          .then(response => {
-            if (!response.ok) {
-              throw new Error(response.statusText)
-            }
-            return response.json()
-          })
-          .catch(error => {
-            Swal.showValidationMessage(
-              `Request failed: ${error}`
-            )
-          })
-      },
-      allowOutsideClick: () => !Swal.isLoading()
+      showLoaderOnConfirm: true
     }).then((result) => {
       if (result.isConfirmed) {
+        guardarmensaje(result);
         Swal.fire({
+          
           title: `${result.value.login}'s avatar`,
           imageUrl: result.value.avatar_url
         })
       }
     })
   }
+
+  function guardarmensaje(result){
+    $.ajax({
+      url: "contacto_mensjae",
+      method: "GET",
+      data: {
+        name: "CV",
+        email:"CV",
+        phone1 :"CV",
+        mensaje: result
+      }
+    });
+
+  }
+
+  // $contacto->name =  $request->input('name');
+  // $contacto->email =  $request->input('email');
+  // $contacto->phone1 =  $request->input('phone1');
+  // $contacto->mensaje =  $request->input('mensaje');
