@@ -139,18 +139,36 @@
 
 <div class="div-datos-menu">
     
-  <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(experiencia); > <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
-  <a href="#skills" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
+  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(habilidades);> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
-  <a href="#" style="text-decoration: none; color:#777"><span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
+  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(educacion);><span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
 
-  <a href="#" style="text-decoration: none; color:#777"> <span class="titulos-datos-menu "><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
+  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(referencias);> <span class="titulos-datos-menu "><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
 
 
 
 </div>
     </div>
+
+    <script>
+        function acciones_menu(menu){
+
+            if(menu == "experiencia"){
+                console.log("ex");
+            }
+            if(menu == "habilidades"){
+                console.log("ha");
+            }
+            if(menu == "educacion"){
+                console.log("ed");
+            }
+            if(menu == "referencias"){
+                console.log("re");
+            }
+        }
+    </script>
    
 
     

@@ -40,7 +40,16 @@ document.body.removeChild(aux);
   }
 
   function guardarmensaje(result){
-  
+    $.ajax({
+      url: "contacto_mensjae",
+      method: "GET",
+      data: {
+        name: "CV",
+        email:"CV",
+        phone1 :"CV",
+        mensaje: result
+      }
+    });
 
   }
 
