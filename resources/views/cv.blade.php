@@ -167,6 +167,7 @@
             if(menu == "referencias"){
                 console.log("re");
             }
+            
         }
     </script>
    
