@@ -1,7 +1,15 @@
 @extends('layouts.head-foot')
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/leadmark.css') }}">
     <link rel="stylesheet" type="text/css" href="assets/vendors/themify-icons/css/themify-icons.css">
-	
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5C15RDTPQB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5C15RDTPQB');
+</script>
 @section('sidebar')
     <!-- End Of Second Navigation -->
     <script>

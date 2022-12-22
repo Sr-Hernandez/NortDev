@@ -139,13 +139,13 @@
 
 <div class="div-datos-menu">
     
-  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(experiencia);"> <span class="titulos-datos-menu activo"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu();"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
-  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(habilidades);"> <span class="titulos-datos-menu "><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu();"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
-  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(educacion);"><span class="titulos-datos-menu "><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu();"><span class="titulos-datos-menu " id="ed"><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
 
-  <a href="" style="text-decoration: none; color:#777" onclick="acciones_menu(referencias);"> <span class="titulos-datos-menu "><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu();"> <span class="titulos-datos-menu " id="re"><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
 
 
 
@@ -153,9 +153,13 @@
     </div>
 
     <script>
+        
         function acciones_menu(menu){
 
+          const document.getElementById('ex');
+
             if(menu == "experiencia"){
+                
                 console.log("ex");
             }
             if(menu == "habilidades"){
