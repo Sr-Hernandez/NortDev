@@ -44,20 +44,20 @@
                             <p></p>
                         </div>
                         <div class="col-md-7">
-                            <form>
-                               
+                            <form method="GET" action="{{route('contacto_mensaje')}}">
+                               @csrf
                                 <div class="form-row">
                                     <div class="form-group col-sm-4">
-                                        <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Name">
+                                        <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Nombre">
                                     </div>
                                     <div class="form-group col-sm-4">
-                                        <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
+                                        <input type="email" class="form-control text-white rounded-0 bg-transparent" name="email" placeholder="Email">
                                     </div>
                                     <div class="form-group col-sm-4">
-                                        <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
+                                        <input type="text" class="form-control text-white rounded-0 bg-transparent" name="phone1" placeholder="Telefono">
                                     </div>
                                     <div class="form-group col-12">
-                                        <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Message"></textarea>
+                                        <textarea name="mensaje" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje"></textarea>
         
                                     </div>
                                     <div class="form-group col-12 mb-0">

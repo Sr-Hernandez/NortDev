@@ -14,3 +14,12 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+.editorconfig
+.gitattributes
+artisan
+composer.json
+package-lock.json
+package.json
+phpunit.xml
+composer.lock
+vite.config.js

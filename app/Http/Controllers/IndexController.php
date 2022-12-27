@@ -20,4 +20,33 @@ class IndexController extends BaseController
     return View('contacto');
 
 }
+
+public function portafolio(){
+
+    return View('portafolio');
+
+}
+public function portafoliobarber(){
+
+    return View('portafoliobarber');
+
+}
+
+
+public function cv(){
+
+    return View('cv');
+
+}
+
+
+
+
+
+
+
+
+
+
+
 }

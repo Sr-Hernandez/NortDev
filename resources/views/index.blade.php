@@ -1,7 +1,15 @@
 @extends('layouts.head-foot')
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/leadmark.css') }}">
     <link rel="stylesheet" type="text/css" href="assets/vendors/themify-icons/css/themify-icons.css">
-	
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5C15RDTPQB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5C15RDTPQB');
+</script>
 @section('sidebar')
     <!-- End Of Second Navigation -->
     <script>
@@ -65,7 +73,8 @@
                             <small class="text-primary font-weight-bold">02</small>
                             <h5 class="card-title mt-3">Desarrollo<h5>
                             {{-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p> --}}
-                            <img src="assets/imgs/web_design.webp" style="border-radius: 10px;" class="w-100 mt-3 shadow-sm">
+                            <img src="assets/imgs/we0
+                            b_design.webp" style="border-radius: 10px;" class="w-100 mt-3 shadow-sm">
                         </div>
                     </div>
                 </div>
@@ -357,10 +366,10 @@
                                 <img class="mr-3" src="assets/imgs/aws.jpg" alt="">
                                 <div class="media-body">
                                     <h6 class="mt-1 mb-0">AWS</h6>
-                                    <small class="text-muted mb-0">Business Analyst</small>     
+                                    <small class="text-muted mb-0">Host</small>     
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">El mejor alojamiento con nosotros</p>
                         </div>
                     </div>
                 </div>
@@ -370,11 +379,11 @@
                             <div class="media align-items-center mb-3">
                                 <img class="mr-3" src="assets/imgs/logo_html.png" alt="">
                                 <div class="media-body">
-                                    <h6 class="mt-1 mb-0">HTML</h6>
-                                    <small class="text-muted mb-0">Insurance Agent</small>      
+                                    <h6 class="mt-1 mb-0">HTMLs</h6>
+                                    <small class="text-muted mb-0">Lenguajde</small>      
                                 </div>
                             </div>
-                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
+                            <p class="mb-0">Lorem aipsum dolor sit amet, consectetur adipisicing elit. Delectus enim modi, id dicta reiciendis itaque.</p>
                         </div>
                     </div>
                 </div>
@@ -455,49 +464,7 @@
     <!-- End of Testmonial Section -->
 
     <!-- Contact Section -->
-    <section id="contact" class="section has-img-bg pb-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-5 my-3">
-                  
-
-                    <h6 class="mb-0">Ubicacion</h6>
-                    <p class="mb-4">Chihuahua, México</p>
-
-                    <h6 class="mb-0">Email</h6>
-                    <p class="mb-0">contacto@angelhernandez.work</p>
-                    <p></p>
-                </div>
-                <div class="col-md-7">
-                    <form>
-                        <h4 class="mb-4">Contactanos</h4>
-                        <div class="form-row">
-                            <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Nombre">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Email">
-                            </div>
-                            <div class="form-group col-sm-4">
-                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="subject" placeholder="Subject">
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje"></textarea>
-
-                            </div>
-                            <div class="form-group col-12 mb-0">
-                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Send</button>
-                            </div>                          
-                        </div>                          
-                    </form>
-                </div>
-            </div>
-            <!-- Page Footer -->
-            <footer class="mt-5 py-4 border-top border-secondary">
-            </footer>
-            <!-- End of Page Footer -->  
-        </div>
-    </section>
+  
 	
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
