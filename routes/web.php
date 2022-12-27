@@ -23,7 +23,8 @@ Route::get('home', function () {
 });
 
 Route::get('/contacto', [IndexController::Class,'contacto'])->name('contacto');
-Route::get('/contacto_mensjae', [ContactController::Class,'contacto_mensaje'])->name('contacto_mensaje');
+Route::get('/contacto_mensaje', [ContactController::Class,'contacto_mensaje'])->name('contacto_mensaje');
+Route::get('/contacto_mensaje_cv', [ContactController::Class,'contacto_mensaje_cv'])->name('contacto_mensaje_cv');
 Route::get('/portafolio', [IndexController::Class,'portafolio'])->name('portafolio');
 Route::get('/portafolio-barber', [IndexController::Class,'portafoliobarber'])->name('portafoliobarber');
 Route::get('/cv', [IndexController::Class,'cv'])->name('cv');
