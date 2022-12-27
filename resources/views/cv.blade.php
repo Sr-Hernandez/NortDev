@@ -81,7 +81,7 @@
                                 <a href=""><p>Telefono <i class="icofont-ui-copy"></i></p></a>
                                 </div>
                               </div>
-                          <button href="" class="btn-contacto">Descarga mi CV</button>
+                          <a href="assets/imgs/CV Angel Hernandez .pdf" download="CV Angel Hernandez FullStack"><button  class="btn-contacto">Descarga mi CV</button></a>
                         </div>
                         
                     </td>
@@ -184,6 +184,71 @@
         </script>
     </td>
     <td rowspan="2" class="inf-central">
+        <div>
+           <div class="contenedor-habilidades">
+
+            <div class="elementos-habilidades">
+
+                <div class="card-elementos" style="background-image: url('assets/imgs/aws.jpg')">
+
+                    <div class="textos-elementos">
+
+                        <h3>aws</h3>
+                        <p>EC 2</p>
+                    </div>
+                </div>
+                <div class="card-elementos" style="background-image: url('assets/imgs/aws.jpg')">
+
+                    <div class="textos-elementos">
+
+                        <h3>aws</h3>
+                        <p>EC 2</p>
+                    </div>
+                </div>
+                <div class="card-elementos" style="background-image: url('assets/imgs/aws.jpg')">
+
+                    <div class="textos-elementos">
+
+                        <h3>aws</h3>
+                        <p>EC 2</p>
+                    </div>
+                </div>
+                
+                <div class="card-elementos" style="background-image: url('assets/imgs/aws.jpg')">
+
+                    <div class="textos-elementos">
+
+                        <h3>aws</h3>
+                        <p>EC 2</p>
+                    </div>
+                </div>
+                <div class="card-elementos" style="background-image: url('assets/imgs/aws.jpg')">
+
+                    <div class="textos-elementos">
+
+                        <h3>aws</h3>
+                        <p>EC 2</p>
+                    </div>
+                </div>
+                <div class="card-elementos" style="background-image: url('assets/imgs/aws.jpg')">
+
+                    <div class="textos-elementos">
+
+                        <h3>aws</h3>
+                        <p>EC 2</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="elementos-desc">
+
+            </div>
+           
+           </div>
+        </div>
+        {{-- div general --}}
+        <div id="div-general" style="height:0px; overflow:hidden">
         <div class="separator-2"></div>
                     <div class="card-prin">
                         <div class="separator-2"></div>
@@ -289,7 +354,7 @@
                     </div>
                     
               
-    
+                </div>
 </td>
 <td class="tabla-central-der">
     <div class="sticky">
