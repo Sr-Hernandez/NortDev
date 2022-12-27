@@ -185,7 +185,7 @@
     </td>
     <td rowspan="2" class="inf-central">
         <div>
-           <div class="contenedor-habilidades">
+           <div class="contenedor-habilidades" style="display:none">
 
             <div class="elementos-habilidades">
 
@@ -248,7 +248,7 @@
            </div>
         </div>
         {{-- div general --}}
-        <div id="div-general" style="height:0px; overflow:hidden">
+        <div id="div-general" >
         <div class="separator-2"></div>
                     <div class="card-prin">
                         <div class="separator-2"></div>
