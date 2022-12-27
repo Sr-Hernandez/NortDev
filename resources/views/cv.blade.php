@@ -75,10 +75,12 @@
                             <div class="dropdown">
                                 <button class="btn-contacto">Contacto</button>
                                 <div class="dropdown-content">
-                                <a href=""><p>Correo </p></a>
+                                <a href="mailto:angelurquijo10@gmail.com"><p>Correo </p></a>
                                 <hr style="color:#000">
-                                <a href="https://wa.me/+526251058358/?text=¡Hola te tengo una propuesta de trabajo!" target="blank"><p>WhatsApp</p></a>
-                                <a href=""><p>Telefono <i class="icofont-ui-copy"></i></p></a>
+                                <a href="https://wa.me/+526251058358/?text=¡Hola te tengo una propuesta de trabajo!" target="blank"><p>WhatsApp <i class="icofont-brand-whatsapp"></i></p></a>
+                                {{-- <a href=""><p>Telefono <i class="icofont-ui-copy"></i></p></a> --}}
+                                <a href="https://github.com/Sr-Hernandez" target="_blank"><p>GitHub </p></a>
+                                <a href="https://www.linkedin.com/in/angel-hernadez-294831213/" target="_blank"><p>LinkedIn <i class="icofont-linkedin"></i></p></a>
                                 </div>
                               </div>
                           <a href="assets/imgs/CV Angel Hernandez .pdf" download="CV Angel Hernandez FullStack"><button  class="btn-contacto">Descarga mi CV</button></a>
