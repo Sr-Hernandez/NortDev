@@ -347,7 +347,7 @@ background-color: red;
     width: 150px;
     height: 30px;
     border: none;
-
+    z-index: 0;
     
     color: #000;
     font-size: 12pt;

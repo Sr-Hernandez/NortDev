@@ -89,6 +89,8 @@
                     </td>
                     <td>
                         <h1 >Perfil</h1>
+                        <div id="example"></div>
+                        <script type="module" src="{{asset('assets/js/app.js')}}"></script>
                         <p style="line-height: 1.5; font-size:13pt;color: #0D0C18">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
                             de México <strong>(Campus Cuauhtémoc)</strong> con 2 años de experiencia trabajando como desarrollador.</p>
                     </td>
