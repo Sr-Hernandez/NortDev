@@ -34,7 +34,7 @@
     </div> --}}
     <div class="header-cv " >
 
-        <div id="particles-js"></div>
+        <div class="web" id="particles-js"></div>
         <script src="assets/js/particles.js"></script>
         <script src="assets/js/particulas.js"></script>
         <script  src="assets/js/alertas.js" ></script>
