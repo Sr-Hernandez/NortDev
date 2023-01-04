@@ -30,7 +30,32 @@ background: linear-gradient(to right, #ECE9E6, #FFFFFF);  */
     background-size: cover;
     opacity: 15px;
     /* color de fondo */
-  }  
+  } 
+  @media (orientation: portrait){
+/* vertical */
+ .movil{
+
+  display: none;
+  } 
+  .web {
+
+    display: block;
+  }
+
+  }
+
+
+  @media (orientation: landscape){
+    /* horizontal */
+     .movil{
+      display: block;
+      } 
+      .web {
+        display: none;
+      }
+    
+      }
+ 
 .header-cv{
   width: 100%;
   height: 30%; 
