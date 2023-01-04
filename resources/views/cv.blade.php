@@ -32,6 +32,26 @@
             </tr>
         </table>
     </div> --}}
+    
+    <style>
+     
+       </style>
+   
+            <section id="modal" class="modal">
+                <div class="modal_fun">
+
+                
+                <div class="modal_container">
+
+                    <h2>
+                        Angel Hernandez
+                    </h2>
+                    <p>
+                        123
+                    </p>
+                    
+                </div></div>
+            </section>
     <div class="header-cv " >
 
         <div id="particles-js"></div>
@@ -146,7 +166,7 @@
 </script>
 <div class="div-datos-menu">
     
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+  <a  style="text-decoration: none; color:#777" target="modal" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
   <a  style="text-decoration: none; color:#777" onclick="acciones_menu('habilidades')"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
@@ -160,7 +180,7 @@
     </div>
 
    
-
+        
     
     <div class="">
         <table class="tabla-central">
@@ -254,7 +274,7 @@
         {{-- div general --}}
         <div id="div-general" >
         <div class="separator-2"></div>
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-experiencia">
                         <div class="separator-2"></div>
                       
                     
@@ -286,7 +306,7 @@
 
 
                
-               <div class="card-prin" id="skills">
+               <div class="card-prin" id="div-habtec">
                 <hr style="width: 50%; margin: 0%">
                 <p class="titulos"><i class="icofont-architecture-alt color-amarillo" style="font-size: 14pt"></i> </i>&nbsp;HABILIDADES TECNICAS</p>
            
@@ -298,7 +318,7 @@
         </div>
 
 
-               <div class="card-prin">
+               <div class="card-prin" id="div-habsoc">
                 
 
                 <hr style="width: 50%; margin: 0%">
@@ -313,7 +333,7 @@
 
             </div>
           
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-educacion">
                         <hr style="width: 50%; margin: 0%">
                     <div class="div-datos">
                         <p class="titulos"><i class="icofont-graduate-alt" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
@@ -328,13 +348,10 @@
                     </div>
                     
                   
-               
-           
-
-                
+              
                    
             
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-ref"> 
                         <hr style="width: 50%; margin: 0%">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
                     {{-- poner link a materiales --}}
@@ -349,7 +366,7 @@
                 </p></div>
          
 
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-hob">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;INTERESES Y HOBBIES</p>
                    
                     
