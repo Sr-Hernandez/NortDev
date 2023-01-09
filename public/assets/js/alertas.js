@@ -53,7 +53,9 @@ document.body.removeChild(aux);
    
       if(menu == "experiencia"){
         RemoverClaseActivo()
-        var elemento = document.getElementById("ex").classList.add('activo');
+       document.getElementById("ex").classList.add('activo');
+       
+       document.getElementById("div-experiencia-t1").classList.add('div_din_visible');
           console.log("ex");
       }
       if(menu == "habilidades"){
@@ -83,6 +85,7 @@ document.body.removeChild(aux);
      document.getElementById("ha").classList.remove('activo');
      document.getElementById("ed").classList.remove('activo');
      document.getElementById("re").classList.remove('activo');
+     document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
    
 
   }

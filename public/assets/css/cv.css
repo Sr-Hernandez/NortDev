@@ -751,6 +751,22 @@ line-height: 1.5;
     background-color: rgb(0, 10, 36);
     */
   }
+  .div_din_invisible{
+
+    /* position: absolute; */
+    height: 0px;
+    width: 0px;
+    overflow: hidden;
+    transition: 550ms;
+  }
+  .div_din_visible{
+
+    
+    height: auto;
+    width: auto;
+    overflow: visible;
+    transition: 550ms;
+  }
   .titulos-datos-menu{
     vertical-align: middle;
     padding: 1rem;
