@@ -32,9 +32,29 @@
             </tr>
         </table>
     </div> --}}
+    
+    <style>
+     
+       </style>
+   
+            <section id="modal" class="modal">
+                <div class="modal_fun">
+
+                
+                <div class="modal_container">
+
+                    <h2>
+                        Angel Hernandez
+                    </h2>
+                    <p>
+                        123
+                    </p>
+                    
+                </div></div>
+            </section>
     <div class="header-cv " >
 
-        <div id="particles-js"></div>
+        <div class="web" id="particles-js"></div>
         <script src="assets/js/particles.js"></script>
         <script src="assets/js/particulas.js"></script>
         <script  src="assets/js/alertas.js" ></script>
@@ -89,6 +109,8 @@
                     </td>
                     <td>
                         <h1 >Perfil</h1>
+                        <div id="example"></div>
+                        <script type="module" src="{{asset('assets/js/app.js')}}"></script>
                         <p style="line-height: 1.5; font-size:13pt;color: #0D0C18">Ingeniero en sistemas computacionales, egresado del Tecnológico nacional
                             de México <strong>(Campus Cuauhtémoc)</strong> con 2 años de experiencia trabajando como desarrollador.</p>
                     </td>
@@ -144,11 +166,11 @@
 </script>
 <div class="div-datos-menu">
     
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+  <a  style="text-decoration: none; color:#777" target="modal" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
   <a  style="text-decoration: none; color:#777" onclick="acciones_menu('habilidades')"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('educacion')"><span class="titulos-datos-menu " id="ed"><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('educacion')"><span class="titulos-datos-menu " id="ed"><i class="icofont-certificate" style="font-size: 14pt"></i><b> Certificaciones</b></span></a>
 
   <a  style="text-decoration: none; color:#777" onclick="acciones_menu('referencias')"> <span class="titulos-datos-menu " id="re"><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
 
@@ -158,7 +180,7 @@
     </div>
 
    
-
+        
     
     <div class="">
         <table class="tabla-central">
@@ -252,7 +274,7 @@
         {{-- div general --}}
         <div id="div-general" >
         <div class="separator-2"></div>
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-experiencia">
                         <div class="separator-2"></div>
                       
                     
@@ -284,7 +306,7 @@
 
 
                
-               <div class="card-prin" id="skills">
+               <div class="card-prin" id="div-habtec">
                 <hr style="width: 50%; margin: 0%">
                 <p class="titulos"><i class="icofont-architecture-alt color-amarillo" style="font-size: 14pt"></i> </i>&nbsp;HABILIDADES TECNICAS</p>
            
@@ -296,7 +318,7 @@
         </div>
 
 
-               <div class="card-prin">
+               <div class="card-prin" id="div-habsoc">
                 
 
                 <hr style="width: 50%; margin: 0%">
@@ -311,7 +333,7 @@
 
             </div>
           
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-educacion">
                         <hr style="width: 50%; margin: 0%">
                     <div class="div-datos">
                         <p class="titulos"><i class="icofont-graduate-alt" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
@@ -326,13 +348,10 @@
                     </div>
                     
                   
-               
-           
-
-                
+              
                    
             
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-ref"> 
                         <hr style="width: 50%; margin: 0%">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
                     {{-- poner link a materiales --}}
@@ -347,7 +366,7 @@
                 </p></div>
          
 
-                    <div class="card-prin">
+                    <div class="card-prin" id="div-hob">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;INTERESES Y HOBBIES</p>
                    
                     
@@ -482,15 +501,15 @@
 
 <div class="footer-basic">
     <footer>
-        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-        <ul class="list-inline">
+        {{-- <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div> --}}
+        {{-- <ul class="list-inline">
             <li class="list-inline-item"><a href="#">Home</a></li>
             <li class="list-inline-item"><a href="#">Services</a></li>
             <li class="list-inline-item"><a href="#">About</a></li>
             <li class="list-inline-item"><a href="#">Terms</a></li>
             <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="copyright">Ángel Hernández © 2022 - 2023</p>
+        </ul> --}}
+        <p class="copyright">Ángel Hernández © 2023</p>
     </footer>
 </div>
 </html>

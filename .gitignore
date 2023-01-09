@@ -23,3 +23,5 @@ package.json
 phpunit.xml
 composer.lock
 vite.config.js
+
+public/assets/imgs/adobe-packager-2ab310d965a5ecac3c37d61b25f226072916a49e.zip
