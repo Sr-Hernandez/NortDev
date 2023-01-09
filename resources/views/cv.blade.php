@@ -170,7 +170,7 @@
 
   <a  style="text-decoration: none; color:#777" onclick="acciones_menu('habilidades')"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('educacion')"><span class="titulos-datos-menu " id="ed"><i class="icofont-graduate-alt" style="font-size: 14pt"></i><b> Educación</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('educacion')"><span class="titulos-datos-menu " id="ed"><i class="icofont-certificate" style="font-size: 14pt"></i><b> Certificaciones</b></span></a>
 
   <a  style="text-decoration: none; color:#777" onclick="acciones_menu('referencias')"> <span class="titulos-datos-menu " id="re"><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
 
@@ -501,15 +501,15 @@
 
 <div class="footer-basic">
     <footer>
-        <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
-        <ul class="list-inline">
+        {{-- <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div> --}}
+        {{-- <ul class="list-inline">
             <li class="list-inline-item"><a href="#">Home</a></li>
             <li class="list-inline-item"><a href="#">Services</a></li>
             <li class="list-inline-item"><a href="#">About</a></li>
             <li class="list-inline-item"><a href="#">Terms</a></li>
             <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-        </ul>
-        <p class="copyright">Ángel Hernández © 2022 - 2023</p>
+        </ul> --}}
+        <p class="copyright">Ángel Hernández © 2023</p>
     </footer>
 </div>
 </html>
