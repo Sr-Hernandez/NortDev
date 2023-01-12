@@ -60,19 +60,19 @@ document.body.removeChild(aux);
       }
       if(menu == "habilidades"){
         RemoverClaseActivo()
-        var elemento = document.getElementById("ha").classList.add('activo');
+       document.getElementById("ha").classList.add('activo');
        
           console.log("ha");
       }
       if(menu == "educacion"){
         RemoverClaseActivo()
-        var elemento = document.getElementById("ed").classList.add('activo');
+        document.getElementById("ed").classList.add('activo');
        
           console.log("ed");
       }
       if(menu == "referencias"){
         RemoverClaseActivo()
-        var elemento = document.getElementById("re").classList.add('activo');
+        document.getElementById("re").classList.add('activo');
        
           console.log("re");
       }
