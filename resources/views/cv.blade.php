@@ -390,7 +390,6 @@
                 <p class="p-1">Proyectos en equipo:</p> --}}
                 <p class="p-2" ><b>Materiales del Norte</b> es un home center dedicado a la venta de </p>
                 <p class="p-2" >materiales para la construcción que actualmente cuenta con 5 </p>
-              
                 <p class="p-2" >sucursales en el estado de Chihuahua</p>
 
                 </p></div>

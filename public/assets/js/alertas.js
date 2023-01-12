@@ -47,6 +47,7 @@ document.body.removeChild(aux);
     });
 
   }
+  // funcion para hacer dinamico el menú
   function acciones_menu(menu) {
 
     
