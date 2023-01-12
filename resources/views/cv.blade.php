@@ -37,7 +37,7 @@
      
        </style>
    
-            <section id="modal" class="modal">
+            {{-- <section id="modal" class="modal">
                 <div class="modal_fun">
 
                 
@@ -51,10 +51,10 @@
                     </p>
                     
                 </div></div>
-            </section>
+            </section> --}}
     <div class="header-cv " >
 
-        <div class="web" id="particles-js"></div>
+        <div class="web-p" id="particles-js"></div>
         <script src="assets/js/particles.js"></script>
         <script src="assets/js/particulas.js"></script>
         <script  src="assets/js/alertas.js" ></script>

@@ -58,7 +58,7 @@ document.body.removeChild(aux);
       }
       if(menu == "habilidades"){
         RemoverClaseActivo()
-        var elemento = document.getElementById("ha").classList.add('activo');
+        document.getElementById("ha").classList.add('activo');
        
           console.log("ha");
       }
