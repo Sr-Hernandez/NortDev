@@ -146,7 +146,7 @@
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a> --}}
         </td>
         <td >
-            <span>Dejar un mensaje</span>
+            <span>Portafolio</span>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a> --}}
         </td>
        
