@@ -310,7 +310,7 @@
           <div class="div-datos">
 
             
-            <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
+            <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Web | Laravel | Html | Css | JavaSript</p>
            <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
           </div>
         
