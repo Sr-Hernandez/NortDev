@@ -54,9 +54,17 @@ document.body.removeChild(aux);
    
       if(menu == "experiencia"){
         RemoverClaseActivo()
+
+        if (document.getElementById("ex").classList.contains("div_din_visible"))
+        {
+          document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+        }
+        else{
+          document.getElementById("div-experiencia-t1").classList.add('div_din_visible');
+        }
        document.getElementById("ex").classList.add('activo');
        
-       document.getElementById("div-experiencia-t1").classList.add('div_din_visible');
+      
           console.log("ex");
       }
       if(menu == "habilidades"){

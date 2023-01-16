@@ -37,7 +37,7 @@ background: linear-gradient(to right, #ECE9E6, #FFFFFF);  */
 
   display: none;
   } 
-  .web {
+  .web-m {
 
     display: block;
   }
@@ -50,7 +50,7 @@ background: linear-gradient(to right, #ECE9E6, #FFFFFF);  */
      .movil{
       display: block;
       } 
-      .web {
+      .web-m {
         display: none;
       }
     
