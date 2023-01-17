@@ -22,6 +22,8 @@
    
 </head>
 <header>
+
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     {{-- <div class="div-header">
         <table clase="table-inicio">
@@ -52,6 +54,17 @@
                     
                 </div></div>
             </section> --}}
+            {{-- @if(\Session::has('mensaje')) --}}
+
+    <script> Swal.fire({
+        position: 'center-start',
+        icon: 'success',
+        title: 'Gracias por tu mensaje!',
+        showConfirmButton: false,
+        timer: 900
+        })
+    </script>
+    {{-- @endif --}}
     <div class="header-cv " >
 
         <div class="web" id="particles-js"></div>
@@ -302,16 +315,12 @@
            
                     
                <div class="card-prin div_din_invisible" id="div-experiencia-t1">
-                <div class="separator-2"></div>
-              
-            
-            
-            {{-- poner link a materiales --}}
+                
           <div class="div-datos">
 
             
             <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Web | Laravel | Html | Css | JavaSript</p>
-           <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+           <span class="lugar"><b> muchomaterial.com</b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
           </div>
         
         <p class="p-1">Proyectos en equipo:</p>

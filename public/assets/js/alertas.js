@@ -53,48 +53,60 @@ document.body.removeChild(aux);
     
    
       if(menu == "experiencia"){
-        RemoverClaseActivo()
-
-        if (document.getElementById("ex").classList.contains("div_din_visible"))
-        {
+       RemoverClaseActivo();
+      
+       
+        var ex = document.getElementById("div-experiencia-t1");
+        if(ex.classList.contains('div_din_visible')){
+          RemoverClaseVisible();
           document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+          console.log("remove");
         }
         else{
           document.getElementById("div-experiencia-t1").classList.add('div_din_visible');
+          console.log("add");
+          console.log(ex.classList.contains("div_din_visible"));
         }
        document.getElementById("ex").classList.add('activo');
        
       
-          console.log("ex");
+          // console.log("ex");
       }
       if(menu == "habilidades"){
-        RemoverClaseActivo()
+        RemoverClaseActivo();
+        RemoverClaseVisible();
        document.getElementById("ha").classList.add('activo');
        
           console.log("ha");
       }
       if(menu == "educacion"){
-        RemoverClaseActivo()
+        RemoverClaseActivo();
+        RemoverClaseVisible();
         document.getElementById("ed").classList.add('activo');
        
           console.log("ed");
       }
       if(menu == "referencias"){
-        RemoverClaseActivo()
+        RemoverClaseActivo();
+        RemoverClaseVisible();
         document.getElementById("re").classList.add('activo');
        
           console.log("re");
       }
 
   }
+  function RemoverClaseVisible(){
+          document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+          
+  }
 
   function RemoverClaseActivo(){
-    console.log("1");
+    //console.log("1");
      document.getElementById("ex").classList.remove('activo');
      document.getElementById("ha").classList.remove('activo');
      document.getElementById("ed").classList.remove('activo');
      document.getElementById("re").classList.remove('activo');
-     document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+    //  document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
    
 
   }
@@ -102,3 +114,12 @@ document.body.removeChild(aux);
   // $contacto->email =  $request->input('email');
   // $contacto->phone1 =  $request->input('phone1');
   // $contacto->mensaje =  $request->input('mensaje');
+  function mensjae(){
+    Swal.fire({
+      position: 'center-start',
+      icon: 'success',
+      title: 'Gracias por tu mensaje!',
+      showConfirmButton: false,
+      timer: 900
+      })
+  }

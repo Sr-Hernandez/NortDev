@@ -38,7 +38,7 @@ class ContactController extends Controller
 
 
        
-        return redirect()->route('cv');
+        return redirect()->route('cv')->with('mensaje','Mensaje Eviado!');
     }
 
 
