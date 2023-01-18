@@ -110,10 +110,7 @@ document.body.removeChild(aux);
    
 
   }
-  // $contacto->name =  $request->input('name');
-  // $contacto->email =  $request->input('email');
-  // $contacto->phone1 =  $request->input('phone1');
-  // $contacto->mensaje =  $request->input('mensaje');
+ 
   function mensjae(){
     Swal.fire({
       position: 'center-start',
