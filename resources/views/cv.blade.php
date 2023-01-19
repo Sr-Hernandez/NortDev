@@ -314,7 +314,7 @@
                     <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
            
                     
-               <div class="card-prin div_din_invisible" id="div-experiencia-t1">
+               <div class="card-sec div_din_invisible" id="div-experiencia-t1">
                 
           <div class="div-datos">
 

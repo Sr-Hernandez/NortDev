@@ -469,20 +469,24 @@ border-radius: 10px;
     margin-right: 0.5rem;
   }
   .card-prin{
-    /* background-color: rgba(0, 0, 0, 0.637); */
     width: 100%;
     z-index: 999;
-    /* border-radius: 5px; */
     margin-left: 5%;
     padding-left: 3rem;
    padding-top: 10px ;
    padding-bottom: 5px;
     background-color: #fff;
-    
     position: static;
-
-    /* transform: translateY(-100px); */
-   
+  }
+  .card-sec{
+    width: 100%;
+    z-index: 999;
+    /* margin-left: 5%; */
+    /* padding-left: 3rem; */
+   padding-top: 10px ;
+   padding-bottom: 5px;
+    background-color: #fff;
+    position: static;
   }
   .card-prin p{
     line-height: .5;
