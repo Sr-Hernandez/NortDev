@@ -998,6 +998,10 @@ backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 6.5px );
 
 }
+.ocultar{
+  display: none;
+  
+}
   /* RESPONSIVE */ 
   
   @media (max-width: 1600px) {

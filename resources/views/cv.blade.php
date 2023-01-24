@@ -344,6 +344,9 @@
 
 
 
+               <div id="div-habilidades">
+
+               
                
                <div class="card-prin" id="div-habtec">
                 <hr style="width: 50%; margin: 0%">
@@ -371,6 +374,7 @@
             <p class="p-2">  problemas.</p>
 
             </div>
+        </div>
           
                     <div class="card-prin" id="div-educacion">
                         <hr style="width: 50%; margin: 0%">

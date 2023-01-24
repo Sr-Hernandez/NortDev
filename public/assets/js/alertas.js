@@ -54,6 +54,7 @@ document.body.removeChild(aux);
    
       if(menu == "experiencia"){
        RemoverClaseActivo();
+       document.getElementById("div-experiencia").classList.remove('ocultar');
       
        
         var ex = document.getElementById("div-experiencia-t1");
@@ -75,7 +76,10 @@ document.body.removeChild(aux);
       if(menu == "habilidades"){
         RemoverClaseActivo();
         RemoverClaseVisible();
+        ocultar();
        document.getElementById("ha").classList.add('activo');
+       document.getElementById("ha").classList.add('div-experiencia');
+       document.getElementById("div-habilidades").classList.add('separator-2');
        
           console.log("ha");
       }
@@ -95,9 +99,14 @@ document.body.removeChild(aux);
       }
 
   }
-  function RemoverClaseVisible(){
-          document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+  function RemoverClaseVisible(div_id){
+          // document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+          document.getElementById("div-experiencia").classList.remove('div_din_visible');
           
+  }
+  function ocultar(div_id){
+    document.getElementById("div-experiencia").classList.add('ocultar');
+    console.log("ocultar");
   }
 
   function RemoverClaseActivo(){
