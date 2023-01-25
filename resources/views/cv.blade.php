@@ -286,16 +286,10 @@
         </div>
         {{-- div general --}}
         <div id="div-general" >
-        <div class="separator-2"></div>
+       
                     <div class="card-prin" id="div-experiencia">
-                        <div class="separator-2"></div>
-                      
-                    
-                    
-                    {{-- poner link a materiales --}}
+                       
                   <div class="div-datos">
-
-                    
                     <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
                    <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
                   </div>
@@ -394,7 +388,7 @@
               
                    
             
-                    <div class="card-prin" id="div-ref"> 
+                    <div class="card-prin" id="div-referencia"> 
                         <hr style="width: 50%; margin: 0%">
                         <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
                     {{-- poner link a materiales --}}

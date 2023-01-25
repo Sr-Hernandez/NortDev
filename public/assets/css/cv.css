@@ -687,16 +687,11 @@ line-height: 1.5;
   }
 
   
-  /* .separator-2{
-    background-color: red;
-    width: 50%;
-    margin-left: 25%;
-    height: 60px;
-    position: -webkit-sticky;  
-    position: sticky;
+  .separator-2{
+   margin-top: 3rem;
    
 
-  } */
+  }
   .menu-2-separator{
     height: 20px;
     background: #E0E7EC; 

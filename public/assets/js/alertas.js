@@ -79,6 +79,8 @@ document.body.removeChild(aux);
         ocultar();
        document.getElementById("ha").classList.add('activo');
        document.getElementById("ha").classList.add('div-experiencia');
+
+
        document.getElementById("div-habilidades").classList.add('separator-2');
        
           console.log("ha");
@@ -106,6 +108,9 @@ document.body.removeChild(aux);
   }
   function ocultar(div_id){
     document.getElementById("div-experiencia").classList.add('ocultar');
+    document.getElementById("div-habilidades").classList.add('ocultar');
+    document.getElementById("div-educacion").classList.add('ocultar');
+    document.getElementById("div-referencia").classList.add('ocultar');
     console.log("ocultar");
   }
 
