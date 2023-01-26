@@ -178,8 +178,10 @@
     
 </script>
 <div class="div-datos-menu">
-    
-  <a  style="text-decoration: none; color:#777" target="modal" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+    <a  style="text-decoration: none; color:#777" target="modal" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu activo" id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b>Resumen</b></span></a>
+
+
+  <a  style="text-decoration: none; color:#777" target="modal" onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu " id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
 
   <a  style="text-decoration: none; color:#777" onclick="acciones_menu('habilidades')"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
 
