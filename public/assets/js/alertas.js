@@ -73,6 +73,12 @@ document.body.removeChild(aux);
       
           // console.log("ex");
       }
+      if(menu == "resumen"){
+        
+
+console.log("resumen");
+
+      }
       if(menu == "habilidades"){
         RemoverClaseActivo();
         RemoverClaseVisible();
@@ -86,6 +92,7 @@ document.body.removeChild(aux);
           console.log("ha");
       }
       if(menu == "educacion"){
+        ocultar();
         RemoverClaseActivo();
         RemoverClaseVisible();
         document.getElementById("ed").classList.add('activo');
@@ -93,6 +100,7 @@ document.body.removeChild(aux);
           console.log("ed");
       }
       if(menu == "referencias"){
+        ocultar();
         RemoverClaseActivo();
         RemoverClaseVisible();
         document.getElementById("re").classList.add('activo');
@@ -107,10 +115,11 @@ document.body.removeChild(aux);
           
   }
   function ocultar(div_id){
-    document.getElementById("div-experiencia").classList.add('ocultar');
-    document.getElementById("div-habilidades").classList.add('ocultar');
-    document.getElementById("div-educacion").classList.add('ocultar');
-    document.getElementById("div-referencia").classList.add('ocultar');
+    // document.getElementById("div-experiencia").classList.add('ocultar');
+    // document.getElementById("div-habilidades").classList.add('ocultar');
+    // document.getElementById("div-educacion").classList.add('ocultar');
+    // document.getElementById("div-referencia").classList.add('ocultar');
+    document.getElementById("div-general").classList.add('ocultar');
     console.log("ocultar");
   }
 
