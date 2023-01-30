@@ -50,38 +50,30 @@ document.body.removeChild(aux);
   // funcion para hacer dinamico el menú
   function acciones_menu(menu) {
 
-    
    
+    
+    if(menu =="resumen"){
+
+      RemoverClaseActivo();
+      ocultar();
+      document.getElementById("res").classList.add('activo');
+      document.getElementById("div-general").classList.remove('div_din_invisible');
+    }
+
       if(menu == "experiencia"){
        RemoverClaseActivo();
-       document.getElementById("div-experiencia").classList.remove('ocultar');
-      
-       
-        var ex = document.getElementById("div-experiencia-t1");
-        if(ex.classList.contains('div_din_visible')){
-          RemoverClaseVisible();
-          document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
-          console.log("remove");
-        }
-        else{
-          document.getElementById("div-experiencia-t1").classList.add('div_din_visible');
-          console.log("add");
-          console.log(ex.classList.contains("div_din_visible"));
-        }
+       ocultar();
+       console.log("prueba exp");
        document.getElementById("ex").classList.add('activo');
+       document.getElementById("div-general-habilidades").classList.remove('div_din_invisible');
        
       
-          // console.log("ex");
+         
       }
-      if(menu == "resumen"){
-        
-
-console.log("resumen");
-
-      }
+      
       if(menu == "habilidades"){
         RemoverClaseActivo();
-        RemoverClaseVisible();
+        // RemoverClaseVisible();
         ocultar();
        document.getElementById("ha").classList.add('activo');
        document.getElementById("ha").classList.add('div-experiencia');
@@ -94,7 +86,7 @@ console.log("resumen");
       if(menu == "educacion"){
         ocultar();
         RemoverClaseActivo();
-        RemoverClaseVisible();
+        // RemoverClaseVisible();
         document.getElementById("ed").classList.add('activo');
        
           console.log("ed");
@@ -102,7 +94,7 @@ console.log("resumen");
       if(menu == "referencias"){
         ocultar();
         RemoverClaseActivo();
-        RemoverClaseVisible();
+        // RemoverClaseVisible();
         document.getElementById("re").classList.add('activo');
        
           console.log("re");
@@ -115,11 +107,9 @@ console.log("resumen");
           
   }
   function ocultar(div_id){
-    // document.getElementById("div-experiencia").classList.add('ocultar');
-    // document.getElementById("div-habilidades").classList.add('ocultar');
-    // document.getElementById("div-educacion").classList.add('ocultar');
-    // document.getElementById("div-referencia").classList.add('ocultar');
-    document.getElementById("div-general").classList.add('ocultar');
+  
+    document.getElementById("div-general").classList.add('div_din_invisible');
+    document.getElementById("div-general-habilidades").classList.add('div_din_invisible');
     console.log("ocultar");
   }
 
@@ -129,7 +119,8 @@ console.log("resumen");
      document.getElementById("ha").classList.remove('activo');
      document.getElementById("ed").classList.remove('activo');
      document.getElementById("re").classList.remove('activo');
-    //  document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+     document.getElementById("res").classList.remove('activo');
+   console.log("clase ocultar");
    
 
   }
