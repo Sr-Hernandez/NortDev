@@ -63,7 +63,7 @@ document.body.removeChild(aux);
       if(menu == "experiencia"){
        RemoverClaseActivo();
        ocultar();
-       console.log("prueba exp");
+      //  console.log("prueba exp");
        document.getElementById("ex").classList.add('activo');
        document.getElementById("div-general-habilidades").classList.remove('div_din_invisible');
        
@@ -80,7 +80,7 @@ document.body.removeChild(aux);
 
        document.getElementById("div-habilidades").classList.add('separator-2');
        
-          console.log("ha");
+          // console.log("ha");
       }
       if(menu == "educacion"){
         ocultar();
@@ -88,7 +88,7 @@ document.body.removeChild(aux);
         // RemoverClaseVisible();
         document.getElementById("ed").classList.add('activo');
        
-          console.log("ed");
+          // console.log("ed");
       }
       if(menu == "referencias"){
         ocultar();
@@ -96,7 +96,7 @@ document.body.removeChild(aux);
         // RemoverClaseVisible();
         document.getElementById("re").classList.add('activo');
        
-          console.log("re");
+          // console.log("re");
       }
 
   }
@@ -110,7 +110,7 @@ document.body.removeChild(aux);
     document.getElementById("div-general").classList.add('div_din_invisible');
     document.getElementById("div-general-habilidades").classList.add('div_din_invisible');
     document.getElementById("div-general-experiencia").classList.add('div_din_invisible');
-    console.log("ocultar");
+    // console.log("ocultar");
   }
 
   function RemoverClaseActivo(){
@@ -120,7 +120,7 @@ document.body.removeChild(aux);
      document.getElementById("ed").classList.remove('activo');
      document.getElementById("re").classList.remove('activo');
      document.getElementById("res").classList.remove('activo');
-   console.log("clase ocultar");
+  //  console.log("clase ocultar");
    
 
   }
