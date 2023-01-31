@@ -73,10 +73,9 @@ document.body.removeChild(aux);
       
       if(menu == "habilidades"){
         RemoverClaseActivo();
-        // RemoverClaseVisible();
         ocultar();
        document.getElementById("ha").classList.add('activo');
-       document.getElementById("ha").classList.add('div-experiencia');
+       document.getElementById("div-general-habilidades").classList.remove('div_din_invisible');
 
 
        document.getElementById("div-habilidades").classList.add('separator-2');
@@ -110,6 +109,7 @@ document.body.removeChild(aux);
   
     document.getElementById("div-general").classList.add('div_din_invisible');
     document.getElementById("div-general-habilidades").classList.add('div_din_invisible');
+    document.getElementById("div-general-experiencia").classList.add('div_din_invisible');
     console.log("ocultar");
   }
 

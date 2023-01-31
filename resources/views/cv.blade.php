@@ -417,7 +417,7 @@
 
 
 
-                <div id="div-general-habilidades" class="div_din_invisible" >
+                <div id="div-general-experiencia" class="div_din_invisible"  >
        
                     <div class="card-prin" id="div-experiencia">
                        
@@ -440,7 +440,68 @@
                     <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
            
                     
-               <div class="card-sec div_din_invisible" id="div-experiencia-t1">
+               <div class="" id="div-experiencia-t1">
+                
+          <div class="div-datos">
+
+            
+            <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Web | Laravel | Html | Css | JavaSript</p>
+           <span class="lugar"><b> muchomaterial.com</b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+          </div>
+        
+        <p class="p-1">Proyectos en equipo:</p>
+        <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
+        <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
+        <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
+        <br>
+        <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
+
+        
+        <div class="div-datos">
+            <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
+        </div>
+        <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
+   
+            
+       </div>
+               </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+                <div id="div-general-habilidades" class="div_din_invisible"  style="padding-bottom: 30px">
+       
+                    <div class="card-prin" id="div-experiencia">
+                       
+                  <div class="div-datos">
+                    <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
+                   <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+                  </div>
+                
+                <p class="p-1">Proyectos en equipo:</p>
+                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
+                <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
+                <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
+                <br>
+                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
+
+                
+                <div class="div-datos">
+                    <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
+                </div>
+                    <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
+           
+                    
+               <div class="" id="div-experiencia-t1">
                 
           <div class="div-datos">
 
