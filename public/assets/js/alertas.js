@@ -65,7 +65,7 @@ document.body.removeChild(aux);
        ocultar();
       //  console.log("prueba exp");
        document.getElementById("ex").classList.add('activo');
-       document.getElementById("div-general-habilidades").classList.remove('div_din_invisible');
+       document.getElementById("div-general-experiencia").classList.remove('div_din_invisible');
        
       
          
@@ -76,10 +76,6 @@ document.body.removeChild(aux);
         ocultar();
        document.getElementById("ha").classList.add('activo');
        document.getElementById("div-general-habilidades").classList.remove('div_din_invisible');
-
-
-       document.getElementById("div-habilidades").classList.add('separator-2');
-       
           // console.log("ha");
       }
       if(menu == "educacion"){
@@ -120,6 +116,7 @@ document.body.removeChild(aux);
      document.getElementById("ed").classList.remove('activo');
      document.getElementById("re").classList.remove('activo');
      document.getElementById("res").classList.remove('activo');
+
   //  console.log("clase ocultar");
    
 

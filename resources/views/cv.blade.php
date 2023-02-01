@@ -298,8 +298,7 @@
                 
                 <p class="p-1">Proyectos en equipo:</p>
                 <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
-                <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
-                <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
+                
                 <br>
                 <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
 
@@ -420,14 +419,15 @@
                 <div id="div-general-experiencia" class="div_din_invisible"  >
        
                     <div class="card-prin" id="div-experiencia">
-                       
+                     
                   <div class="div-datos">
+                   
                     <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
-                   <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+                   <span class="lugar"><b> muchomaterial.com</b></span> <span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> </span> 
                   </div>
                 
-                <p class="p-1">Proyectos en equipo:</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
+                <p class="p-1">Caracteristicas</p>
+                <p class="p-2"><a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
                 <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
                 <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
                 <br>
@@ -484,7 +484,7 @@
                        
                   <div class="div-datos">
                     <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
-                   <span class="lugar"><b> Materiales del Norte </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+                   <span class="lugar"><b> Habilidades </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
                   </div>
                 
                 <p class="p-1">Proyectos en equipo:</p>
