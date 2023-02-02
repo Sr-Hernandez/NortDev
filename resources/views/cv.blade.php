@@ -178,7 +178,7 @@
     
 </script>
 <div class="div-datos-menu">
-    <a  style="text-decoration: none; color:#777" onclick="acciones_menu('resumen')"> <span class="titulos-datos-menu activo" id="res"><i class="icofont-star" style="font-size: 14pt"></i><b>Resumen</b></span></a>
+    <a  style="text-decoration: none; color:#777" onclick="acciones_menu('resumen')"> <span class="titulos-datos-menu activo" id="res"><i class="icofont-ui-file" style="font-size: 14pt"></i><b>Resumen</b></span></a>
 
 
   <a  style="text-decoration: none; color:#777"  onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu " id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
@@ -427,18 +427,40 @@
                   </div>
                 
                 <p class="p-1">Caracteristicas</p>
-                <p class="p-2"><a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
+                {{-- <p class="p-2"><a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p> --}}
                 <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
                 <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
                 <br>
-                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
+
+
+
+                <div class="div-datos">
+                   
+                   
+                   <span class="lugar"><b> materialesdelnorte.mx</b></span> <span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> </span> 
+                  </div>
+                
+                <p class="p-1">Caracteristicas</p>
+                {{-- <p class="p-2"><a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p> --}}
+                <p class="p-3">Igual que muchomaterial.mx pero hecha para clientes locales de la empresa donde</p>
+                <p class="p-3">es posible consultar saldos, cuentas, facturas etc. con la posibildad de realizar </p>
+                <p class="p-3">pagos,  </p>
+                <br>
+
+
+
+
+                
 
                 
                 <div class="div-datos">
-                    <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
+                    <span class="lugar"><b>angelhernandez.work</b></span><span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> | <span style="background-color: #F28F00; padding:4px; color:#ffffff; border-radius:4px">AWS</span> | <span style="background-color: #E55523; padding:4px; color:#ffffff; border-radius:4px">Ubuntu</span>  | <span style="background-color: #360083; padding:4px; color:#ffffff; border-radius:4px">GitHub</span> </span> 
+                  
                 </div>
-                    <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
-           
+                <p class="p-1">Caracteristicas</p>
+                {{-- <p class="p-2"><a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p> --}}
+                <p class="p-3">Igual que muchomaterial.mx pero hecha para clientes locales de la empresa donde</p>
+                <p class="p-3">es posible consultar saldos, cuentas, facturas etc. con la posibildad de realizar </p>           
                     
                <div class="" id="div-experiencia-t1">
                 
