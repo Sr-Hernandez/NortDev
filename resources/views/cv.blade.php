@@ -443,7 +443,7 @@
                 <p class="p-1">Caracteristicas</p>
                 {{-- <p class="p-2"><a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p> --}}
                 <p class="p-3">Igual que muchomaterial.mx pero hecha para clientes locales de la empresa donde</p>
-                <p class="p-3">es posible consultar saldos, cuentas, facturas etc. con la posibildad de realizar </p>
+                <p class="p-3">es posible consultar saldos, cuentas, facturas etc. realizar </p>
                 <p class="p-3">pagos,  </p>
                 <br>
 
