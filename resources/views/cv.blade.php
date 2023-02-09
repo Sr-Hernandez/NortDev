@@ -135,6 +135,7 @@
 </header>
 
 <body>
+    {{-- loader --}}
     {{-- <div class="loader"></div>
     <script type="text/javascript">
         $(window).load(function() {
@@ -335,10 +336,6 @@
        </div>
                </div>
 
-
-
-
-
                <div id="div-habilidades">
 
                
@@ -390,12 +387,9 @@
                    
             
                     <div class="card-prin" id="div-referencia"> 
-                        <hr style="width: 50%; margin: 0%">
-                        <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
-                    {{-- poner link a materiales --}}
-                    {{-- <p class="p-fechas">Ago. 2020 - Actualidad</p> --}}
-                {{-- <p><b>Materiales</b> del Norte / Desarrollador</p>
-                <p class="p-1">Proyectos en equipo:</p> --}}
+                     <hr style="width: 50%; margin: 0%">
+                     <p class="color-amarillo"><i class="icofont-circled-right color-amarillo"></i>&nbsp;REFERENCIAS</p>
+               
                 <p class="p-2" ><b>Materiales del Norte</b> es un home center dedicado a la venta de </p>
                 <p class="p-2" >materiales para la construcción que actualmente cuenta con 5 </p>
                 <p class="p-2" >sucursales en el estado de Chihuahua</p>
