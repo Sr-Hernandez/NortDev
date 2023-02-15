@@ -453,44 +453,36 @@
             
            
            <div class="div-datos">
-            <span class="lugar"><i class="icofont-computer"></i><b> App de escritorio</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>   </span> 
+            <span class="lugar"><i class="icofont-computer"></i><b> App de escritorio</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>  <span style="background-color: #D12A27; padding:4px; color:#FFF; border-radius:4px">SQL</span>   </span> 
           
         </div>
         <p class="p-1">Caracteristicas</p>
         <p class="p-3" style="line-height: 22px">Programa automatizado para enviar 
-            estados de cuenta a los clientes de la empresa. 
-            El programa extrae los datos relevantes de la base de datos <b>(SQL)</b> de la empresa
+            estados de cuenta a los clientes, el programa extrae los datos relevantes de la base de datos <b>(SQL)</b> de la empresa
              y genera automáticamente estados de cuenta precisos y personalizados para 
-             cada cliente. Luego, el programa envía estos estados de cuenta por correo  (SMTP)
+             cada cliente. Luego, el programa envía estos estados de cuenta por correo
              electrónico a los clientes de forma segura y eficiente, ahorrando tiempo y 
              recursos a la empresa. El programa ha mejorado significativamente la eficiencia 
              y la satisfacción del cliente, y ha liberado tiempo para que el personal se enfoque 
              en otras tareas importantes de la empresa.</p> 
-{{--            
-               <div class="" id="div-experiencia-t1">
-                
-          <div class="div-datos">
 
-            
-            <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Web | Laravel | Html | Css | JavaSript</p>
-           <span class="lugar"><b> muchomaterial.com</b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
-          </div>
-        
-        <p class="p-1">Proyectos en equipo:</p>
-        <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
-        <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
-        <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
-        <br>
-        <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
 
-        
-        <div class="div-datos">
-            <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
-        </div>
-        <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
-   
-            
-       </div> --}}
+
+             <div class="div-datos">
+                <span class="lugar"><i class="icofont-computer"></i><b> App de escritorio</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>  <span style="background-color: #D12A27; padding:4px; color:#FFF; border-radius:4px">SQL</span>   </span> 
+              
+            </div>
+            <p class="p-1">Caracteristicas</p>
+            <p class="p-3" style="line-height: 22px">Programa automatizado para enviar 
+                estados de cuenta a los clientes, el programa extrae los datos relevantes de la base de datos <b>(SQL)</b> de la empresa
+                 y genera automáticamente estados de cuenta precisos y personalizados para 
+                 cada cliente. Luego, el programa envía estos estados de cuenta por correo
+                 electrónico a los clientes de forma segura y eficiente, ahorrando tiempo y 
+                 recursos a la empresa. El programa ha mejorado significativamente la eficiencia 
+                 y la satisfacción del cliente, y ha liberado tiempo para que el personal se enfoque 
+                 en otras tareas importantes de la empresa.</p> 
+
+
                </div>
 
                 </div>
