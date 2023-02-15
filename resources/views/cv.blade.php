@@ -417,7 +417,7 @@
                   <div class="div-datos">
                    
                     <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
-                   <span class="lugar"><b> muchomaterial.com</b></span> <span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> </span> 
+                   <span class="lugar"><i class="icofont-globe"></i><b> muchomaterial.com</b></span> <span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> </span> 
                   </div>
                 
                 <p class="p-1">Caracteristicas</p>
@@ -430,7 +430,7 @@
                 <div class="div-datos">
                    
                    
-                   <span class="lugar"><b> materialesdelnorte.mx</b></span> <span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> </span> 
+                   <span class="lugar"><i class="icofont-globe"></i><b> materialesdelnorte.mx</b></span> <span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> </span> 
                   </div>
                 
                 <p class="p-1">Caracteristicas</p>
@@ -440,22 +440,33 @@
                 <br>
 
 
-
-
-                
-
-                
                 <div class="div-datos">
-                    <span class="lugar"><b>angelhernandez.work</b></span><span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> | <span style="background-color: #F28F00; padding:4px; color:#ffffff; border-radius:4px">AWS</span> | <span style="background-color: #E55523; padding:4px; color:#ffffff; border-radius:4px">Ubuntu</span>  | <span style="background-color: #360083; padding:4px; color:#ffffff; border-radius:4px">GitHub</span> </span> 
+                    <span class="lugar"><i class="icofont-globe"></i><b> angelhernandez.work</b></span><span class="puesto"> <span style="background-color: #FF2D20; padding:4px; color:#FFF; border-radius:4px">Laravel</span>  | <span style="background-color: #D84924; padding:4px; color:#FFF; border-radius:4px">Html</span> | <span style="background-color: #1A8FEB; padding:4px; color:#FFF; border-radius:4px">Css</span> | <span style="background-color: #7175AA; padding:4px; color:#FFF; border-radius:4px">Php</span> | <span style="background-color: #EAD41C; padding:4px; color:rgb(33, 33, 33); border-radius:4px">JavaScript</span> | <span style="background-color: #F28F00; padding:4px; color:#ffffff; border-radius:4px">AWS</span> | <span style="background-color: #E55523; padding:4px; color:#ffffff; border-radius:4px">Ubuntu</span>  </span> 
                   
                 </div>
                 <p class="p-1">Caracteristicas</p>
                 <p class="p-3" style="line-height: 22px">Proyecto personal que consiste en crear mi propio currículum vitae en una página
-               web diseñada y desarrollada por mí. Esta pagina está alojada en <b>Amazon Web Services</b> 
-               con un servidor <b>Ubuntu</b>, hecha en <b>Laravel</b> con un patron de diseño <b>MVC</b> (modelo  vista controlador ) utilizando principalmente tecnologias 
+               web diseñada y desarrollada por mí. Está alojada en <b>Amazon Web Services</b> 
+               con un servidor <b>Ubuntu</b>, hecha en <b>Laravel</b> con un patron de diseño <b>MVC</b> (modelo  vista controlador) utilizando principalmente tecnologias 
            <b> Html</b>, <b>Css</b> y <b>JavaScript</b>. Esta pagina es mi forma de  presentarme a posibles <b>empleadores</b> y <b>clientes potenciales.</b></p> 
                           
-                    
+            
+           
+           <div class="div-datos">
+            <span class="lugar"><i class="icofont-computer"></i><b> App de escritorio</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>   </span> 
+          
+        </div>
+        <p class="p-1">Caracteristicas</p>
+        <p class="p-3" style="line-height: 22px">Programa automatizado para enviar 
+            estados de cuenta a los clientes de la empresa. 
+            El programa extrae los datos relevantes de la base de datos <b>(SQL)</b> de la empresa
+             y genera automáticamente estados de cuenta precisos y personalizados para 
+             cada cliente. Luego, el programa envía estos estados de cuenta por correo  (SMTP)
+             electrónico a los clientes de forma segura y eficiente, ahorrando tiempo y 
+             recursos a la empresa. El programa ha mejorado significativamente la eficiencia 
+             y la satisfacción del cliente, y ha liberado tiempo para que el personal se enfoque 
+             en otras tareas importantes de la empresa.</p> 
+{{--            
                <div class="" id="div-experiencia-t1">
                 
           <div class="div-datos">
@@ -479,7 +490,7 @@
         <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
    
             
-       </div>
+       </div> --}}
                </div>
 
                 </div>
