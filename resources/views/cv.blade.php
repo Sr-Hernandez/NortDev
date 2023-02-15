@@ -179,16 +179,16 @@
     
 </script>
 <div class="div-datos-menu">
-    <a  style="text-decoration: none; color:#777" onclick="acciones_menu('resumen')"> <span class="titulos-datos-menu activo" id="res"><i class="icofont-ui-file" style="font-size: 14pt"></i><b>Resumen</b></span></a>
+    <a  style="text-decoration: none; color:#777" onclick="acciones_menu('resumen')"> <span class="titulos-datos-menu activo" id="res"><i class="icofont-ui-file" style="font-size: 12pt"></i><b>Resumen</b></span></a>
 
 
-  <a  style="text-decoration: none; color:#777"  onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu " id="ex"><i class="icofont-star" style="font-size: 14pt"></i><b> Experiencia</b></span></a>
+  <a  style="text-decoration: none; color:#777"  onclick="acciones_menu('experiencia')"> <span class="titulos-datos-menu " id="ex"><i class="icofont-star" style="font-size: 12pt"></i><b> Experiencia</b></span></a>
 
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('habilidades')"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 14pt"></i><b> Habilidades</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('habilidades')"> <span class="titulos-datos-menu " id="ha"><i class="icofont-computer" style="font-size: 12pt"></i><b> Habilidades</b></span></a>
 
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('educacion')"><span class="titulos-datos-menu " id="ed"><i class="icofont-certificate" style="font-size: 14pt"></i><b> Certificaciones</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('educacion')"><span class="titulos-datos-menu " id="ed"><i class="icofont-certificate" style="font-size: 12pt"></i><b> Certificaciones</b></span></a>
 
-  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('referencias')"> <span class="titulos-datos-menu " id="re"><i class="icofont-info-circle" style="font-size: 14pt"></i><b> Referencias</b></span></a>
+  <a  style="text-decoration: none; color:#777" onclick="acciones_menu('referencias')"> <span class="titulos-datos-menu " id="re"><i class="icofont-info-circle" style="font-size: 12pt"></i><b> Referencias</b></span></a>
 
 
 
@@ -450,8 +450,11 @@
                   
                 </div>
                 <p class="p-1">Caracteristicas</p>
-                <p class="p-3">Igual que muchomaterial.mx pero hecha para clientes locales de la empresa donde</p>
-                <p class="p-3">es posible consultar saldos, cuentas, facturas etc. con la posibildad de realizar </p>           
+                <p class="p-3" style="line-height: 22px">Proyecto personal que consiste en crear mi propio currículum vitae en una página
+               web diseñada y desarrollada por mí. Esta pagina está alojada en <b>Amazon Web Services</b> 
+               con un servidor <b>Ubuntu</b>, hecha en <b>Laravel</b> con un patron de diseño <b>MVC</b> (modelo  vista controlador ) utilizando principalmente tecnologias 
+           <b> Html</b>, <b>Css</b> y <b>JavaScript</b>. Esta pagina es mi forma de  presentarme a posibles <b>empleadores</b> y <b>clientes potenciales.</b></p> 
+                          
                     
                <div class="" id="div-experiencia-t1">
                 
@@ -553,8 +556,15 @@
         <div class="inf-derecha-cont">
           
             <span class="lugar"><b>Objetivo Porofesional</b> </span>
-            <span><p>Mi objetivo profecional es aprender y desarrollar habilidades para poder 
-            contribuir a proyectos grandes</p>
+            <span><p style="font-size: 10pt">Mi objetivo profesional es conseguir un trabajo 
+                remoto en una empresa que comparta mis valores 
+                y tenga un impacto positivo en la sociedad. Busco una posición en 
+                la que pueda aplicar mis habilidades y experiencia para contribuir 
+                al éxito de la empresa mientras ayudo a las personas. 
+                Me gustaría trabajar en un ambiente desafiante y dinámico que 
+                me permita crecer profesionalmente y personalmente, y estoy 
+                dispuesto a poner todo mi empeño para cumplir con los objetivos
+                 de la empresa y superar las expectativas de los clientes.</p>
            </span>
         </div>
     </div>
