@@ -421,8 +421,12 @@
                   </div>
                 
                 <p class="p-1">Caracteristicas</p>
-                <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
-                <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
+                <p class="p-3"></b></span></p>
+                <p class="p-3"> </p>
+                <p class="p-3" style="line-height: 22px">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b>
+                     (MVC)</b>, conectada con un api interna para mostrar la informacion de productos en tiempo real. <br>
+                     mi principal función fue trabajar en el <b>frontend</b>. Me encargué de diseñar y desarrollar algunas interfaces de usuario, utilizando 
+                     herramientas como HTML, CSS y JavaScript para crear una experiencia atractiva y fácil de usar para los usuarios. </p> 
                 <br>
 
 
@@ -453,7 +457,7 @@
             
            
            <div class="div-datos">
-            <span class="lugar"><i class="icofont-computer"></i><b> App de escritorio</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>  <span style="background-color: #D12A27; padding:4px; color:#FFF; border-radius:4px">SQL</span>   </span> 
+            <span class="lugar"><i class="icofont-computer"></i> <b>Enviador de balances</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>  <span style="background-color: #D12A27; padding:4px; color:#FFF; border-radius:4px">SQL</span>   </span> 
           
         </div>
         <p class="p-1">Caracteristicas</p>
@@ -469,18 +473,17 @@
 
 
              <div class="div-datos">
-                <span class="lugar"><i class="icofont-computer"></i><b> App de escritorio</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>  <span style="background-color: #D12A27; padding:4px; color:#FFF; border-radius:4px">SQL</span>   </span> 
+                <span class="lugar"><i class="icofont-computer"></i> <b>Notificador de stock</b></span><span class="puesto"> <span style="background-color: #4D29C9; padding:4px; color:#FFF; border-radius:4px">.net</span>  <span style="background-color: #8D3AA3; padding:4px; color:#FFF; border-radius:4px">C#</span>  <span style="background-color: #D12A27; padding:4px; color:#FFF; border-radius:4px">SQL</span>   </span> 
               
             </div>
             <p class="p-1">Caracteristicas</p>
-            <p class="p-3" style="line-height: 22px">Programa automatizado para enviar 
-                estados de cuenta a los clientes, el programa extrae los datos relevantes de la base de datos <b>(SQL)</b> de la empresa
-                 y genera automáticamente estados de cuenta precisos y personalizados para 
-                 cada cliente. Luego, el programa envía estos estados de cuenta por correo
-                 electrónico a los clientes de forma segura y eficiente, ahorrando tiempo y 
-                 recursos a la empresa. El programa ha mejorado significativamente la eficiencia 
-                 y la satisfacción del cliente, y ha liberado tiempo para que el personal se enfoque 
-                 en otras tareas importantes de la empresa.</p> 
+            <p class="p-3" style="line-height: 22px">programa automatizado para notificar a los clientes de muchomaterial.com 
+                sobre la existencia de productos en stock. El programa monitorea continuamente el inventario de la 
+                tienda y envía notificaciones por correo electrónico a los clientes interesados en productos que se habían 
+                agotado, cuando estos vuelven a estar disponibles. Esta solución ha mejorado significativamente la 
+                satisfacción del cliente, aumentado las ventas y liberado tiempo para el personal que antes debía 
+                notificar a los clientes manualmente. Además, el programa permite a la tienda web mantener un seguimiento 
+                constante del inventario y tomar decisiones de compra más informadas</p> 
 
 
                </div>
