@@ -477,7 +477,7 @@
               
             </div>
             <p class="p-1">Caracteristicas</p>
-            <p class="p-3" style="line-height: 22px">programa automatizado para notificar a los clientes de muchomaterial.com 
+            <p class="p-3" style="line-height: 22px">Programa automatizado para notificar a los clientes de muchomaterial.com 
                 sobre la existencia de productos en stock. El programa monitorea continuamente el inventario de la 
                 tienda y envía notificaciones por correo electrónico a los clientes interesados en productos que se habían 
                 agotado, cuando estos vuelven a estar disponibles. Esta solución ha mejorado significativamente la 
