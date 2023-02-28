@@ -154,7 +154,8 @@
          <span>Mas sobre mi</span>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a> --}}
         </td>
-        <td  onclick="mandarmensaje();">
+        {{-- <td  onclick="mandarmensaje();"> --}}
+            <td onclick="document.getElementById('myModalmensaje').style.display='block'">
 
            <a> <span>Dejar un mensaje</span></a>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a> --}}
@@ -675,9 +676,9 @@
             </td>
         </tr>
     </table>
-    <button onclick="document.getElementById('myModalPortafolio').style.display='block'">Abrir modal-portafolio</button>
+    {{-- <button onclick="document.getElementById('myModalPortafolio').style.display='block'">Abrir modal-portafolio</button> --}}
 
-	<!-- La modal-portafolio -->
+	<!-- La modal-portafolio  -->
 	<div id="myModalPortafolio" class="modal-portafolio">
 		<!-- Contenido de la modal-portafolio -->
 		<div class="modal-portafolio-content">
@@ -685,11 +686,45 @@
 			<p><i  style="color: #212D3B" class="icofont-square-right"></i> Aquí puedes agregar el contenidaao de la modal-portafolio</p>
 		</div>
 	</div>
+
+    <style>
+        .imput-dejarMensaje{
+            background-color: #0000000c;
+            color: #FFF;
+            width: 70px;
+
+        }
+    </style>
+
+    <div id="myModalmensaje" class="modal-portafolio">
+		<!-- Contenido de la modal-mensaje -->
+		<div class="modal-portafolio-content" style="display: inline-flexbox">
+			<span class="close" onclick="document.getElementById('myModalmensaje').style.display='none'">&times;</span>
+			<form method="GET"action="contacto_mensaje_cv" >
+                <span>Dejar un mensae</span>
+                <input type="text" hidden value="cv"  name="name"   maxlength="8" size="10">
+                <br>
+                <input type="text" class="input-dejarMensaje"  name="phone1"  required maxlength="8" size="10" placeholder="Telefono">
+                <br>
+                <input type="text" class="input-dejarMensaje"  name="email"   required maxlength="8" size="10">
+                <br>
+                <input type="text" class="input-dejarMensaje"  name="mensaje" required   size="10">
+                <br>
+                <button class="btn-mensaje" type="submit">Enviar</button>
+                </form> 
+		</div>
+	</div>
+
+
     <script>
 		var modal = document.getElementById('myModalPortafolio');
+        var modalMensaje = document.getElementById('myModalmensaje');
 		window.onclick = function(event) {
 			if (event.target == modal) {
 				modal.style.display = "none";
+			}
+            if (event.target == modalMensaje) {
+				modalMensaje.style.display = "none";
 			}
 		}
 	</script>
@@ -698,7 +733,6 @@
 <style>
     /* Estilo de la modal-portafolio */
     .modal-portafolio {
-        
         display: none; /* Ocultar la modal-portafolio por defecto */
         position: fixed; /* Posición fija */
         z-index: 99; /* Colocar la modal-portafolio en la parte superior */
@@ -708,10 +742,7 @@
         height: 100%;
         overflow: auto; 
         background-color: rgba(0, 0, 0, 0.164);
-        /* Permitir el desplazamiento */
-        /* From https://css.glass */
-
-    }
+          }
 
     /* Estilo del contenido de la modal-portafolio */
     .modal-portafolio-content {

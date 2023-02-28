@@ -911,13 +911,13 @@ line-height: 1.5;
   max-width: 180px;
 }
 .input-mensaje{
-  width: 100%;
-  height: 120px;
-  vertical-align: top;
+  /* width: 100%; */
+  /* height: 120px; */
+  /* vertical-align: top; */
 }
 .btn-mensaje{
   width: 5rem;
-  height: 4rem;
+  height: 2rem;
   background-color:#212D3B;
   color:#FFF;
   margin-top: 2rem;
