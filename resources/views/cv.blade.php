@@ -159,8 +159,9 @@
            <a> <span>Dejar un mensaje</span></a>
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-in-white.png" class="div-logo-white"></a> --}}
         </td>
-        <td >
-            <span>Portafolio</span>
+        <td onclick="document.getElementById('myModalPortafolio').style.display='block'">
+            <span >Portafolio</span>
+
             {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-mail-white.png" class="div-logo-white"></a> --}}
         </td>
        
@@ -674,11 +675,74 @@
             </td>
         </tr>
     </table>
+    <button onclick="document.getElementById('myModalPortafolio').style.display='block'">Abrir modal-portafolio</button>
 
+	<!-- La modal-portafolio -->
+	<div id="myModalPortafolio" class="modal-portafolio">
+		<!-- Contenido de la modal-portafolio -->
+		<div class="modal-portafolio-content">
+			<span class="close" onclick="document.getElementById('myModalPortafolio').style.display='none'">&times;</span>
+			<p><i  style="color: #212D3B" class="icofont-square-right"></i> Aquí puedes agregar el contenidaao de la modal-portafolio</p>
+		</div>
+	</div>
+    <script>
+		var modal = document.getElementById('myModalPortafolio');
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
     <br>
 <br>
 <style>
-   
+    /* Estilo de la modal-portafolio */
+    .modal-portafolio {
+        
+        display: none; /* Ocultar la modal-portafolio por defecto */
+        position: fixed; /* Posición fija */
+        z-index: 99; /* Colocar la modal-portafolio en la parte superior */
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; 
+        background-color: rgba(0, 0, 0, 0.164);
+        /* Permitir el desplazamiento */
+        /* From https://css.glass */
+
+    }
+
+    /* Estilo del contenido de la modal-portafolio */
+    .modal-portafolio-content {
+        /* background-color: #fefefe; */
+        margin: 10% auto; /* Centrar vertical y horizontalmente */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.36);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.8px);
+        -webkit-backdrop-filter: blur(4.8px);
+        border: 1px solid rgba(255, 255, 255, 0.259);
+        transform: translateY(200px);
+    }
+
+    /* Estilo del botón para cerrar la modal-portafolio */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        cursor: pointer;
+    }
 </style>
 
 </body>

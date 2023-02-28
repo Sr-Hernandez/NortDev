@@ -131,3 +131,25 @@ document.body.removeChild(aux);
       timer: 900
       })
   }
+
+
+  function portafolio() {
+    Swal.fire({
+      title: '<strong>Dejame un mensaje</strong>',
+      icon: 'info',
+      iconColor: '#212D3B',
+      html:
+       ' <form method="GET"action="contacto_mensaje_cv" ">' +
+        '<input type="text" hidden value="cv"  name="name"   maxlength="8" size="10">' +
+        '<input type="text" hidden value="cv"  name="phone1"  maxlength="8" size="10">' +
+        '<input type="text" hidden value="cv"  name="email"   maxlength="8" size="10">' +
+        '<input class="input-mensaje" type="text" name="mensaje" required   size="10">' +
+        '<button class="btn-mensaje" type="submit">Enviar</button>' +
+        '</form> ',
+      showCloseButton: true,
+      showCancelButton: false,
+      showConfirmButton: false,
+      focusConfirm: false    })
+  }
+
+
