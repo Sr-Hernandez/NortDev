@@ -24,8 +24,7 @@ html {
     /* background: url(../imgs/lowpoly-1.png) no-repeat center center fixed; */
     /* background: url(../svg/f4.svg) no-repeat center center fixed; */
     background: #E0E7EC;  
-/* background: -webkit-linear-gradient(to right, #ECE9E6, #FFFFFF);  
-background: linear-gradient(to right, #ECE9E6, #FFFFFF);  */
+
 
     background-size: cover;
     opacity: 15px;
@@ -100,13 +99,7 @@ background: linear-gradient(to right, #ECE9E6, #FFFFFF);  */
     text-align: center;
     position: relative;
 }
-/* .hovfot:hover .foto{
- 
-        width: 280px;
-        height: 280px;
-        border: solid 3px #0c98aa;;
-        transition: 330ms;
-} */
+
 .hovfot:hover .foto{
  
     /* width: 280px;

@@ -47,11 +47,9 @@ document.body.removeChild(aux);
     });
 
   }
+
   // funcion para hacer dinamico el menú
   function acciones_menu(menu) {
-
-   
-    
     if(menu =="resumen"){
 
       RemoverClaseActivo();
@@ -67,7 +65,6 @@ document.body.removeChild(aux);
        document.getElementById("ex").classList.add('activo');
        document.getElementById("div-general-experiencia").classList.remove('div_din_invisible');
        
-      
          
       }
       
@@ -98,7 +95,7 @@ document.body.removeChild(aux);
 
   }
   function RemoverClaseVisible(div_id){
-          // document.getElementById("div-experiencia-t1").classList.remove('div_din_visible');
+          
           document.getElementById("div-experiencia").classList.remove('div_din_visible');
           
   }
@@ -107,8 +104,12 @@ document.body.removeChild(aux);
     document.getElementById("div-general").classList.add('div_din_invisible');
     document.getElementById("div-general-habilidades").classList.add('div_din_invisible');
     document.getElementById("div-general-experiencia").classList.add('div_din_invisible');
+<<<<<<< HEAD
     document.getElementById("div-general-certificaciones").classList.add('div_din_invisible');
     // console.log("ocultar");
+=======
+   
+>>>>>>> Master
   }
 
   function RemoverClaseActivo(){
@@ -118,9 +119,6 @@ document.body.removeChild(aux);
      document.getElementById("ed").classList.remove('activo');
      document.getElementById("re").classList.remove('activo');
      document.getElementById("res").classList.remove('activo');
-
-  //  console.log("clase ocultar");
-   
 
   }
  
