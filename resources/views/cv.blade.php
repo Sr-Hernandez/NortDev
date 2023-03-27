@@ -370,19 +370,6 @@
             </div>
         </div>
           
-                    <div class="card-prin" id="div-educacion">
-                        <hr style="width: 50%; margin: 0%">
-                    <div class="div-datos">
-                        <p class="titulos"><i class="icofont-graduate-alt" style="font-size: 14pt"></i>&nbsp;Educacíon</p>
-                    </div>
-                    <div class="div-datos">
-                    <span class="lugar"><b>CBTa 124</b></span><span class="puesto"> Técnico en informatica /</span><span class="p-fechas"> 2013 - 2016</span>
-                    </div>
-                    <div class="div-datos">
-                        
-                        <span class="lugar" ><b>TecNM</b> </span><span class="puesto"> Ingeniero en Sistemas /</span>   <span class="p-fechas">2016 - 2020</span>
-                    </div>
-                    </div>
                     
                   
               
@@ -494,6 +481,7 @@
 
 
 
+               
 
 
 
@@ -549,9 +537,80 @@
    
             
        </div>
+       
                </div>
 
                 </div>
+
+
+
+
+
+
+                
+                <div id="div-general-certificaciones" class="div_din_invisible"  style="background-color: :#FFF;">
+       
+                    <a href="https://community.open-bootcamp.com/user/angel_hdez/certificaciones/7f4fb3c0-0bee-44a2-af37-05656639e4f9" target="_blank">
+                    <div class="card-certificaciones">
+                        <img src="assets/imgs/laravel1.png" alt="Certificación Nombre de la Certificación" >
+                        <div style="text-decoration: none">
+                        <h3 style="text-decoration: none">Laravel</h3>
+                        <p>Certificación del curso de Laravel</p>
+                        <p>03|01|23</p>
+                        <p>OpenBootcamp</p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://community.open-bootcamp.com/user/angel_hdez/certificaciones/d2907d19-0231-4b22-a59d-79518f49ac90" target="_blank">
+                       <div class="card-certificaciones">
+                        <img src="assets/imgs/htmlycss.png" alt="Certificación Nombre de la Certificación" >
+                        <div style="text-decoration: none">
+                        <h3 style="text-decoration: none">Html y CSS</h3>
+                        <p>Descripción breve de la certificación.</p>
+                        <p>Fecha de obtención: Mes, Año.</p>
+                        <p>Institución que otorgó la certificación.</p>
+                    </div>
+                </div>
+            </a>
+   
+           </div>
+           <style>
+            .card-certificaciones {
+              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+              transition: 0.3s;
+              width: 300px;
+              border-radius: 5px;
+              padding: 10px;
+              margin: 10px;
+              display: inline-block;
+            }
+            
+            .card-certificaciones:hover {
+              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+            }
+            
+            .card-certificaciones img {
+              width: 100%;
+              height: auto;
+            }
+            
+            .card-certificaciones h3 {
+              font-size: 18px;
+              margin-top: 10px;
+            }
+            
+            .card-certificaciones p {
+              font-size: 14px;
+              margin-top: 5px;
+            }
+           </style>
+
+                </div>
+
+
+
+
 
 
 

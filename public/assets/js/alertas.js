@@ -79,12 +79,13 @@ document.body.removeChild(aux);
           // console.log("ha");
       }
       if(menu == "educacion"){
-        ocultar();
+       
         RemoverClaseActivo();
+        ocultar();
         // RemoverClaseVisible();
         document.getElementById("ed").classList.add('activo');
-       
-          // console.log("ed");
+        document.getElementById("div-general-certificaciones").classList.remove('div_din_invisible');
+           console.log("ed");
       }
       if(menu == "referencias"){
         ocultar();
@@ -106,6 +107,7 @@ document.body.removeChild(aux);
     document.getElementById("div-general").classList.add('div_din_invisible');
     document.getElementById("div-general-habilidades").classList.add('div_din_invisible');
     document.getElementById("div-general-experiencia").classList.add('div_din_invisible');
+    document.getElementById("div-general-certificaciones").classList.add('div_din_invisible');
     // console.log("ocultar");
   }
 
