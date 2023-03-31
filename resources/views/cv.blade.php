@@ -480,75 +480,116 @@
                 </div>
 
 
-
-               
-
-
-
-
-
-
-
-
-                <div id="div-general-habilidades" class="div_din_invisible"  style="padding-bottom: 30px">
+                <div id="div-general-habilidades" class="div_din_invisible"  >
        
-                    <div class="card-prin" id="div-experiencia">
-                       
-                  <div class="div-datos">
-                    <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Experiencia</p>
-                   <span class="lugar"><b> Habilidades </b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
+                 <table>
+                    <tr>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
+                                <h2>Html</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
+                                <h2>Html</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
+                                <h2>Html</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
+                                <h2>Html</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                    </tr>
+                 </table>
+
+                  <div class="card-container">
+                  <div class="card-habilidades">
+                    <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
+                    <h2>Html</h2>
+                    <p class="info">Html</p>
                   </div>
-                
-                <p class="p-1">Proyectos en equipo:</p>
-                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
-                <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
-                <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
-                <br>
-                <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
+                  
+                  <div class="card-habilidades">
+                    <img src="assets/imgs/logo_css.png" alt="Logo 2">
+                    <h2>CSS</h2>
+                    <p class="info">CSS</p>
+                  </div>
+               
+                  </div>
+                  <div class="card-habilidades">
+                    <img src="assets/imgs/logo_css.png" alt="Logo 2">
+                    <h2>CSS</h2>
+                    <p class="info">CSS</p>
+                  </div>
+               
+                  </div>
 
-                
-                <div class="div-datos">
-                    <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
-                </div>
-                    <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
-           
-                    
-               <div class="" id="div-experiencia-t1">
-                
-          <div class="div-datos">
-
-            
-            <p class="titulos mar-1-r"><i class="icofont-star" style="font-size: 14pt"></i>&nbsp;Web | Laravel | Html | Css | JavaSript</p>
-           <span class="lugar"><b> muchomaterial.com</b></span> <span class="puesto"> desarrollador /</span>  <span class="p-fechas">Ago. 2020 - Actualidad</span> 
-          </div>
-        
-        <p class="p-1">Proyectos en equipo:</p>
-        <p class="p-2">- eCommerce <a class="color-amarillo" href="https://muchomaterial.com" target="blank">muchomaterial.com</a> <span class="puesto"> (Backend & Frontend)</span></p>
-        <p class="p-3">Tienda online diseñada con el framework <b>Laravel</b> y un modelo vista controlador <b> (MVC)</b></span></p>
-        <p class="p-3"> conectada con un api interna para mostrar la informacion de productos en tiempo real</p>
-        <br>
-        <p class="p-2">- eCommerce <a class="color-amarillo" href="https://materialesdelnorte.mx" target="blank">materialesdelnorte.mx</a><span class="puesto"> (Backend & Frontend)</span></p>
-
-        
-        <div class="div-datos">
-            <span class="lugar"><b>Proyecto personal</b></span> <span class="puesto">fullstack /</span>  <span class="p-fechas">Actualidad</span>
-        </div>
-        <p class="p-2">-<u><a href="https://www.angelhernandez.work" target="blank" class="color-amarillo">angelhernandez.work</a></u><span class="puesto"> (FullStack)</span> </p>
-   
-            
-       </div>
-       
-               </div>
+                  
 
                 </div>
 
 
 
+<style>
+    .card-container {
+  white-space: nowrap;
+}
 
+    .card-habilidades {
+        display: inline-block;
+  border-radius: 8px;
+  width: 130px;
+  background-color: #ffffffa4;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+}
+
+.card-habilidades img {
+  max-width: 4rem;
+}
+
+.card-habilidades h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.card-habilidades .info {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.card-habilidades:hover .info {
+  display: block;
+}
+</style>
 
 
                 
-                <div id="div-general-certificaciones" class="div_din_invisible"  style="background-color: :#FFF;">
+                <div id="div-general-certificaciones" class="div_din_invisible" >
        
                     <a href="https://community.open-bootcamp.com/user/angel_hdez/certificaciones/7f4fb3c0-0bee-44a2-af37-05656639e4f9" target="_blank">
                     <div class="card-certificaciones">
