@@ -143,9 +143,11 @@
         });
         </script> --}}
     <div class="separator1"></div>
+    <div >
     <div class="menu-2">
        
-<table class="tabla-menu-2">
+
+<table class="tabla-menu-2 ">
  <div>
        <tr >
         <td >
@@ -180,6 +182,7 @@
       
     
 </script>
+
 <div class="div-datos-menu">
     <a  style="text-decoration: none; color:#777" onclick="acciones_menu('resumen')"> <span class="titulos-datos-menu activo" id="res"><i class="icofont-ui-file" style="font-size: 12pt"></i><b>Resumen</b></span></a>
 
@@ -199,7 +202,7 @@
 
    
         
-    
+    </div>
     <div class="">
         <table class="tabla-central">
 
@@ -290,7 +293,7 @@
            </div>
         </div>
         {{-- div general --}}
-        <div id="div-general" >
+        <div id="div-general" style="z-index: 9999" >
        
                     <div class="card-prin" id="div-experiencia">
                        
