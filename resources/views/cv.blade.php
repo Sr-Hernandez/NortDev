@@ -35,9 +35,7 @@
         </table>
     </div> --}}
     
-    <style>
-     
-       </style>
+  
    
             {{-- <section id="modal" class="modal">
                 <div class="modal_fun">
@@ -154,7 +152,6 @@
             <a href="#" ><span>Inicio</span> </a>       </td>
         <td >
          <span>Mas sobre mi</span>
-            {{-- <a href="mailto:angelurquijo10@gmail.com" class="a-menu-2"><img src="assets/imgs/logo-whats-white.png" class="div-logo-white"></a> --}}
         </td>
         {{-- <td  onclick="mandarmensaje();"> --}}
             <td onclick="document.getElementById('myModalmensaje').style.display='block'">
@@ -291,6 +288,7 @@
             </div>
            
            </div>
+
         </div>
         {{-- div general --}}
         <div id="div-general" style="z-index: 9999" >
