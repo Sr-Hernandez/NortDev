@@ -480,10 +480,19 @@
 
                 </div>
 
+                <style>
+                    .div-general-habilidades{
+                        transform: translateY(25rem);
+                        width: 250px;
+                    }
+                .tabla-habilidades{
+                    transform: translateY(20px);
+                }
+                </style>
 
                 <div id="div-general-habilidades" class="div_din_invisible"  >
        
-                 <table>
+                 <table class="tabla-habilidades">
                     <tr>
                         <td>
                             <div class="card-habilidades">
@@ -494,49 +503,61 @@
                         </td>
                         <td>
                             <div class="card-habilidades">
-                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
-                                <h2>Html</h2>
+                                <img style="max-height: 4rem" src="assets/imgs/logo_css.png" alt="Logo 1">
+                                <h2>CSS</h2>
                                 <p class="info">Html</p>
                               </div>
                         </td>
                         <td>
                             <div class="card-habilidades">
-                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
-                                <h2>Html</h2>
+                                <img style="max-height: 4rem" src="assets/imgs/logo_js.png" alt="Logo 1">
+                                <h2>JavaScript</h2>
                                 <p class="info">Html</p>
                               </div>
                         </td>
                         <td>
                             <div class="card-habilidades">
-                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
-                                <h2>Html</h2>
+                                <img style="max-height: 4rem" src="assets/imgs/logo_csharp.png" alt="Logo 1">
+                                <h2>C#</h2>
                                 <p class="info">Html</p>
+                              </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
+                                <h2>Php</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem" src="assets/imgs/logo_css.png" alt="Logo 1">
+                                <h2>.NET</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 4rem; border-radius:8px" src="assets/imgs/laravel1.png" alt="Logo 1">
+                                <h2>Laravel</h2>
+                                <p class="info">Html</p>
+                              </div>
+                        </td>
+                        <td>
+                            <div class="card-habilidades">
+                                <img style="max-height: 5rem; border-radius:8px" src="assets/imgs/aws.jpg" alt="Logo 1">
+                                <h2>C#</h2>
+                                <p class="info">AWS</p>
                               </div>
                         </td>
                     </tr>
                  </table>
 
-                  <div class="card-container">
-                  <div class="card-habilidades">
-                    <img style="max-height: 4rem" src="assets/imgs/logo_html.png" alt="Logo 1">
-                    <h2>Html</h2>
-                    <p class="info">Html</p>
-                  </div>
-                  
-                  <div class="card-habilidades">
-                    <img src="assets/imgs/logo_css.png" alt="Logo 2">
-                    <h2>CSS</h2>
-                    <p class="info">CSS</p>
-                  </div>
-               
-                  </div>
-                  <div class="card-habilidades">
-                    <img src="assets/imgs/logo_css.png" alt="Logo 2">
-                    <h2>CSS</h2>
-                    <p class="info">CSS</p>
-                  </div>
-               
-                  </div>
+                 
 
                   
 
