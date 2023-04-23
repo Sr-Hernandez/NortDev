@@ -5106,6 +5106,9 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 
 }
+.centrado{
+  text-align: center;
+}
 
 .card-title {
   margin-bottom: 0.75rem;

@@ -30,8 +30,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">                     
-                    <li class="nav-item">
-                        <a class="nav-link" href="#service">Nuestro Servicio</a>
+                    <li class="nav-item" onclick="document.getElementById('myModalmensaje').style.display='block'">
+                        <a class="nav-link">Nuestro Servicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Nosotros</a>
