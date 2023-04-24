@@ -121,10 +121,12 @@
     
         /* Estilo del botón para cerrar la modal-portafolio */
         .close {
-            color: #F6A700;
+            background-color: #F6A700;
             float: right;
             font-size: 28px;
             font-weight: bold;
+            border-radius: 20pt;
+            padding: 5px;
         }
     
         .close:hover,
@@ -133,78 +135,71 @@
             text-decoration: none;
             cursor: pointer;
         }
-        .container-cotizacion {
+
+
+.tabla-servicios.coti {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
-table.servicio1-cotizacion,
-table.servicio2-cotizacion,
-table.servicio3-cotizacion {
-  width: 33.33%;
-  border-collapse: collapse;
-  margin: 0;
-  padding: 0;
-  border-radius: 15px;
-}
-table.servicio1-cotizacion {
-  margin-right: 20px;
-}
-
-table.servicio3-cotizacion {
-  margin-left: 20px;
-}
-.container-cotizacion td {
-  padding: 10px;
-  border: 1px solid #ccc;
-  text-align: center;
-}
-
-.container-cotizacion img {
+.fila-servicio.coti {
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.columna-imagen.coti {
+  flex-basis: 25%;
+  margin-right: 1rem;
+}
+
+.columna-imagen.coti img {
+  width: 100%;
   height: auto;
-  margin-bottom: 10px;
 }
 
-.container-cotizacion h3 {
-  margin: 0;
-  font-size: 24px;
+.columna-contenido.coti {
+  flex-basis: 75%;
 }
 
-.container-cotizacion p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 1.5;
+.columna-contenido.coti h2 {
+  margin-top: 0;
 }
 
-.container-cotizacion button {
+.boton-seleccionar.coti {
   display: block;
-  margin: 10px auto 0;
-  padding: 10px 20px;
-  font-size: 18px;
-  border: 3px solid #F6A700;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
   background-color: #F6A700;
   color: #fff;
+  border: none;
+  border-radius: 0.25rem;
   cursor: pointer;
-  border-radius: 10px;
-}
-
-.container-cotizacion button:hover {
-    background-color: #F6A700;
-    border: 3px solid #ffffff;
-
 }
 .boton-body-cotiza{
     background-color: #F6A700;
+    padding: 1rem;
     color:#FFF;
-    padding:1rem;
-    border: solid 3px #F6A700;
-    border-radius: 15px;
-
-
+    border-radius: 14px;
 }
 .boton-body-cotiza:hover{
-    border: solid 3px #ffffff;
+    transform: scale(1.1);
+    transition: 50ms;
+}
+
+@media (max-width: 768px) {
+  .columna-imagen.coti {
+    flex-basis: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .columna-contenido.coti {
+    flex-basis: 100%;
+  }
 }
     </style>
     {{-- modal --}}
@@ -213,40 +208,53 @@ table.servicio3-cotizacion {
 		<div class="modal-portafolio-content" style="display: inline-flexbox">
 			<span class="close" onclick="document.getElementById('myModalmensaje').style.display='none'">&times;</span>
 			<br>
-            <div class="container-cotizacion">
-                <table class="servicio1-cotizacion">
-                  <tr>
-                    <td>
-                      <img src="servicio1.jpg" alt="Servicio 1">
-                      <h3>Servicio 1</h3>
-                      <p>Descripción del servicio 1</p>
-                      <button>Seleccionar</button>
-                    </td>
-                  </tr>
-                </table>
-                <table class="servicio2-cotizacion">
-                  <tr>
-                    <td>
-                      <img src="servicio2.jpg" alt="Servicio 2">
-                      <h3>Servicio 2</h3>
-                      <p>Descripción del servicio 2</p>
-                      <button>Seleccionar</button>
-                    </td>
-                  </tr>
-                </table>
-                <table class="servicio3-cotizacion">
-                  <tr>
-                    <td>
-                      <img src="servicio3.jpg" alt="Servicio 3">
-                      <h3>Servicio 3</h3>
-                      <p>Descripción del servicio 3</p>
-                      <button>Seleccionar</button>
-                    </td>
-                  </tr>
-                </table>
+        
+              <div class="tabla-servicios coti">
+                <div class="fila-servicio">
+                  <div class="columna-imagen">
+                    <img src="imagen-servicio-1.jpg" alt="Servicio 1">
+                  </div>
+                  <div class="columna-contenido">
+                    <h3>Web Informativa</h3>
+                    <i style="font-size: 28pt;" class="icofont-eye"></i>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Página web de hasta 5 secciones </p>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Diseño personalizado según la identidad visual del negocio</p>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
+                    <p class="izquierda"><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
+                                        <button class="boton-seleccionar coti">Seleccionar</button>
+                  </div>
+                  <hr>
+                </div>
+                
+                <div class="fila-servicio">
+                  <div class="columna-imagen">
+                    <img src="imagen-servicio-2.jpg" alt="Servicio 2">
+                  </div>
+                  <div class="columna-contenido">
+                    <h3>Tienda Online</h3>
+                      <i style="font-size: 28pt;" class="icofont-shopping-cart"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi vel turpis rhoncus tincidunt. Nulla facilisi. Donec blandit tortor non leo pretium, quis tincidunt dolor hendrerit. </p>
+                    <button class="boton-seleccionar coti">Seleccionar</button>
+                  </div>
+                </div>
+                
+                <div class="fila-servicio">
+                  <div class="columna-imagen">
+                    <img src="imagen-servicio-3.jpg" alt="Servicio 3">
+                  </div>
+                  <div class="columna-contenido">
+                    <h3>Servicio personalizado</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi vel turpis rhoncus tincidunt. Nulla facilisi. Donec blandit tortor non leo pretium, quis tincidunt dolor hendrerit. </p>
+                    <button class="boton-seleccionar coti">Seleccionar</button>
+                  </div>
+                </div>
               </div>
+              <br>
               <div class="centrado">
-                  <span  onclick="document.getElementById('myModalmensaje').style.display='none'">Cerrar</span>
+                  <span class="cursor-pointer"  onclick="document.getElementById('myModalmensaje').style.display='none'">Cerrar</span>
               </div>
 		</div>
        
@@ -255,7 +263,7 @@ table.servicio3-cotizacion {
     <!-- End OF Service Section -->
 <section>
     <div class="centrado">
-        <button class="boton-body-cotiza">¡Descubre lo que podemos hacer por ti! ¡Cotiza nuestro servicio!</button>
+        <button class="boton-body-cotiza" onclick="document.getElementById('myModalmensaje').style.display='block'">¡Descubre lo que podemos hacer por ti! ¡Cotiza nuestro servicio!</button>
     </div>
 </section>
     <!-- About Section -->

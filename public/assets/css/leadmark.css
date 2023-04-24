@@ -5109,6 +5109,12 @@ input[type="button"].btn-block {
 .centrado{
   text-align: center;
 }
+.izquierda{
+  text-align: left;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
 
 .card-title {
   margin-bottom: 0.75rem;

@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/leadmark.css') }}">
     <link rel="stylesheet" type="text/css" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/icofont.min.css') }}">
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">                     
                     <li class="nav-item" onclick="document.getElementById('myModalmensaje').style.display='block'">
-                        <a class="nav-link">Nuestro Servicio</a>
+                        <a class="nav-link cursor-pointer">Nuestro Servicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Nosotros</a>
