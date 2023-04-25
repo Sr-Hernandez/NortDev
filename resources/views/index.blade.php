@@ -68,7 +68,7 @@
                             {{-- <small class="text-primary font-weight-bold">02</small> --}}
                             <h5 class="card-title mt-3">Hosting y mantenimiento de dominios<h5>
                             {{-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p> --}}
-                            <img src="assets/imgs/web-hosting.jpg" style="border-radius: 10px;" class="w-100 mt-3 shadow-sm">
+                            <img src="assets/imgs/web-hosting.jpg" style="border-radius: 10px; max-height:185px;" class="w-100 mt-3 shadow-sm">
                             
                         </div>
                     </div>
@@ -161,15 +161,21 @@
   height: auto;
 }
 
-.columna-contenido.coti {
+.columna-contenido {
   flex-basis: 75%;
+   /* margin-left: 2rem; */
+  
+}
+.columna-contenido p{
+    width: 80%;
+   
 }
 
-.columna-contenido.coti h2 {
+.columna-contenido h2 {
   margin-top: 0;
 }
 
-.boton-seleccionar.coti {
+.boton-seleccionar {
   display: block;
   margin-top: 1rem;
   padding: 0.5rem 1rem;
@@ -191,15 +197,17 @@
 }
 
 @media (max-width: 768px) {
-  .columna-imagen.coti {
+  .columna-imagen {
     flex-basis: 100%;
     margin-right: 0;
     margin-bottom: 1rem;
   }
   
-  .columna-contenido.coti {
-    flex-basis: 100%;
-  }
+
+  .columna-contenido {
+  flex-basis: 100%;
+  
+}
 }
     </style>
     {{-- modal --}}
@@ -211,12 +219,12 @@
         
               <div class="tabla-servicios coti">
                 <div class="fila-servicio">
-                  <div class="columna-imagen">
+                  {{-- <div class="columna-imagen">
                     <img src="imagen-servicio-1.jpg" alt="Servicio 1">
-                  </div>
+                  </div> --}}
                   <div class="columna-contenido">
-                    <h3>Web Informativa</h3>
-                    <i style="font-size: 28pt;" class="icofont-eye"></i>
+                    <h3>Web Informativa <i style="font-size: 28pt;" class="icofont-eye"></i></h3>
+                    
                     <p class="izquierda"><i class="icofont-ui-play"></i> Página web de hasta 5 secciones </p>
                     <p class="izquierda"><i class="icofont-ui-play"></i> Diseño personalizado según la identidad visual del negocio</p>
                     <p class="izquierda"><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
@@ -230,21 +238,28 @@
                 </div>
                 
                 <div class="fila-servicio">
-                  <div class="columna-imagen">
+                  {{-- <div class="columna-imagen">
                     <img src="imagen-servicio-2.jpg" alt="Servicio 2">
-                  </div>
-                  <div class="columna-contenido">
-                    <h3>Tienda Online</h3>
-                      <i style="font-size: 28pt;" class="icofont-shopping-cart"></i>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi vel turpis rhoncus tincidunt. Nulla facilisi. Donec blandit tortor non leo pretium, quis tincidunt dolor hendrerit. </p>
-                    <button class="boton-seleccionar coti">Seleccionar</button>
+                  </div> --}}
+                  <div class="columna-contenido" >
+                    <h3>Tienda Online <i style="font-size: 28pt;" class="icofont-shopping-cart"></i></h3>
+                      
+                      
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Página web de hasta 10 secciones </p>
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sistema de carrito de compras integrado para que los clientes puedan añadir y comprar productos o servicios</p>
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
+                      <p class="izquierda" ><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
+                                                             <button class="boton-seleccionar coti">Seleccionar</button>
                   </div>
                 </div>
                 
                 <div class="fila-servicio">
-                  <div class="columna-imagen">
+                  {{-- <div class="columna-imagen">
                     <img src="imagen-servicio-3.jpg" alt="Servicio 3">
-                  </div>
+                  </div> --}}
                   <div class="columna-contenido">
                     <h3>Servicio personalizado</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi vel turpis rhoncus tincidunt. Nulla facilisi. Donec blandit tortor non leo pretium, quis tincidunt dolor hendrerit. </p>
