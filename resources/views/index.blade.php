@@ -184,6 +184,12 @@
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
+  width: 8rem;
+  border: solid 1px #F6A700;
+}
+.boton-seleccionar:hover{
+    color: #FFF;
+   border: solid 1px #FFF;
 }
 .boton-body-cotiza{
     background-color: #F6A700;
@@ -224,15 +230,26 @@
                   </div> --}}
                   <div class="columna-contenido">
                     <h3>Web Informativa <i style="font-size: 28pt;" class="icofont-eye"></i></h3>
+                    <p>Este paquete es ideal para aquellos que buscan una presencia en línea básica 
+                        pero efectiva, y quieren proporcionar información detallada sobre su negocio, 
+                        productos o servicios a sus clientes. Además, se incluye un diseño personalizado 
+                        que refleja la identidad visual del negocio, lo que contribuye a crear una 
+                        marca sólida y coherente en línea.</p>
+
+                    <details>
+                        <summary>Ver mas</summary>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Página web de hasta 5 secciones </p>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Diseño personalizado según la identidad visual del negocio</p>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
+                        <p class="izquierda"><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
                     
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Página web de hasta 5 secciones </p>
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Diseño personalizado según la identidad visual del negocio</p>
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
-                    <p class="izquierda"><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
-                                        <button class="boton-seleccionar coti">Seleccionar</button>
+                    </details>
+                    <a  href="{{ route('contacto') }}" class="boton-seleccionar">Seleccionar</a>
+                                        {{-- <a  href="{{ route('contacto') }}"" class="ml-4 nav-link1 btn btn-primary btn-sm rounded">Contacto</a> --}}
+
                   </div>
                   <hr>
                 </div>
@@ -244,16 +261,25 @@
                   <div class="columna-contenido" >
                     <h3>Tienda Online <i style="font-size: 28pt;" class="icofont-shopping-cart"></i></h3>
                       
-                      
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Página web de hasta 10 secciones </p>
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sistema de carrito de compras integrado para que los clientes puedan añadir y comprar productos o servicios</p>
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
-                      <p class="izquierda" ><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
-                                                             <button class="boton-seleccionar coti">Seleccionar</button>
-                  </div>
+                      <p>Este paquete es ideal para aquellos que buscan vender productos o servicios en línea 
+                        y quieren una plataforma de venta fácil de usar y segura. Además, se incluye un diseño 
+                        personalizado que refleja la identidad visual del negocio, lo que contribuye a crear 
+                        una marca sólida y coherente en línea.</p>
+                        
+                        <details>
+                            <summary>Ver Mas</summary>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Página web de hasta 10 secciones </p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sistema de carrito de compras integrado para que los clientes puedan añadir y comprar productos o servicios</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
+                            
+                        </details>
+                        <a  href="{{ route('contacto') }}" class="boton-seleccionar">Seleccionar</a>
+                        </div>
+                        <hr>
                 </div>
                 
                 <div class="fila-servicio">
@@ -261,8 +287,25 @@
                     <img src="imagen-servicio-3.jpg" alt="Servicio 3">
                   </div> --}}
                   <div class="columna-contenido">
-                    <h3>Servicio personalizado</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices mi vel turpis rhoncus tincidunt. Nulla facilisi. Donec blandit tortor non leo pretium, quis tincidunt dolor hendrerit. </p>
+                    <h3>Servicio personalizado <i class="icofont-ui-edit"></i></h3>
+                    <p>Este paquete es ideal para aquellos que buscan una presencia en línea completa 
+                        y avanzada, y quieren aprovechar al máximo las posibilidades que ofrece la web. 
+                        Además, se incluye un diseño personalizado que refleja la identidad visual del
+                         negocio, lo que contribuye a crear una marca sólida y coherente en línea.</p>
+                   
+                   
+                    <details>
+                        <summary>Ver mas</summary>
+                        <p class="izquierda" ><i class="icofont-ui-play"></i> Página web de hasta 10 secciones </p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sistema de carrito de compras integrado para que los clientes puedan añadir y comprar productos o servicios</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de inicio con información sobre el negocio, productos o servicios, y una imagen atractiva</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección "Acerca de nosotros" para presentar la historia, valores y misión del negocio</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de productos o servicios con información detallada y fotografías</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Sección de contacto con un formulario de contacto para recibir consultas o solicitudes de información</p>
+                            <p class="izquierda" ><i class="icofont-ui-play"></i> Integración con redes sociales para que los visitantes puedan seguir el negocio en diferentes plataformas</p>
+                            
+                    </details>
+
                     <button class="boton-seleccionar coti">Seleccionar</button>
                   </div>
                 </div>
