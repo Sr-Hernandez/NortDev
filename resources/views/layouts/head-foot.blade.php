@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with LeadMark landing page.">
     <meta name="author" content="Devcrud">
-    <title>Portafolio @yield('title')</title>
+    <title>Desarrolla tu marca @yield('title')</title>
     
    
    
@@ -38,9 +38,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Nosotros</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portafolio</a>
-                    </li>
+                    </li> --}}
                   
                     
                     <li class="nav-item">

@@ -84,6 +84,8 @@
                             Ingeniero en Sistemas Computacionales
                             {{-- Web Design --}}
                         </h2>
+                      
+<!-- Otros datos del clima -->
                         <div animate__fadeIn animate__delay-4s>
                             <img class="logo " src="assets/imgs/logo.png" alt=""><br>
 

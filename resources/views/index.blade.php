@@ -44,7 +44,18 @@
         <div class="mouse-icon"><div class="wheel"></div></div>
     </header>
     <!-- End Of Page Header -->
-
+{{-- 
+    <section>
+        <div class="container-body centrado">
+            <div class="text-body">
+              <h2>Título del Texto</h2>
+              <p>Este es un ejemplo de un texto a la izquierda de una imagen.</p>
+            </div>
+            <div class="image-body">
+              <img src="assets/imgs/web_design.webp" alt="Imagen de ejemplo">
+            </div>
+          </div>
+    </section> --}}
     <!-- Service Section -->
     <section  id="service" class="section pt-0">
         <div class="container">
@@ -79,7 +90,7 @@
                             {{-- <small class="text-primary font-weight-bold">03</small> --}}
                             <h5 class="card-title mt-3">Diseño y desarrollo de tu página<h5>
                            
-                                <img src="assets/imgs/web-hosting.jpg" style="border-radius: 10px;" class="w-100 mt-3 shadow-sm">
+                                <img src="assets/imgs/web_design.webp" style="border-radius: 10px;  max-height:185px;" class="w-100 mt-3 shadow-sm">
                                     {{-- <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p> --}}
                         </div>
                     </div>
@@ -200,6 +211,95 @@
 .boton-body-cotiza:hover{
     transform: scale(1.1);
     transition: 50ms;
+} 
+.container-body {
+    width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-body {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-body img {
+  max-width: 250px;
+  height: auto;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-col {
+  flex: 1;
+  max-width: 300px;
+  margin-bottom: 30px;
+}
+
+.footer-col h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.footer-col p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #222;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.footer-bottom {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 12px;
 }
 
 @media (max-width: 768px) {
@@ -357,7 +457,7 @@
     <!-- End OF About Section -->
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="section portfolio-section">
+    {{-- <section id="portfolio" class="section portfolio-section">
         <div class="container">
             <h6 class="section-title text-center">Esto es lo que hacemos</h6>
             <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
@@ -537,11 +637,11 @@
                 </div>
             </div>   
         </div>            
-    </section>
+    </section> --}}
     <!-- End of portfolio section -->
 
     <!-- Blog Section -->
-    <section class="section" id="blog">
+    {{-- <section class="section" id="blog">
         <div class="container">
             <h6 class="section-title mb-0 text-center">Latest Articles</h6>
             <h6 class="section-subtitle mb-5 text-center">Architecto provident deserunt eveniet libero</h6>
@@ -579,11 +679,11 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- End of Blog Section -->
 
     <!-- Testmonial Section -->
-    <section class="section" id="testmonial">
+    {{-- <section class="section" id="testmonial">
         <div class="container">
             <h6 class="section-title text-center mb-0">Tecnologías</h6>
             <h6 class="section-subtitle mb-5 text-center">Trabajamos con</h6>
@@ -636,8 +736,8 @@
             </div>
             
         </div>
-    </section>
-    <section class="section" id="testmonial">
+    </section> --}}
+    {{-- <section class="section" id="testmonial">
         <div class="container">
             
             <div class="row">
@@ -689,7 +789,7 @@
             </div>
             
         </div>
-    </section>
+    </section> --}}
     <!-- End of Testmonial Section -->
 
     <!-- Contact Section -->
@@ -709,4 +809,116 @@
     <script src="assets/js/leadmark.js"></script>
 
 </body>
+
+<footer id="footer" class="shock-footer scheme-1 tertiary" data-bg-color="#1e1e24">
+    
+    {{-- <div class="footer-content focus-trigger">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item text-center">
+              <h6 class="title">Quick Links</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Who We Are</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Social Projects</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Our Services</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Success Cases</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Privacy Police</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item text-center">
+              <h6 class="title">Popular Searches</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Photography</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Art Direction</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Graphic Design</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Brand Creation</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Social Media</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="footer-item text-center">
+              <h6 class="title">Inspirations</h6>
+              <!-- Links list -->
+              <ul class="nav-list list-unstyled">
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Web Designer</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Creative Agency</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Online Store</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Interior Design</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#your-link" class="nav-link">
+                    <span class="text">Technology</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> --}}
+    <div class="bottom-bar centrado" data-bg-color="#1e1e24">
+      <div class="text">© 2023 - <a href="www.angelhernandez.work">angelhernandez.work</a></div>
+    </div>
+  </footer>
 </html>
